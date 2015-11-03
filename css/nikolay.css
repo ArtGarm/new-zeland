@@ -1,9 +1,8 @@
+/*foot-callback*/
 .foot-contact-wrapp-main {
   overflow: hidden;
-}
-
-.foot-contact-wrapp .fc-align {
-  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
 .foot-contact-wrapp .fc-align .fc-img {
@@ -20,15 +19,116 @@
   max-width: none;
 }
 
+.foot-contact-wrapp .fc-butt-wrapp a {
+  text-decoration: none;
+}
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-img {
+  position: relative;
+}
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-img img {
+  margin-top: -5px;
+}
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-text {
+  position: absolute;
+  top: 85px;
+  left: -webkit-calc(50% - 68px);
+  left: -moz-calc(50% - 68px);
+  left: calc(50% - 68px);
+  display: block;
+}
+
 .foot-contact-wrapp .fc-butt-wrapp .fc-butt-text span {
   font-family: 'MyriadProCond';
   font-size: 22.16rem;
   color: #000;
+  text-transform: uppercase;
+  position: relative;
 }
 
-.foot-contact-wrapp .fc-butt-wrapp .fc-butt-hover {
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-text .fc-butt-hover {
   width: 60px;
   height: 60px;
   background-color: #f2dc5e;
-  display: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: -18px;
+  left: -webkit-calc(50% + 16px);
+  left: -moz-calc(50% + 16px);
+  left: calc(50% + 16px);
+  opacity: 0;
+  -webkit-transition: opacity 300ms linear;
+  -moz-transition: opacity 300ms linear;
+  -o-transition: opacity 300ms linear;
+  transition: opacity 300ms linear;
 }
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-text:hover .fc-butt-hover {
+  opacity: 1;
+}
+
+/*/footcallback*/
+/*title*/
+.title-wrapp {
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+.title-wrapp .title-main {
+  position: relative;
+}
+
+.title-wrapp .title-main .title-img {
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.title-wrapp .title-main .title-img img {
+  max-width: none;
+}
+
+.title-wrapp .title-main .title-text {
+  position: relative;
+}
+
+.title-wrapp .title-main .title-text span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 31.71rem;
+  font-weight: 700;
+  color: #fff;
+  float: right;
+  padding: 32px 58px 74px;
+  text-shadow: 3px 3px 6px black;
+  text-transform: uppercase;
+}
+
+/*/title*/
+/*about*/
+/*mangment*/
+.managment-wrapp .managment-align .menu-block .menu-align span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  color: #546472;
+}
+
+.managment-wrapp .managment-align .menu-block .menu-align .menu-title span {
+  font-size: 23rem;
+  text-transform: uppercase;
+}
+
+.managment-wrapp .managment-align .menu-block .menu-align .menu-item ul li a span {
+  font-size: 20rem;
+}
+
+/*/mangment*/
+/*/about*/
