@@ -14,6 +14,7 @@
 	<!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
 	<link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />-->
 
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
 
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
@@ -132,10 +133,10 @@
 					</a>
 				</div>
 				<div class="header-nav">
-					<div class="header-nav-wrap">
+					<div class="header-nav-wrap cfix">
 						<nav>
 							<ul>
-								<li><a href="#"><span>Главная</span></a></li>
+								<li class="active"><a href="#"><span>Главная</span></a></li>
 								<li><a href="#"><span>О нас </span></a></li>
 								<li><a href="#"><span>Услуги</span></a></li>
 								<li><a href="#"><span>Проекты</span></a></li>
@@ -147,7 +148,7 @@
 				</div>
 				<div class="header_leng">
 					<div class="header_leng_wrap">
-						<ul>
+						<ul class="cfix">
 							<li><a href="#"><span>ENG</span></a></li>
 							<li class="active"><a href="#"><span>RUS</span></a></li>
 						</ul>
