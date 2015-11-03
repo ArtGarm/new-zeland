@@ -9,12 +9,46 @@ $yellow:#f2dc5e;
                 &.active{border-bottom:4px solid $yellow;}
             }
             a{text-decoration: none;color: #546472;}
+            li{position: relative;}
+        }
+        .next{position: absolute;left: 0;top: 18px;padding: 4px 0;width: 100%;min-width:230px;background-color: $yellow;display: none;
+            li.arrow-next{
+                &:after{position: absolute;width: 8px;height: 16px;right: 3px;top: 8px;background: url('../images/head_arrow.png') center center no-repeat;content: '';}
+            }
+            li{float: none;width: 100%;border-bottom: none;text-align: left;padding: 6px 5px;background-color: $yellow;
+                &:hover{background-color: white;}
+                .next{left: 100%;min-width: 280px;top: -4px;}
+            }
         }
     }
-    .header_leng{width: 7%;vertical-align: top;
+    .header_leng{width: 7%;vertical-align: top;position: relative;
+        &:after{position: absolute;height: 50%;right: 48.4%;top: 0;border-right:2px dotted #546472;content: '';z-index: 2;}
         ul{list-style-type: none;margin: 0;width: 100%;padding: 0;}
-        li{float: left;width: 50%;padding-top: 15px;}
-        a{color: #546472;text-decoration: none;}
+        li{float: left;width: 50%;padding-top: 20px;text-align: center;padding-bottom: 7px;position: relative;z-index: 1;
+            &.active{
+                a{color: #d92819;}
+            }
+            &:hover{background-color: $yellow;
+                a{color: #000;}}
+        }
+        a{color: #546472;text-decoration: none;font-size: 10px;}
     }
-    .header_right{width: 21%;}
+    .header_right{width: 21%;
+        .header_tel_row{font-size: 12rem;color: #000;
+            .icon{width: 18px;height: 12px;display: inline-block;background:url(../images/moscow.png) center center no-repeat;margin-right: 2px;
+                &.kazan{background-image: url(../images/kazan.png);}
+                &.london{background-image: url(../images/london.png);}
+            }
+            span{}
+            a{font-size: 11px;color: #000;text-decoration: none;}
+        }
+        .header_tel{padding-left: 12%;padding-top: 10px}
+        .header_button{text-align: center;padding-top: 6px;padding-left: 12%;
+            a{width: 48%;display: inline-block;color: #485762;font-size: 9px;text-decoration: none;background-color: #d8dee2;padding: 3px 2px;text-transform: uppercase;
+                &.zvonok{background-color: #8e99a1;color:white;}
+                &:hover{background-color: $yellow;color: #000;}
+            }
+        }
+    }
+    .sendwich-icon{display: none;}
 }

@@ -41,9 +41,64 @@
   color: #546472;
 }
 
+.header_wrap .header-nav ul li {
+  position: relative;
+}
+
+.header_wrap .header-nav .next {
+  position: absolute;
+  left: 0;
+  top: 18px;
+  padding: 4px 0;
+  width: 100%;
+  min-width: 230px;
+  background-color: #f2dc5e;
+  display: none;
+}
+
+.header_wrap .header-nav .next li.arrow-next:after {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  right: 3px;
+  top: 8px;
+  background: url("../images/head_arrow.png") center center no-repeat;
+  content: '';
+}
+
+.header_wrap .header-nav .next li {
+  float: none;
+  width: 100%;
+  border-bottom: none;
+  text-align: left;
+  padding: 6px 5px;
+  background-color: #f2dc5e;
+}
+
+.header_wrap .header-nav .next li:hover {
+  background-color: white;
+}
+
+.header_wrap .header-nav .next li .next {
+  left: 100%;
+  min-width: 280px;
+  top: -4px;
+}
+
 .header_wrap .header_leng {
   width: 7%;
   vertical-align: top;
+  position: relative;
+}
+
+.header_wrap .header_leng:after {
+  position: absolute;
+  height: 50%;
+  right: 48.4%;
+  top: 0;
+  border-right: 2px dotted #546472;
+  content: '';
+  z-index: 2;
 }
 
 .header_wrap .header_leng ul {
@@ -56,14 +111,94 @@
 .header_wrap .header_leng li {
   float: left;
   width: 50%;
-  padding-top: 15px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 7px;
+  position: relative;
+  z-index: 1;
+}
+
+.header_wrap .header_leng li.active a {
+  color: #d92819;
+}
+
+.header_wrap .header_leng li:hover {
+  background-color: #f2dc5e;
+}
+
+.header_wrap .header_leng li:hover a {
+  color: #000;
 }
 
 .header_wrap .header_leng a {
   color: #546472;
   text-decoration: none;
+  font-size: 10px;
 }
 
 .header_wrap .header_right {
   width: 21%;
+}
+
+.header_wrap .header_right .header_tel_row {
+  font-size: 12rem;
+  color: #000;
+}
+
+.header_wrap .header_right .header_tel_row .icon {
+  width: 18px;
+  height: 12px;
+  display: inline-block;
+  background: url(../images/moscow.png) center center no-repeat;
+  margin-right: 2px;
+}
+
+.header_wrap .header_right .header_tel_row .icon.kazan {
+  background-image: url(../images/kazan.png);
+}
+
+.header_wrap .header_right .header_tel_row .icon.london {
+  background-image: url(../images/london.png);
+}
+
+.header_wrap .header_right .header_tel_row a {
+  font-size: 11px;
+  color: #000;
+  text-decoration: none;
+}
+
+.header_wrap .header_right .header_tel {
+  padding-left: 12%;
+  padding-top: 10px;
+}
+
+.header_wrap .header_right .header_button {
+  text-align: center;
+  padding-top: 6px;
+  padding-left: 12%;
+}
+
+.header_wrap .header_right .header_button a {
+  width: 48%;
+  display: inline-block;
+  color: #485762;
+  font-size: 9px;
+  text-decoration: none;
+  background-color: #d8dee2;
+  padding: 3px 2px;
+  text-transform: uppercase;
+}
+
+.header_wrap .header_right .header_button a.zvonok {
+  background-color: #8e99a1;
+  color: white;
+}
+
+.header_wrap .header_right .header_button a:hover {
+  background-color: #f2dc5e;
+  color: #000;
+}
+
+.header_wrap .sendwich-icon {
+  display: none;
 }
