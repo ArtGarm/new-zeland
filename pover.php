@@ -1,6 +1,4 @@
-<div class="zHiddenBlock">
-
-    <div class="call-back">
+<div id="call-back">
         <div id="call-popup">
             <div class="call-popup">
                 <p>Заказать обратный звонок</p>
@@ -11,8 +9,9 @@
                     <div class="input-wrap phone">
                         <input type="text" name="phone" placeholder="Ваш контакный телефон" required="required"/>
                     </div>
-                    <div class="input-wrap time">
-                        <select class="input-wrap time-pick">
+                    <div class=" time-pick-wrap" >
+                        <select class="input-wrap time-pick" >
+                            <option selected="selected" disabled selected>Удобное время для звонка</option>
                             <option value="time-now">Позвонить сейчас</option>
                             <option value="time-15">Через 15 минут</option>
                             <option value="time-30">Через 30 минут</option>
@@ -37,4 +36,3 @@
             </div>
         </div>
     </div>
-</div>

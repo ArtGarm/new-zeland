@@ -1,0 +1,24 @@
+#call-back{
+    #call-popup{padding:40px; min-width: 460px; background-color: #d7dfe4;
+        .call-popup{
+
+            p{text-align: center; color: #000; font-size: 25px; font-family: 'Open Sans', sans-serif; margin-bottom: 20px; font-weight:700; }
+
+            .call-form{ width: 100%; padding: 10px;font-size: 17px;
+                .input-wrap, .input-wrap-submit{width: 100%;margin-bottom: 30px;position: relative;
+                    input{background-color: #fff; font-family: 'Tahoma', sans-serif; font-size: 17px;width: 100%;
+                        &.error{border: 1px solid #f00;}
+                    }
+                }
+                .time-pick-wrap{ position: relative;margin-bottom: 31px; width: 100%;
+                    .time-pick{display: block;}
+                    select{ font-size: 17px;color: #000;font-family: 'Tahoma', sans-serif; }
+                    input{background-color: #fff; font-family: 'Tahoma', sans-serif; font-size: 17px;width: 100%;
+                        &.error{border: 1px solid #f00;}
+                    }
+                }
+            }
+        }
+    }
+}
+.body{width: 100%; min-width: 0px;}

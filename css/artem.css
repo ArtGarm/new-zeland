@@ -1,0 +1,69 @@
+#call-back #call-popup {
+  padding: 40px;
+  min-width: 460px;
+  background-color: #d7dfe4;
+}
+
+#call-back #call-popup .call-popup p {
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#call-back #call-popup .call-popup .call-form {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+}
+
+#call-back #call-popup .call-popup .call-form .input-wrap, #call-back #call-popup .call-popup .call-form .input-wrap-submit {
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#call-back #call-popup .call-popup .call-form .input-wrap input, #call-back #call-popup .call-popup .call-form .input-wrap-submit input {
+  background-color: #fff;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 17px;
+  width: 100%;
+}
+
+#call-back #call-popup .call-popup .call-form .input-wrap input.error, #call-back #call-popup .call-popup .call-form .input-wrap-submit input.error {
+  border: 1px solid #f00;
+}
+
+#call-back #call-popup .call-popup .call-form .time-pick-wrap {
+  position: relative;
+  margin-bottom: 31px;
+  width: 100%;
+}
+
+#call-back #call-popup .call-popup .call-form .time-pick-wrap .time-pick {
+  display: block;
+}
+
+#call-back #call-popup .call-popup .call-form .time-pick-wrap select {
+  font-size: 17px;
+  color: #000;
+  font-family: 'Tahoma', sans-serif;
+}
+
+#call-back #call-popup .call-popup .call-form .time-pick-wrap input {
+  background-color: #fff;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 17px;
+  width: 100%;
+}
+
+#call-back #call-popup .call-popup .call-form .time-pick-wrap input.error {
+  border: 1px solid #f00;
+}
+
+.body {
+  width: 100%;
+  min-width: 0px;
+}
