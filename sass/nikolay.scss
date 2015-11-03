@@ -1,0 +1,13 @@
+.foot-contact-wrapp-main{overflow: hidden;}
+.foot-contact-wrapp{
+    .fc-align{position:relative;
+        .fc-img{position: absolute; transform:translateX(-50%); left:50%;
+            img{max-width: none;}
+        }
+    }
+    .fc-butt-wrapp{
+            .fc-butt-img{}
+            .fc-butt-text{span{font-family: 'MyriadProCond';font-size: 22.16rem; color:#000;}}
+            .fc-butt-hover{width: 60px;height: 60px; background-color: #f2dc5e; display: none;}
+        }
+}
