@@ -15,6 +15,7 @@
 	<!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
 	<link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />-->
 
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
 
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
@@ -126,6 +127,59 @@
 	<?partial('zHiddenBlock');?>
 	<header class="header">
 		<div class="mbox">
-
+			<div class="header_wrap">
+				<div class="header_logo">
+					<a href="#">
+						<img src="images/logo.png"alt="">
+					</a>
+				</div>
+				<div class="header-nav">
+					<div class="header-nav-wrap cfix">
+						<nav>
+							<ul>
+								<li class="active"><a href="#"><span>Главная</span></a></li>
+								<li><a href="#"><span>О нас </span></a></li>
+								<li><a href="#"><span>Услуги</span></a></li>
+								<li><a href="#"><span>Проекты</span></a></li>
+								<li><a href="#"><span>Новости</span></a></li>
+								<li><a href="#"><span>Контакты</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header_leng">
+					<div class="header_leng_wrap">
+						<ul class="cfix">
+							<li><a href="#"><span>ENG</span></a></li>
+							<li class="active"><a href="#"><span>RUS</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header_right">
+					<div class="header_tel">
+						<div class="header_tel_wrap">
+							<div class="header_tel_row moscow">
+								<span class="icon"></span>
+								<span>Москва:</span>
+								<a href="tel:+74950000000"> +7 (495) 000 0000</a>
+							</div>
+							<div class="header_tel_row kazan">
+								<span class="icon"></span>
+								<span>Казань:</span>
+								<a href="tel:+78430000000">+7 (843) 000 0000</a>
+							</div>
+							<div class="header_tel_row london">
+								<span class="icon"></span>
+								<span>Лондон:</span>
+								<a href="tel:+4407595939786">+44 (0) 759 593 9786</a>
+							</div>
+						</div>
+					</div>
+					<div class="header_button">
+						<a href="#"><span>ОН-ЛАЙН ЗАЯВКА</span></a>
+						<a href="#"><span>ЗАКАЗАТЬ ЗВОНОК</span></a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</header>

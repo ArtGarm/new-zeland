@@ -1,0 +1,20 @@
+$yellow:#f2dc5e;
+
+.header_wrap{display: table;width: 100%;
+    &>div{display: table-cell;vertical-align: top;}
+    .header_logo{width: 29%;}
+    .header-nav{width: 43%;vertical-align: bottom;font-family: 'Tahoma';font-size: 15px;
+        ul{margin:0;padding: 0;list-style-type: none;
+            &>li{width: 16.5%;float: left;border-bottom:4px solid transparent;text-align: center;
+                &.active{border-bottom:4px solid $yellow;}
+            }
+            a{text-decoration: none;color: #546472;}
+        }
+    }
+    .header_leng{width: 7%;vertical-align: top;
+        ul{list-style-type: none;margin: 0;width: 100%;padding: 0;}
+        li{float: left;width: 50%;padding-top: 15px;}
+        a{color: #546472;text-decoration: none;}
+    }
+    .header_right{width: 21%;}
+}
