@@ -1,13 +1,76 @@
-.foot-contact-wrapp-main{overflow: hidden;}
-.foot-contact-wrapp{
-    .fc-align{position:relative;
-        .fc-img{position: absolute; transform:translateX(-50%); left:50%;
-            img{max-width: none;}
+/*foot-callback*/
+    .foot-contact-wrapp-main{overflow: hidden;text-align: center;width: 100%;}
+    .foot-contact-wrapp{
+        .fc-align{
+            .fc-img{position: absolute; transform:translateX(-50%); left:50%;
+                img{max-width: none;}
+            }
+        }
+        .fc-butt-wrapp{
+            a{text-decoration: none;}
+            .fc-butt-img{position: relative;
+                img{    margin-top: -5px;}
+            }
+            .fc-butt-text{ position:absolute;top:85px; left:calc(50% - 68px);display: block;
+                span{font-family: 'MyriadProCond';font-size: 22.16rem; color:#000;text-transform: uppercase;position: relative;}
+                .fc-butt-hover{width: 60px;height: 60px; background-color: #f2dc5e; border-radius:50%; position:absolute;top:-18px;left:calc(50% + 16px); opacity: 0; transition:opacity 300ms linear;}
+                &:hover{
+                    .fc-butt-hover{opacity: 1;}
+                }
+            }
         }
     }
-    .fc-butt-wrapp{
-            .fc-butt-img{}
-            .fc-butt-text{span{font-family: 'MyriadProCond';font-size: 22.16rem; color:#000;}}
-            .fc-butt-hover{width: 60px;height: 60px; background-color: #f2dc5e; display: none;}
+/*/footcallback*/
+
+/*title*/
+    .title-wrapp{overflow: hidden;text-align: center;width: 100%;
+        .title-main{position: relative;
+            .title-img{position: absolute; transform:translateX(-50%); left:50%;
+                img{max-width: none;}
+            }
+            .title-text{position: relative;
+                span{font-family: 'Open Sans Condensed', sans-serif; font-size: 31.71rem; font-weight: 700; color: #fff; float:right;padding: 32px 58px 74px;    text-shadow: 3px 3px 6px black; text-transform: uppercase;}
+            }
         }
-}
+    }
+/*/title*/
+/*about*/
+    /*mangment*/
+        .managment-wrapp{
+            .managment-align{
+                .menu-block{
+                    .menu-align{
+                        span{font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;color:#546472;}
+                        .menu-title{span{font-size: 23rem;text-transform: uppercase;}}
+                        .menu-item{
+                            ul{
+                                li{
+                                    a{span{font-size: 20rem;}}
+                                }
+                            }
+                        }
+                    }
+                }
+                .content-block{
+                    .content-align{
+                        .content-item{
+                            .foto-box{
+                                .item-img{img{}}
+                            .text-box{
+                                .text-title{span{}}
+                                .text-body{p{}}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*/mangment*/
+/*/about*/
+
+
+
+
+
+
