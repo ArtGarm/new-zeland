@@ -1,0 +1,34 @@
+.foot-contact-wrapp-main {
+  overflow: hidden;
+}
+
+.foot-contact-wrapp .fc-align {
+  position: relative;
+}
+
+.foot-contact-wrapp .fc-align .fc-img {
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.foot-contact-wrapp .fc-align .fc-img img {
+  max-width: none;
+}
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-text span {
+  font-family: 'MyriadProCond';
+  font-size: 22.16rem;
+  color: #000;
+}
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-hover {
+  width: 60px;
+  height: 60px;
+  background-color: #f2dc5e;
+  display: none;
+}

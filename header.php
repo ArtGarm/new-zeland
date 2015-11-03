@@ -5,7 +5,8 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700&subset=cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" type="image/x-icon" href="images/shipfish.ico">
 
 	<title></title>
@@ -124,6 +125,59 @@
 	<?partial('zHiddenBlock');?>
 	<header class="header">
 		<div class="mbox">
-
+			<div class="header_wrap">
+				<div class="header_logo">
+					<a href="#">
+						<img src="images/logo.png"alt="">
+					</a>
+				</div>
+				<div class="header-nav">
+					<div class="header-nav-wrap">
+						<nav>
+							<ul>
+								<li><a href="#"><span>Главная</span></a></li>
+								<li><a href="#"><span>О нас </span></a></li>
+								<li><a href="#"><span>Услуги</span></a></li>
+								<li><a href="#"><span>Проекты</span></a></li>
+								<li><a href="#"><span>Новости</span></a></li>
+								<li><a href="#"><span>Контакты</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header_leng">
+					<div class="header_leng_wrap">
+						<ul>
+							<li><a href="#"><span>ENG</span></a></li>
+							<li class="active"><a href="#"><span>RUS</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header_right">
+					<div class="header_tel">
+						<div class="header_tel_wrap">
+							<div class="header_tel_row moscow">
+								<span class="icon"></span>
+								<span>Москва:</span>
+								<a href="tel:+74950000000"> +7 (495) 000 0000</a>
+							</div>
+							<div class="header_tel_row kazan">
+								<span class="icon"></span>
+								<span>Казань:</span>
+								<a href="tel:+78430000000">+7 (843) 000 0000</a>
+							</div>
+							<div class="header_tel_row london">
+								<span class="icon"></span>
+								<span>Лондон:</span>
+								<a href="tel:+4407595939786">+44 (0) 759 593 9786</a>
+							</div>
+						</div>
+					</div>
+					<div class="header_button">
+						<a href="#"><span>ОН-ЛАЙН ЗАЯВКА</span></a>
+						<a href="#"><span>ЗАКАЗАТЬ ЗВОНОК</span></a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</header>
