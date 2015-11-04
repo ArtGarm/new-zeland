@@ -1,4 +1,4 @@
-	<div class="main mbox">
+	<div class="main">
 		<?partial('topsection')?>
 		<?partial('specialization')?>
 		<?partial('functionation')?>
