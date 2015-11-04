@@ -11,6 +11,9 @@
             <? if($act == 'about-company' || $act == 'about-price' || $act == 'about-managment' ){?>
                 <img src="images/title-about.png" >
             <? } ?>
+            <? if($act == "services"){ ?>
+                <img src="images/title-services.png" alt="" />
+            <? } ?>
         </div>
         <div class="title-text cfix">
             <span>
@@ -22,6 +25,9 @@
                 <? } ?>
                 <? if($act == 'about-managment'){?>
                     Руководство
+                <? } ?>
+                <? if($act == "services"){ ?>
+                    Услуги
                 <? } ?>
              </span>
         </div>

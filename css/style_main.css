@@ -10,21 +10,41 @@
   font-size: 22px;
   font-weight: 700;
   padding: 2px 0 5px 0;
+  text-transform: uppercase;
+}
+
+.text-title-wrap {
+  margin-bottom: 33px;
+}
+
+.text-title-wrap .text-title {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #465460;
+  font-size: 29px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 /* /titles */
 /* functional-way */
+.functional-way {
+  padding-top: 50px;
+  overflow: hidden;
+}
+
 .functional-way-wrap {
   margin: 0px -3px 0 -3px;
+  overflow: hidden;
 }
 
 .functional-way-col {
   display: inline-block;
   vertical-align: top;
-  width: -webkit-calc(25% - 3.3rem);
-  width: -moz-calc(25% - 3.3rem);
-  width: calc(25% - 3.3rem);
-  padding: 0 3px;
+  width: -webkit-calc(25% - 9.3rem);
+  width: -moz-calc(25% - 9.3rem);
+  width: calc(25% - 9.3rem);
+  margin: 0 3px;
 }
 
 .functional-way-title {
@@ -64,11 +84,70 @@
   padding: 7px 10px 9px 5px;
   font-family: Tahoma, sans-serif;
   text-decoration: none;
-  color: #000;
+  color: #000101;
+  font-size: 13px;
 }
 
 .functional-way-list li a:hover {
   background-color: #f2dc5e;
 }
 
+.functional-index {
+  background-image: url(../images/functional-index-background.png);
+  background-repeat: none;
+  background-position: center;
+}
+
+.functional-index .functional-way-title > a, .functional-index .functional-way-title > span {
+  background-color: transparent;
+  color: #d92819;
+  font-size: 24px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.functional-index .functional-way-col:hover {
+  background-color: #e3e9ed;
+}
+
 /* /functional-way */
+@media screen and (max-width: 992px) {
+  /* functional-way */
+  .functional-way-col {
+    width: -webkit-calc(50% - 8.3rem);
+    width: -moz-calc(50% - 8.3rem);
+    width: calc(50% - 8.3rem);
+    margin-bottom: 25px;
+  }
+  /* /fucntional-way */
+}
+
+@media screen and (max-width: 767px) {
+  /* functional-way */
+  .functional-way-wrap {
+    margin: 0px -5px 0 -3px;
+  }
+  /* /functional-way */
+}
+
+@media screen and (max-width: 666px) {
+  /* functional-way */
+  .functional-way-wrap {
+    margin: 0px -6px 0 -3px;
+  }
+  /* /functional-way */
+}
+
+@media screen and (max-width: 479px) {
+  /* functional-way */
+  .functional-way-wrap {
+    margin: 0;
+  }
+  .functional-way-col {
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
+  .functional-way-list li a {
+    text-align: center;
+  }
+  /* /functional-way */
+}
