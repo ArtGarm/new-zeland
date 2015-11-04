@@ -117,7 +117,7 @@
         .slick-next{left:0;  background-image: url('../images/slider-arrow-left.png');
             &:hover{background-image: url('../images/slider-arrow-left-h.png');}
         }
-        .slick-arrow{ position:absolute; z-index: 100;width:32px; height: 89px; background-color: transparent; border:none;top:calc(50% - 45px);
+        .slick-arrow{ position:absolute; z-index: 100;width:32px; height: 89px; background-color: transparent; border:none;top:calc(50% - 45px); cursor: pointer;
             &:focus{outline: none;}
         }
     }
@@ -131,6 +131,10 @@
         }
     /*/services*/
 /*/clients*/
+
+/*service-4page*/
+
+/*/service-4page*/
 
 
 

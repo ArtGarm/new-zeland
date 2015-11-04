@@ -14,6 +14,18 @@
             <? if($act == "services"){ ?>
                 <img src="images/title-services.png" alt="" />
             <? } ?>
+            <? if($act == "services-strategy"){ ?>
+                <img src="images/title-services-strat.png" alt="" />
+            <? } ?>
+            <? if($act == "services-operation"){ ?>
+                <img src="images/title-services-oper.png" alt="" />
+            <? } ?>
+            <? if($act == "services-international"){ ?>
+                <img src="images/title-services-inter.png" alt="" />
+            <? } ?>
+            <? if($act == "services-econom"){ ?>
+                <img src="images/title-services-eco.png" alt="" />
+            <? } ?>
         </div>
         <div class="title-text cfix">
             <span>
@@ -28,6 +40,18 @@
                 <? } ?>
                 <? if($act == "services"){ ?>
                     Услуги
+                <? } ?>
+                <? if($act == "services-strategy"){ ?>
+                    Стратегический консалтинг
+                <? } ?>
+                <? if($act == "services-operation"){ ?>
+                    Операционный консалтинг
+                <? } ?>
+                <? if($act == "services-international"){ ?>
+                    Международный бизнес
+                <? } ?>
+                <? if($act == "services-econom"){ ?>
+                    Экономические иследования
                 <? } ?>
              </span>
         </div>

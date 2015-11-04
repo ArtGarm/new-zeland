@@ -282,6 +282,7 @@
   top: -webkit-calc(50% - 45px);
   top: -moz-calc(50% - 45px);
   top: calc(50% - 45px);
+  cursor: pointer;
 }
 
 .clients-wrapp .slick-arrow:focus {
@@ -307,3 +308,5 @@
 
 /*/services*/
 /*/clients*/
+/*service-4page*/
+/*/service-4page*/

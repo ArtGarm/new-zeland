@@ -199,8 +199,8 @@
 						</div>
 					</div>
 					<div class="header_button cfix">
-						<a href="#" class="online"><span>ОН-ЛАЙН ЗАЯВКА</span></a>
-						<a href="#" class="zvonok"><span>ЗАКАЗАТЬ ЗВОНОК</span></a>
+						<a href="#letter-online" class="online fancybox"><span>ОН-ЛАЙН ЗАЯВКА</span></a>
+						<a href="#wrappp" class="zvonok fancybox"><span>ЗАКАЗАТЬ ЗВОНОК</span></a>
 					</div>
 				</div>
 				<div class="sendwich-icon">
