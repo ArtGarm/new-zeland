@@ -1,10 +1,10 @@
 <?partial('title')?>
 <div class="managment-wrapp">
     <div class="mbox">
-        <div class="managment-align">
+        <div class="managment-align cfix">
             <div class="menu-block">
                 <div class="menu-align">
-                    <div class="menu-title"><span>о нас</span></div>
+                    <div class="menu-title"><span>о нас:</span></div>
                     <div class="menu-item">
                         <ul>
                             <li><a href=""><span>О компании</span></a></li>
@@ -16,7 +16,7 @@
             </div>
             <div class="content-block">
                 <div class="content-align">
-                    <div class="content-item">
+                    <div class="content-item cfix">
                         <div class="foto-box">
                             <div class="item-img"><img src="images/ishanov.png"  alt=""></div>
                         </div>
@@ -27,7 +27,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="content-item">
+                    <div class="content-item cfix">
                         <div class="foto-box">
                             <div class="item-img"><img src="images/hayrulin.png"  alt=""></div>
                         </div>

@@ -37,37 +37,100 @@
 /*about*/
     /*mangment*/
         .managment-wrapp{
-            .managment-align{
-                .menu-block{
-                    .menu-align{
-                        span{font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;color:#546472;}
-                        .menu-title{span{font-size: 23rem;text-transform: uppercase;}}
-                        .menu-item{
-                            ul{
-                                li{
-                                    a{span{font-size: 20rem;}}
-                                }
-                            }
+            .content-block{ float:right; width: 70%;    padding-top: 34px;
+                .content-item{padding-bottom: 25px;
+                    .foto-box{float:left;}
+                    .text-box{ padding-top: 3px; margin-left: 187px; color: #000;
+                        .text-title{span{font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;font-size: 22rem;}}
+                        .text-body{padding: 13px 0 0;
+                            p{font-family: 'Tahoma'; font-size: 15rem;text-align: justify;line-height: 22px;}
                         }
                     }
                 }
-                .content-block{
-                    .content-align{
-                        .content-item{
-                            .foto-box{
-                                .item-img{img{}}
-                            .text-box{
-                                .text-title{span{}}
-                                .text-body{p{}}
+            }
+        }
+        .menu-block{float: left;
+            .menu-align{    padding: 37px 0 0;
+                span{font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;color:#546472;}
+                .menu-title{padding-bottom: 3px;
+                    span{font-size: 23rem;text-transform: uppercase;}
+                }
+                .menu-item{
+                    ul{
+                        li{padding-bottom: 4px;
+                            a{text-decoration: none;
+                                &:hover{span{color: #d92819;}}
+                                span{font-size: 20rem;}
                             }
                         }
                     }
                 }
             }
         }
-    }
     /*/mangment*/
+    /*price*/
+        .managment-wrapp{
+            &.price{
+                .content-block{
+                    .content-item{padding-bottom: 13px;
+                        .text-box{margin-left: 0px;
+                            .text-body{padding: 22px 0 0 20px;}
+                        }
+                    }
+                }
+            }
+        }
+    /*/price*/
+    /*company*/
+        .managment-wrapp{
+            &.company{
+                .content-block{padding: 25px 0 58px;
+                    .content-item{padding-bottom: 6px;
+                        .text-box{margin-left: 0px;}
+                    }
+                }
+            }
+        }
+    /*/company*/
 /*/about*/
+
+/*clients*/
+    .clients-wrapp{
+        .clients-align{
+            .slider{padding:0 58px;
+                .slide-item{
+                    .item-wrapper{text-align: justify;
+                        .item-img{display: inline-block;}
+                    }
+                }
+            }
+        }
+        .client-title-wrapp{ background-color: #D5E0E6;
+            .clients-title{    padding: 6px 19px 4px;
+                span{    font-family: 'PT Sans Narrow', sans-serif;    font-size: 26px;    text-transform: uppercase;    color: #465460;    font-weight: 100;}
+            }
+        }
+        .slick-slide{outline: none;}
+        .slick-prev{right:0; background-image: url('../images/slider-arrow-right.png');
+            &:hover{background-image: url('../images/slider-arrow-right-h.png');}
+        }
+        .slick-next{left:0;  background-image: url('../images/slider-arrow-left.png');
+            &:hover{background-image: url('../images/slider-arrow-left-h.png');}
+        }
+        .slick-arrow{ position:absolute; z-index: 100;width:32px; height: 89px; background-color: transparent; border:none;top:calc(50% - 45px);
+            &:focus{outline: none;}
+        }
+    }
+    /*services*/
+        .service-clients-wrapp{padding: 52px 63px;
+            .clients-item{    padding: 0 30px;
+                .item-wrapper{text-align: justify;
+                    .item-img{display: inline-block;}
+                }
+            }
+        }
+    /*/services*/
+/*/clients*/
 
 
 

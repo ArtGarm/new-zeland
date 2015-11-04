@@ -115,20 +115,195 @@
 /*/title*/
 /*about*/
 /*mangment*/
-.managment-wrapp .managment-align .menu-block .menu-align span {
+.managment-wrapp .content-block {
+  float: right;
+  width: 70%;
+  padding-top: 34px;
+}
+
+.managment-wrapp .content-block .content-item {
+  padding-bottom: 25px;
+}
+
+.managment-wrapp .content-block .content-item .foto-box {
+  float: left;
+}
+
+.managment-wrapp .content-block .content-item .text-box {
+  padding-top: 3px;
+  margin-left: 187px;
+  color: #000;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-title span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 22rem;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-body {
+  padding: 13px 0 0;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-body p {
+  font-family: 'Tahoma';
+  font-size: 15rem;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.menu-block {
+  float: left;
+}
+
+.menu-block .menu-align {
+  padding: 37px 0 0;
+}
+
+.menu-block .menu-align span {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
   color: #546472;
 }
 
-.managment-wrapp .managment-align .menu-block .menu-align .menu-title span {
+.menu-block .menu-align .menu-title {
+  padding-bottom: 3px;
+}
+
+.menu-block .menu-align .menu-title span {
   font-size: 23rem;
   text-transform: uppercase;
 }
 
-.managment-wrapp .managment-align .menu-block .menu-align .menu-item ul li a span {
+.menu-block .menu-align .menu-item ul li {
+  padding-bottom: 4px;
+}
+
+.menu-block .menu-align .menu-item ul li a {
+  text-decoration: none;
+}
+
+.menu-block .menu-align .menu-item ul li a:hover span {
+  color: #d92819;
+}
+
+.menu-block .menu-align .menu-item ul li a span {
   font-size: 20rem;
 }
 
 /*/mangment*/
+/*price*/
+.managment-wrapp.price .content-block .content-item {
+  padding-bottom: 13px;
+}
+
+.managment-wrapp.price .content-block .content-item .text-box {
+  margin-left: 0px;
+}
+
+.managment-wrapp.price .content-block .content-item .text-box .text-body {
+  padding: 22px 0 0 20px;
+}
+
+/*/price*/
+/*company*/
+.managment-wrapp.company .content-block {
+  padding: 25px 0 58px;
+}
+
+.managment-wrapp.company .content-block .content-item {
+  padding-bottom: 6px;
+}
+
+.managment-wrapp.company .content-block .content-item .text-box {
+  margin-left: 0px;
+}
+
+/*/company*/
 /*/about*/
+/*clients*/
+.clients-wrapp .clients-align .slider {
+  padding: 0 58px;
+}
+
+.clients-wrapp .clients-align .slider .slide-item .item-wrapper {
+  text-align: justify;
+}
+
+.clients-wrapp .clients-align .slider .slide-item .item-wrapper .item-img {
+  display: inline-block;
+}
+
+.clients-wrapp .client-title-wrapp {
+  background-color: #D5E0E6;
+}
+
+.clients-wrapp .client-title-wrapp .clients-title {
+  padding: 6px 19px 4px;
+}
+
+.clients-wrapp .client-title-wrapp .clients-title span {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #465460;
+  font-weight: 100;
+}
+
+.clients-wrapp .slick-slide {
+  outline: none;
+}
+
+.clients-wrapp .slick-prev {
+  right: 0;
+  background-image: url("../images/slider-arrow-right.png");
+}
+
+.clients-wrapp .slick-prev:hover {
+  background-image: url("../images/slider-arrow-right-h.png");
+}
+
+.clients-wrapp .slick-next {
+  left: 0;
+  background-image: url("../images/slider-arrow-left.png");
+}
+
+.clients-wrapp .slick-next:hover {
+  background-image: url("../images/slider-arrow-left-h.png");
+}
+
+.clients-wrapp .slick-arrow {
+  position: absolute;
+  z-index: 100;
+  width: 32px;
+  height: 89px;
+  background-color: transparent;
+  border: none;
+  top: -webkit-calc(50% - 45px);
+  top: -moz-calc(50% - 45px);
+  top: calc(50% - 45px);
+}
+
+.clients-wrapp .slick-arrow:focus {
+  outline: none;
+}
+
+/*services*/
+.service-clients-wrapp {
+  padding: 52px 63px;
+}
+
+.service-clients-wrapp .clients-item {
+  padding: 0 30px;
+}
+
+.service-clients-wrapp .clients-item .item-wrapper {
+  text-align: justify;
+}
+
+.service-clients-wrapp .clients-item .item-wrapper .item-img {
+  display: inline-block;
+}
+
+/*/services*/
+/*/clients*/
