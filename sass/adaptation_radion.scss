@@ -1,3 +1,4 @@
+$yellow:#f2dc5e;
 @media screen and (max-width: 1920px){
 
 }
@@ -13,11 +14,12 @@
 @media screen and (max-width: 1024px){
     // header
     .header_wrap {background-color: pink;
+        .header_logo {max-width: 30%;text-align: center;
+            a{display: inline-block;}
+        }
         &>div{float: left;}
-        .header-nav{position: absolute;width: 100%;left: 0;right: 0;top: 82px;float: none;display: none;}
-        .header_logo{width: auto;}
-        .header_leng{}
-
+        .header-nav{position: absolute;width: 100%;left: 0;right: 0;top: 80px;float: none;display: none;}
+        .header_leng{position: absolute;top: 0;left: 52%;}
         .sendwich-icon{width: 30rem;height: 30rem;cursor: pointer;position: absolute;right: 15rem;top: calc(50% - 12.5rem);display: block;
             &.active{
                 span{background-color: transparent;
@@ -31,9 +33,14 @@
                 &:before{bottom: -9rem;}
             }
         }
-        .header-nav ul > li{width: 100%;float: none;border-bottom: none;
+        .header-nav ul > li{width: 100%;float: none;border-bottom: none;background-color: $yellow;display: block;
             &.active{border-bottom: none;}
+            &:hover{background-color: #fff;}
+            a{display: block;padding: 6px 0px;}
         }
+        .header-nav .next{position: relative;top: 0;}
+        .header-nav .next li{padding: 0;text-align: center;}
+        .header-nav .next li .next{position: relative;left: 0;top: 0;}
     }
 }
 @media screen and (max-width: 992px){

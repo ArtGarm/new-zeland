@@ -12,6 +12,10 @@
   width: 29%;
 }
 
+.header_wrap .header_logo img {
+  max-width: 50%;
+}
+
 .header_wrap .header-nav {
   width: 43%;
   vertical-align: bottom;

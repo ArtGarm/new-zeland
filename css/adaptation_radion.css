@@ -2,6 +2,13 @@
   .header_wrap {
     background-color: pink;
   }
+  .header_wrap .header_logo {
+    max-width: 30%;
+    text-align: center;
+  }
+  .header_wrap .header_logo a {
+    display: inline-block;
+  }
   .header_wrap > div {
     float: left;
   }
@@ -10,12 +17,14 @@
     width: 100%;
     left: 0;
     right: 0;
-    top: 82px;
+    top: 80px;
     float: none;
     display: none;
   }
-  .header_wrap .header_logo {
-    width: auto;
+  .header_wrap .header_leng {
+    position: absolute;
+    top: 0;
+    left: 52%;
   }
   .header_wrap .sendwich-icon {
     width: 30rem;
@@ -88,8 +97,30 @@
     width: 100%;
     float: none;
     border-bottom: none;
+    background-color: #f2dc5e;
+    display: block;
   }
   .header_wrap .header-nav ul > li.active {
     border-bottom: none;
+  }
+  .header_wrap .header-nav ul > li:hover {
+    background-color: #fff;
+  }
+  .header_wrap .header-nav ul > li a {
+    display: block;
+    padding: 6px 0px;
+  }
+  .header_wrap .header-nav .next {
+    position: relative;
+    top: 0;
+  }
+  .header_wrap .header-nav .next li {
+    padding: 0;
+    text-align: center;
+  }
+  .header_wrap .header-nav .next li .next {
+    position: relative;
+    left: 0;
+    top: 0;
   }
 }
