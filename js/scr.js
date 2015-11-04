@@ -134,6 +134,7 @@ function oneHeightItems(){
     });
 }
 
+
 function validate(form, options){
     var setings = {
         errorFunction:null,
@@ -217,10 +218,10 @@ function validate(form, options){
 }
 
 function validationCall(form){
-
+ console.log('xfvbg');
   var thisForm = $(form);
   var formSur = thisForm.serialize();
-
+    console.log(formSur);
     $.ajax({
         url : thisForm.attr('action'),
         data: formSur,
@@ -234,11 +235,18 @@ function validationCall(form){
                $(this).trigger('reset');
             }
 
+            //popNext();
+
+
         }
     });
 
     function popNext(){
-        $.fancybox.open("#call_success",{
+        $(".call-success").css({
+                'opacity': '1',
+                'z-index': '10000'
+                });
+        /*$.fancybox.open("#call_success",{
             padding:0,
             fitToView:false,
             wrapCSS:"call-popup",
@@ -247,13 +255,20 @@ function validationCall(form){
                 $('form').trigger("reset");
                 clearTimeout(timer);
             }
-        });
+
+        }); */
         var timer = null;
 
         timer = setTimeout(function(){
             $('form').trigger("reset");
-            $.fancybox.close("#call_success");
+            $.fancybox.close("#call-popup");
+            $(".call-success").css({
+                'opacity': '0',
+                'z-index': '-1'
+                });
         },2000);
+
+
 
 
     }
@@ -300,7 +315,13 @@ $(document).ready(function() {
 
 $(window).load(function(){
 
+
+    validate('.callback-form',{submitFunction:validationCall});
+    validate('.letter-online-form',{submitFunction:validationCall});
+    inputNumber($('.inputNum'));
+
     oneHeightItems();
+
 
 });
 

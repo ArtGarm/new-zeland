@@ -94,6 +94,44 @@
     /*/company*/
 /*/about*/
 
+/*clients*/
+    .clients-wrapp{
+        .clients-align{
+            .slider{padding:0 58px;
+                .slide-item{
+                    .item-wrapper{text-align: justify;
+                        .item-img{display: inline-block;}
+                    }
+                }
+            }
+        }
+        .client-title-wrapp{ background-color: #D5E0E6;
+            .clients-title{    padding: 6px 19px 4px;
+                span{    font-family: 'PT Sans Narrow', sans-serif;    font-size: 26px;    text-transform: uppercase;    color: #465460;    font-weight: 100;}
+            }
+        }
+        .slick-slide{outline: none;}
+        .slick-prev{right:0; background-image: url('../images/slider-arrow-right.png');
+            &:hover{background-image: url('../images/slider-arrow-right-h.png');}
+        }
+        .slick-next{left:0;  background-image: url('../images/slider-arrow-left.png');
+            &:hover{background-image: url('../images/slider-arrow-left-h.png');}
+        }
+        .slick-arrow{ position:absolute; z-index: 100;width:32px; height: 89px; background-color: transparent; border:none;top:calc(50% - 45px);
+            &:focus{outline: none;}
+        }
+    }
+    /*services*/
+        .service-clients-wrapp{padding: 52px 63px;
+            .clients-item{    padding: 0 30px;
+                .item-wrapper{text-align: justify;
+                    .item-img{display: inline-block;}
+                }
+            }
+        }
+    /*/services*/
+/*/clients*/
+
 
 
 

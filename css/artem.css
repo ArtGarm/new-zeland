@@ -1,0 +1,303 @@
+#call-popup {
+  padding: 40px;
+  max-width: 800px;
+  background-color: #d7dfe4;
+  min-width: 500px;
+  min-height: 350px;
+  z-index: 2;
+}
+
+#call-popup .call-popup {
+  position: relative;
+}
+
+#call-popup .call-popup p {
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#call-popup .call-popup .callback-form {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .add-row-for-time {
+  display: none;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row {
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row .errorText {
+  display: none !important;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row input {
+  border: none;
+  background-color: #fff;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 17px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row input.error {
+  border: 1px solid #f00;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row input:focus {
+  outline: none;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row .jq-selectbox li:hover {
+  background-color: #b0bdc8 !important;
+  color: #FFF !important;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row .select-wrap {
+  width: 100%;
+  background: black;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row .select-wrap .jq-selectbox__select {
+  background: white;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding-right: 5px;
+  border: 1px solid transparent;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row .select-wrap .jq-selectbox__select .jq-selectbox__trigger {
+  display: none;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row .select-wrap .jq-selectbox__select .jq-selectbox__select-text {
+  font-size: 17px;
+  color: #000;
+  font-family: 'Tahoma', sans-serif;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row .select-wrap select {
+  padding: 5px;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .form-wrap-row .select-wrap select.error + .jq-selectbox__select {
+  border: 1px solid #f00;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .submit {
+  float: left;
+  width: 60%;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .submit button {
+  width: 100%;
+  background-color: #b0bdc8;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows .submit button:hover, #call-popup .call-popup .callback-form .form-wrap-for-rows .submit button:active, #call-popup .call-popup .callback-form .form-wrap-for-rows .submit button:focus, #call-popup .call-popup .callback-form .form-wrap-for-rows .submit button:visited {
+  outline: none;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  color: black;
+  cursor: pointer;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows a .no-submit {
+  width: 35%;
+  float: right;
+  text-align: center;
+  background-color: #b0bdc8;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows a .no-submit .form-input {
+  background-color: #b0bdc8;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+
+#call-popup .call-popup .callback-form .form-wrap-for-rows a:hover, #call-popup .call-popup .callback-form .form-wrap-for-rows a:active {
+  outline: none;
+}
+
+#call-popup .call-popup .call-success {
+  position: absolute;
+  vertical-align: top;
+  top: 30%;
+  width: 100%;
+  opacity: 0;
+  z-index: -1;
+  -o-transition: -o-transform 500ms ease, opacity 500ms ease;
+  transition: transform 500ms ease, opacity 500ms ease;
+  -webkit-transition: -webkit-transform 500ms ease, opacity 1000ms ease;
+  -moz-transition: -moz-transform 500ms ease, opacity 1000ms ease;
+  -ms-transition: transform 500ms ease, opacity 1000ms ease;
+}
+
+#call-popup .call-popup .call-success .call_success {
+  min-width: 300px;
+  max-width: 475px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f2dc5e;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.fancybox-inner {
+  overflow: visible !important;
+}
+
+#letter-online .letter-online-popup {
+  width: 100%;
+  max-width: 710px;
+  background-color: #d7dfe4;
+  padding: 20px;
+}
+
+#letter-online .letter-online-popup p {
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#letter-online .letter-online-popup h1 {
+  font-size: 11px;
+  font-family: "Tahoma", sans-serif;
+  padding-bottom: 20px;
+}
+
+#letter-online .letter-online-popup form .atribute {
+  display: block;
+  text-align: right;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#letter-online .letter-online-popup form .atribute .convert-left {
+  display: block;
+  width: 28%;
+  float: left;
+}
+
+#letter-online .letter-online-popup form .atribute .convert-left p {
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: "Tahoma", sans-serif;
+  text-align: right;
+}
+
+#letter-online .letter-online-popup form .atribute .convert-right {
+  display: block;
+  float: right;
+  width: 70%;
+}
+
+#letter-online .letter-online-popup form .atribute .convert-right textarea, #letter-online .letter-online-popup form .atribute .convert-right input {
+  font-size: 20px;
+  width: 100%;
+  font-size: 12px;
+  font-family: "Tahoma", sans-serif;
+  border: 1px solid transparent;
+}
+
+#letter-online .letter-online-popup form .atribute .convert-right textarea.error, #letter-online .letter-online-popup form .atribute .convert-right input.error {
+  border: 1px solid red;
+}
+
+#letter-online .letter-online-popup form .atribute .convert-right textarea:focus, #letter-online .letter-online-popup form .atribute .convert-right input:focus {
+  outline: none;
+}
+
+#letter-online .letter-online-popup form .atribute .convert-right .errorText {
+  display: none !important;
+}
+
+#letter-online .letter-online-popup form .letter-online-wrap-submit {
+  text-align: right;
+}
+
+#letter-online .letter-online-popup form .letter-online-wrap-submit button {
+  width: 35%;
+  background-color: #b0bdc8;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#letter-online .letter-online-popup form .letter-online-wrap-submit button:hover, #letter-online .letter-online-popup form .letter-online-wrap-submit button:active, #letter-online .letter-online-popup form .letter-online-wrap-submit button:focus, #letter-online .letter-online-popup form .letter-online-wrap-submit button:visited {
+  outline: none;
+}
+
+#letter-online .letter-online-popup .call-success {
+  position: absolute;
+  vertical-align: top;
+  top: 30%;
+  width: 100%;
+  opacity: 0;
+  z-index: -1;
+  -o-transition: -o-transform 500ms ease, opacity 500ms ease;
+  transition: transform 500ms ease, opacity 500ms ease;
+  -webkit-transition: -webkit-transform 500ms ease, opacity 1000ms ease;
+  -moz-transition: -moz-transform 500ms ease, opacity 1000ms ease;
+  -ms-transition: transform 500ms ease, opacity 1000ms ease;
+}
+
+#letter-online .letter-online-popup .call-success .call_success {
+  min-width: 300px;
+  max-width: 475px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f2dc5e;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
