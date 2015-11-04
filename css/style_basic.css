@@ -24,7 +24,7 @@
   overflow: hidden;
 }
 
-.jfix-after:after {
+.jfix:after {
   content: '';
   display: inline-block;
   width: 100%;
@@ -62,7 +62,7 @@ html {
 
 body {
   min-height: 100%;
-  font-family: arial,sans-serif;
+  font-family: Tahoma, sans-serif;
   background: #fff;
   color: #3d3d3d;
   position: relative;
@@ -145,6 +145,16 @@ p {
 
 /* /wraps styling*/
 /*Layout*/
+.header {
+  position: relative;
+  z-index: 2;
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+}
+
 .main .sidebar_w {
   width: 180px;
   float: left;

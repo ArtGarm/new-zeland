@@ -1,9 +1,8 @@
+/*foot-callback*/
 .foot-contact-wrapp-main {
   overflow: hidden;
-}
-
-.foot-contact-wrapp .fc-align {
-  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
 .foot-contact-wrapp .fc-align .fc-img {
@@ -20,15 +19,291 @@
   max-width: none;
 }
 
+.foot-contact-wrapp .fc-butt-wrapp a {
+  text-decoration: none;
+}
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-img {
+  position: relative;
+}
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-img img {
+  margin-top: -5px;
+}
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-text {
+  position: absolute;
+  top: 85px;
+  left: -webkit-calc(50% - 68px);
+  left: -moz-calc(50% - 68px);
+  left: calc(50% - 68px);
+  display: block;
+}
+
 .foot-contact-wrapp .fc-butt-wrapp .fc-butt-text span {
   font-family: 'MyriadProCond';
   font-size: 22.16rem;
   color: #000;
+  text-transform: uppercase;
+  position: relative;
 }
 
-.foot-contact-wrapp .fc-butt-wrapp .fc-butt-hover {
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-text .fc-butt-hover {
   width: 60px;
   height: 60px;
   background-color: #f2dc5e;
-  display: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: -18px;
+  left: -webkit-calc(50% + 16px);
+  left: -moz-calc(50% + 16px);
+  left: calc(50% + 16px);
+  opacity: 0;
+  -webkit-transition: opacity 300ms linear;
+  -moz-transition: opacity 300ms linear;
+  -o-transition: opacity 300ms linear;
+  transition: opacity 300ms linear;
 }
+
+.foot-contact-wrapp .fc-butt-wrapp .fc-butt-text:hover .fc-butt-hover {
+  opacity: 1;
+}
+
+/*/footcallback*/
+/*title*/
+.title-wrapp {
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+.title-wrapp .title-main {
+  position: relative;
+}
+
+.title-wrapp .title-main .title-img {
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.title-wrapp .title-main .title-img img {
+  max-width: none;
+}
+
+.title-wrapp .title-main .title-text {
+  position: relative;
+}
+
+.title-wrapp .title-main .title-text span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 31.71rem;
+  font-weight: 700;
+  color: #fff;
+  float: right;
+  padding: 32px 58px 74px;
+  text-shadow: 3px 3px 6px black;
+  text-transform: uppercase;
+}
+
+/*/title*/
+/*about*/
+/*mangment*/
+.managment-wrapp .content-block {
+  float: right;
+  width: 70%;
+  padding-top: 34px;
+}
+
+.managment-wrapp .content-block .content-item {
+  padding-bottom: 25px;
+}
+
+.managment-wrapp .content-block .content-item .foto-box {
+  float: left;
+}
+
+.managment-wrapp .content-block .content-item .text-box {
+  padding-top: 3px;
+  margin-left: 187px;
+  color: #000;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-title span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 22rem;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-body {
+  padding: 13px 0 0;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-body p {
+  font-family: 'Tahoma';
+  font-size: 15rem;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.menu-block {
+  float: left;
+}
+
+.menu-block .menu-align {
+  padding: 37px 0 0;
+}
+
+.menu-block .menu-align span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  color: #546472;
+}
+
+.menu-block .menu-align .menu-title {
+  padding-bottom: 3px;
+}
+
+.menu-block .menu-align .menu-title span {
+  font-size: 23rem;
+  text-transform: uppercase;
+}
+
+.menu-block .menu-align .menu-item ul li {
+  padding-bottom: 4px;
+}
+
+.menu-block .menu-align .menu-item ul li a {
+  text-decoration: none;
+}
+
+.menu-block .menu-align .menu-item ul li a:hover span {
+  color: #d92819;
+}
+
+.menu-block .menu-align .menu-item ul li a span {
+  font-size: 20rem;
+}
+
+/*/mangment*/
+/*price*/
+.managment-wrapp.price .content-block .content-item {
+  padding-bottom: 13px;
+}
+
+.managment-wrapp.price .content-block .content-item .text-box {
+  margin-left: 0px;
+}
+
+.managment-wrapp.price .content-block .content-item .text-box .text-body {
+  padding: 22px 0 0 20px;
+}
+
+/*/price*/
+/*company*/
+.managment-wrapp.company .content-block {
+  padding: 25px 0 58px;
+}
+
+.managment-wrapp.company .content-block .content-item {
+  padding-bottom: 6px;
+}
+
+.managment-wrapp.company .content-block .content-item .text-box {
+  margin-left: 0px;
+}
+
+/*/company*/
+/*/about*/
+/*clients*/
+.clients-wrapp .clients-align .slider {
+  padding: 0 58px;
+}
+
+.clients-wrapp .clients-align .slider .slide-item .item-wrapper {
+  text-align: justify;
+}
+
+.clients-wrapp .clients-align .slider .slide-item .item-wrapper .item-img {
+  display: inline-block;
+}
+
+.clients-wrapp .client-title-wrapp {
+  background-color: #D5E0E6;
+}
+
+.clients-wrapp .client-title-wrapp .clients-title {
+  padding: 6px 19px 4px;
+}
+
+.clients-wrapp .client-title-wrapp .clients-title span {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #465460;
+  font-weight: 100;
+}
+
+.clients-wrapp .slick-slide {
+  outline: none;
+}
+
+.clients-wrapp .slick-prev {
+  right: 0;
+  background-image: url("../images/slider-arrow-right.png");
+}
+
+.clients-wrapp .slick-prev:hover {
+  background-image: url("../images/slider-arrow-right-h.png");
+}
+
+.clients-wrapp .slick-next {
+  left: 0;
+  background-image: url("../images/slider-arrow-left.png");
+}
+
+.clients-wrapp .slick-next:hover {
+  background-image: url("../images/slider-arrow-left-h.png");
+}
+
+.clients-wrapp .slick-arrow {
+  position: absolute;
+  z-index: 100;
+  width: 32px;
+  height: 89px;
+  background-color: transparent;
+  border: none;
+  top: -webkit-calc(50% - 45px);
+  top: -moz-calc(50% - 45px);
+  top: calc(50% - 45px);
+}
+
+.clients-wrapp .slick-arrow:focus {
+  outline: none;
+}
+
+/*services*/
+.service-clients-wrapp {
+  padding: 52px 63px;
+}
+
+.service-clients-wrapp .clients-item {
+  padding: 0 30px;
+}
+
+.service-clients-wrapp .clients-item .item-wrapper {
+  text-align: justify;
+}
+
+.service-clients-wrapp .clients-item .item-wrapper .item-img {
+  display: inline-block;
+}
+
+/*/services*/
+/*/clients*/
