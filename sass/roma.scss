@@ -1,10 +1,12 @@
+/* bottomsection */
+
 .bottomsection-section{background-image: url(../images/bottomsection-bg.jpg);background-repeat: no-repeat;background-position: center;
-	.top-arrow{position: relative;padding-bottom: 100px;
+	.top-arrow{position: relative;padding-bottom: 100px;padding-top: 26px;
 		h2{font-family: 'Open Sans Condensed', sans-serif;color: #000;font-size: 21px; font-weight: 700;text-align: center;padding-left: 42px;letter-spacing: 0.5px;line-height: 1.5;
 			span{color: #d92819;font-size: 25px;display: block;text-align: justify;width: 100%;padding-top: 3px;word-spacing: 11px;letter-spacing: 0;}
 		}
-		&:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 50vw solid transparent;border-top: 110px solid white;z-index: 0;top: 30px;}
-		&:before{display: block;content: '';position: absolute;left: 0; height: 30px;width: 100%;background-color: #fff;top: 0;}
+		&:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 50vw solid transparent;border-top: 110px solid white;z-index: 0;top: 55px;}
+		&:before{display: block;content: '';position: absolute;left: 0; height: 55px;width: 100%;background-color: #fff;top: 0;}
 	}
 	.bottomsection-punkts{padding-bottom: 20px;
 		.bottomsection-punkt-wrap{width: calc(33.33% - 20px);float: left;background-color: rgba(200,200,200,0.5);margin-right: 30px;
@@ -28,3 +30,28 @@
 		}
 	}
 }
+
+/* /bottomsection */
+
+/* aboutus */
+
+.aboutus-section{position: relative;
+	a{display: block;width: 100%;height: 47px;z-index: 3;position: absolute;top: 0;left: 0;}
+	a:hover+.aboutus-title-wrap{background-color: #FADD52;}
+	.aboutus-title-wrap{padding: 5px 0px 5px;font-family: 'PT Sans Narrow', sans-serif;font-size: 26px;text-transform: uppercase;color: #465460;font-weight: 100;position: absolute;width: 100%;top: 3px;background-color: #D5E0E6;z-index: 1;
+		.aboutus-title{padding-left: 20px;word-spacing: -1px;letter-spacing: -2px;
+}
+	}
+	.aboutus-body{background-image: url(../images/aboutus-bg.png);background-repeat: no-repeat;background-position: center;padding-top: 81px;position: relative;z-index: 2;padding-bottom: 8px;
+		.aboutus-list{color: #fff;font-family: tahoma;font-size: 16px;font-weight: 700;word-spacing: 2px;line-height: 1.5;width: 76%;letter-spacing: 1.3px;word-spacing: 7.5px;
+			.aboutus{padding-left: 31px;
+				p{margin-bottom: 20px;
+					&:before{display: block;content: '';position: absolute;background-image: url(../images/arrow-about.png);background-repeat: no-repeat;width: 18px;height: 52px;left: 0;}
+				}
+			}
+		}
+	}
+
+}
+
+/* /aboutus */
