@@ -221,3 +221,71 @@
 
 /*/company*/
 /*/about*/
+/*clients*/
+.clients-wrapp .clients-align .slider {
+  padding: 0 58px;
+}
+
+.clients-wrapp .clients-align .slider .slide-item .item-wrapper {
+  text-align: justify;
+}
+
+.clients-wrapp .clients-align .slider .slide-item .item-wrapper .item-img {
+  display: inline-block;
+}
+
+.clients-wrapp .client-title-wrapp {
+  background-color: #D5E0E6;
+}
+
+.clients-wrapp .client-title-wrapp .clients-title {
+  padding: 6px 19px 4px;
+}
+
+.clients-wrapp .client-title-wrapp .clients-title span {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #465460;
+  font-weight: 100;
+}
+
+.clients-wrapp .slick-slide {
+  outline: none;
+}
+
+.clients-wrapp .slick-prev {
+  right: 0;
+  background-image: url("../images/slider-arrow-right.png");
+}
+
+.clients-wrapp .slick-prev:hover {
+  background-image: url("../images/slider-arrow-right-h.png");
+}
+
+.clients-wrapp .slick-next {
+  left: 0;
+  background-image: url("../images/slider-arrow-left.png");
+}
+
+.clients-wrapp .slick-next:hover {
+  background-image: url("../images/slider-arrow-left-h.png");
+}
+
+.clients-wrapp .slick-arrow {
+  position: absolute;
+  z-index: 100;
+  width: 32px;
+  height: 89px;
+  background-color: transparent;
+  border: none;
+  top: -webkit-calc(50% - 45px);
+  top: -moz-calc(50% - 45px);
+  top: calc(50% - 45px);
+}
+
+.clients-wrapp .slick-arrow:focus {
+  outline: none;
+}
+
+/*/clients*/

@@ -24,7 +24,7 @@
   overflow: hidden;
 }
 
-.jfix-after:after {
+.jfix:after {
   content: '';
   display: inline-block;
   width: 100%;
