@@ -1,5 +1,5 @@
 $yellow:#f2dc5e;
-
+/*header*/
 .header_wrap{display: table;width: 100%;
     &>div{display: table-cell;vertical-align: top;}
     .header_logo{width: 29%;
@@ -53,9 +53,8 @@ $yellow:#f2dc5e;
         }
     }
     .sendwich-icon{display: none;}
-
 }
-
+/*top section*/
 .top_section_wrap{min-height: 605px;background: url('../images/top_section.jpg') center center no-repeat;
     .top_title{text-align: right;color: white;text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.72);padding-top: 121px;
         h2{font-size: 38px;font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;}
@@ -95,5 +94,42 @@ $yellow:#f2dc5e;
 
            }
         }
+    }
+}
+/*footer*/
+.footer{overflow: initial;
+    .grey_blog{background-color: #d7dfe5;padding: 4px 0px;
+        .grey_blog_text{}
+        .grey_blog_text_wrap{font-family: 'PT Sans Narrow', sans-serif;font-size: 26px;text-align: right;color: #000000;
+            span{margin-right: 20px;}
+            &>div{display: inline-block;}
+            a{text-decoration: none;color: inherit;color: #000000;}
+            .grey_blog_button{position: relative;z-index: 2;
+                a{position: relative;
+                    span{position: relative;z-index: 6;color: #000000;}
+                    &:after{position: absolute;height: 80px;width: 80px;content: '';background-color: $yellow;top: -22px;left: -2px;z-index: 1;border-radius: 50%;transition:all ease .3s;}
+                    &:before{position: absolute;height: 105px;width: 105px;content: '';top: -35px;left: -15px;z-index: 1;border-radius: 50%;border:1px solid $yellow;}
+                    &:hover{
+                        &:after{height: 95px;width: 95px;top: -29px;left: -9px;}
+                    }
+                }
+
+            }
+        }
+    }
+    .footer-blog{padding-bottom: 49px;}
+    .footer-blog-wrap{font-family: "Tahoma",sans-serif;color: #546472;font-size: 12px;padding-top: 30px;
+        .footer-blog-middle-side{float: left;width: 50%;
+            a{font-family: "Tahoma",sans-serif;color: #546472;font-size: 12px;}
+            ul{padding-left: 21%;}
+            li{float: left;padding-right: 14px;position: relative;
+                &:after{content: '';position: absolute;right: 6px;top: 0;width: 1px;height: 100%;background-color: #546472;}
+                &:last-child{margin-right: 0;
+                    &:after{display: none;}
+                }
+                a{font-family: "Tahoma",sans-serif;text-decoration: none;font-size: 14px;}
+            }
+        }
+        .copywriting{padding-bottom: 6px;}
     }
 }
