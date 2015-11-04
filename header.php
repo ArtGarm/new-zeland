@@ -180,7 +180,7 @@
 				</div>
 				<div class="header_right">
 					<div class="header_tel">
-						<div class="header_tel_wrap">
+						<div class="header_tel_wrap cfix">
 							<div class="header_tel_row">
 								<span class="icon moscow"></span>
 								<span>Москва:</span>
