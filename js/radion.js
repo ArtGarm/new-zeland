@@ -24,6 +24,7 @@ function showSecondLevelDevices(){
         if($(this).is('.active')){
             $(this).removeClass('active');
             $('.header-nav').slideUp(300);
+            $('.header_wrap .header-nav .next').slideUp();
         }
         else{
             $(this).addClass('active');
@@ -54,6 +55,16 @@ function showSecondLevelDevices(){
 
     //     }
     // });
+    if($(window).width() < 1025){
+        $('.header-nav-wrap>nav>ul:not(.next)>li>a').click(function() {
+            console.log('123213');
+            $(this).parent().children(".next").addClass('test').stop().slideToggle(300);
+        });
+        $('.header_wrap .header-nav .next li.arrow-next>a').click(function() {
+            $(this).parent().children(".next").addClass('testing').stop().slideToggle(300);
+        });
+    }
+
 
     $(window).resize(function(){
         if($(window).width() > 1025){

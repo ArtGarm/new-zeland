@@ -151,7 +151,7 @@
 										<li><a href="#"><span>Экономические исследования</span></a></li>
 										<li><a href="#"><span>Международный бизнес</span></a></li>
 										<li><a href="#"><span>Операционный консалтинг</span></a>
-											<ul class="next">
+											<ul class="next third-level">
 												<li><a href="#"><span>Планирование производства и сбыта</span></a></li>
 												<li><a href="#"><span> Интегрированная цепочка поставок</span></a></li>
 												<li><a href="#"><span>Эффективная служба поставок</span></a></li>
