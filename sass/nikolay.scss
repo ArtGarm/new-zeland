@@ -121,7 +121,15 @@
             &:focus{outline: none;}
         }
     }
-
+    /*services*/
+        .service-clients-wrapp{padding: 52px 63px;
+            .clients-item{    padding: 0 30px;
+                .item-wrapper{text-align: justify;
+                    .item-img{display: inline-block;}
+                }
+            }
+        }
+    /*/services*/
 /*/clients*/
 
 

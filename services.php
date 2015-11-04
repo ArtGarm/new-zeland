@@ -6,4 +6,6 @@
 
     <? partial('services-clients'); ?>
 
+    <?partial('foot-callback')?>
+
 </div>
