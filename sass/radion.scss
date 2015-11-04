@@ -2,7 +2,9 @@ $yellow:#f2dc5e;
 
 .header_wrap{display: table;width: 100%;
     &>div{display: table-cell;vertical-align: top;}
-    .header_logo{width: 29%;}
+    .header_logo{width: 29%;
+        img{max-width: 50%;}
+    }
     .header-nav{width: 43%;vertical-align: bottom;font-family: 'Tahoma';font-size: 15px;
         ul{margin:0;padding: 0;list-style-type: none;
             &>li{width: 16.5%;float: left;border-bottom:4px solid transparent;text-align: center;
@@ -51,4 +53,6 @@ $yellow:#f2dc5e;
         }
     }
     .sendwich-icon{display: none;}
+
+
 }
