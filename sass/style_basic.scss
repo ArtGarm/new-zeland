@@ -48,7 +48,8 @@ p{margin:0;}
 
 
 /*Layout*/
-.main{}
+.header{position: relative;z-index: 2;}
+.main{position: relative;z-index: 1;}
 .main .sidebar_w{width:180px;float:left;}
 .main .sidebar{margin:0;}
 
