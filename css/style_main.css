@@ -76,6 +76,8 @@
   width: 100%;
   text-align: center;
   margin-bottom: 7px;
+  position: relative;
+  z-index: 1;
 }
 
 .functional-way-title > a, .functional-way-title > span {
@@ -91,14 +93,60 @@
   padding: 0 5px;
 }
 
-.functional-way-title > a:hover {
+.functional-way-title > a {
+  position: relative;
+  -webkit-transition: color 300ms ease;
+  -moz-transition: color 300ms ease;
+  -o-transition: color 300ms ease;
+  transition: color 300ms ease;
+}
+
+.functional-way-title > a span {
+  position: relative;
+  z-index: 1;
+}
+
+.functional-way-title > a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
   background-color: #f2dc5e;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 300ms ease;
+  -moz-transition: -moz-transform 300ms ease;
+  -o-transition: -o-transform 300ms ease;
+  transition: transform 300ms ease;
+}
+
+.functional-way-title > a:hover {
   color: #000;
+}
+
+.functional-way-title > a:hover:before {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 
 .functional-way-list {
   padding-top: 5px;
   border-top: 1px solid #7f8c95;
+  position: relative;
+  z-index: 1;
+}
+
+.functional-way-list li {
+  position: relative;
 }
 
 .functional-way-list li a {
@@ -109,10 +157,27 @@
   text-decoration: none;
   color: #000101;
   font-size: 13px;
+  position: relative;
+  z-index: 1;
 }
 
-.functional-way-list li a:hover {
+.functional-way-list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  height: 100%;
   background-color: #f2dc5e;
+  width: 0;
+  -webkit-transition: width 300ms ease;
+  -moz-transition: width 300ms ease;
+  -o-transition: width 300ms ease;
+  transition: width 300ms ease;
+  z-index: 0;
+}
+
+.functional-way-list li:hover:before {
+  width: 100%;
 }
 
 .functional-index {
@@ -128,8 +193,36 @@
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.functional-index .functional-way-col:hover {
+.functional-index .functional-way-col {
+  position: relative;
+}
+
+.functional-index .functional-way-col:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
   background-color: #e3e9ed;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 300ms ease;
+  -moz-transition: -moz-transform 300ms ease;
+  -o-transition: -o-transform 300ms ease;
+  transition: transform 300ms ease;
+}
+
+.functional-index .functional-way-col:hover:before {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 
 /* /functional-way */
@@ -201,7 +294,12 @@
   left: 0;
   bottom: 0;
   right: 0;
-  display: none;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease, left 300ms ease, top 300ms ease, bottom 300ms, right 300ms;
+  -moz-transition: opacity 300ms ease, left 300ms ease, top 300ms ease, bottom 300ms, right 300ms;
+  -o-transition: opacity 300ms ease, left 300ms ease, top 300ms ease, bottom 300ms, right 300ms;
+  transition: opacity 300ms ease, left 300ms ease, top 300ms ease, bottom 300ms, right 300ms;
+  display: block;
 }
 
 .specialization-wrap li a span {
@@ -214,11 +312,11 @@
 }
 
 .specialization-wrap li a:hover:before {
-  display: block;
   left: -10px;
   top: -10px;
   bottom: -10px;
   right: -10px;
+  opacity: 1;
 }
 
 /* /specialization */
