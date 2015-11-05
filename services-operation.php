@@ -31,7 +31,7 @@
 
 
 
-                    <div class="content-item bookmark-page cfix">
+                    <div class="content-item bookmark-page cfix its-a-kind-of-magic">
                         <div class="text-box">
                             <div class="text-title"><span>Планирование производства и сбыта:</span></div>
                             <div class="text-body">
@@ -80,6 +80,43 @@
                         <div class="gray-title-wrap">
                             <div class="gray-title">
                                 <span>примеры выполненых проектов</span>
+                            </div>
+                        </div>
+                        <div class="hexa-wrapp">
+                            <div class="projects_item_row cfix">
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_19.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_19.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_19.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Эффективное</p>
+                                            <p>прогнозирование</p>
+                                            <p>для международной</p>
+                                            <p>транспортно-</p>
+                                            <p>-экспедиционной</p>
+                                            <p>компании</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -133,6 +170,75 @@
                                 <span>примеры выполненых проектов</span>
                             </div>
                         </div>
+                        <div class="hexa-wrapp">
+                            <div class="projects_item_row cfix">
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_23.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_23.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_23.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Социально-экономическое</p>
+                                            <p>развитие камского</p>
+                                            <p>кластера и факторы</p>
+                                            <p>влияющие на развитие</p>
+                                            <p>ее транспортно-</p>
+                                            <p>-логистической системы</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_24.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_24.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_24.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Разработка корпоративной</p>
+                                            <p>стратегии цепей поставок</p>
+                                            <p>для международной</p>
+                                            <p>компании производителя</p>
+                                            <p>солнечных батарей</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -180,6 +286,75 @@
                         <div class="gray-title-wrap">
                             <div class="gray-title">
                                 <span>примеры выполненых проектов</span>
+                            </div>
+                        </div>
+                        <div class="hexa-wrapp">
+                            <div class="projects_item_row cfix">
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_16.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_16.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_16.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Внедрение эффективной</p>
+                                            <p>службы снабжения</p>
+                                            <p>для ведущей</p>
+                                            <p>логистической компании</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_17.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_17.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_17.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Разработка глобальной</p>
+                                            <p>стратегии цепей поставок</p>
+                                            <p>для международной</p>
+                                            <p>в международной</p>
+                                            <p>транспортно-</p>
+                                            <p>-экспедиционной</p>
+                                            <p>компании”</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -282,6 +457,73 @@
                                 <span>примеры выполненых проектов</span>
                             </div>
                         </div>
+                        <div class="hexa-wrapp">
+                            <div class="projects_item_row cfix">
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_15.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_15.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_15.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Оптимизация морской</p>
+                                            <p>логистики для мирового</p>
+                                            <p>нефтегазового гиганта</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_20.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_20.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_20.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Анализ резервов</p>
+                                            <p>и повышение </p>
+                                            <p>эффективности</p>
+                                            <p>операционной</p>
+                                            <p>операционной</p>
+                                            <p>транспортной компании</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -321,6 +563,42 @@
                                 <span>примеры выполненых проектов</span>
                             </div>
                         </div>
+                        <div class="hexa-wrapp">
+                            <div class="projects_item_row cfix">
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_14.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_14.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_14.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Управление</p>
+                                            <p>организационными</p>
+                                            <p>изменениями</p>
+                                            <p>в международной</p>
+                                            <p>нефтегазовой компании</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -344,6 +622,41 @@
                         <div class="gray-title-wrap">
                             <div class="gray-title">
                                 <span>примеры выполненых проектов</span>
+                            </div>
+                        </div>
+                        <div class="hexa-wrapp">
+                            <div class="projects_item_row cfix">
+                                <div class="projects_items">
+                                    <a href="#">
+                                        <div class="projects_items_img">
+                                            <div class="rectange">
+                                                <div class="rectange-img-wrap">
+                                                    <div class="rectange-img first-layer">
+                                                        <div class="first-layer-wrap">
+                                                            <img src="images/projects_18.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img second-layer">
+                                                        <div class="second-layer-wrap">
+                                                            <img src="images/projects_18.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rectange-img third-layer">
+                                                        <div class="third-layer-wrap">
+                                                            <img src="images/projects_18.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projects_items_text">
+                                            <p>Разработка и внедрение</p>
+                                            <p>управленческих панелей</p>
+                                            <p>для международных</p>
+                                            <p>компаний</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

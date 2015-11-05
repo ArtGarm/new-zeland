@@ -381,6 +381,10 @@
 
 /*/strategy*/
 /*econom*/
+.managment-wrapp .projects_item_row .projects_items {
+  width: 49%;
+}
+
 .managment-wrapp.econom .content-block {
   padding-top: 29px;
 }
@@ -451,6 +455,7 @@
 
 .content-item .gray-title-wrap {
   margin-left: -36px;
+  padding: 10px 0 0;
 }
 
 .content-item .gray-title-wrap .gray-title {
@@ -493,6 +498,15 @@
 
 .operation .text-image img {
   margin: 0 auto;
+  display: block;
+}
+
+.bookmark-page {
+  display: none;
+  min-height: 800px;
+}
+
+.its-a-kind-of-magic {
   display: block;
 }
 
