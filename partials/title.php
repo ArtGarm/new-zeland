@@ -14,6 +14,9 @@
             <? if($act == "services"){ ?>
                 <img src="images/title-services.png" alt="" />
             <? } ?>
+            <? if($act == "projects" || $act == 'project'){ ?>
+                <img src="images/title-project.png" alt="" />
+            <? } ?>
             <? if($act == "services-strategy"){ ?>
                 <img src="images/title-services-strat.png" alt="" />
             <? } ?>
@@ -52,6 +55,9 @@
                 <? } ?>
                 <? if($act == "services-econom"){ ?>
                     Экономические иследования
+                <? } ?>
+                <? if($act == 'projects'){?>
+                    Проекты
                 <? } ?>
              </span>
         </div>

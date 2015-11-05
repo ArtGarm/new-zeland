@@ -1,19 +1,21 @@
-	<div class="footer_placeholder"></div>
+    <div class="footer_placeholder"></div>
 	<footer class="footer">
-        <div class="grey_blog">
-            <div class="mbox">
-                <div class="grey_blog_text">
-                    <div class="grey_blog_text_wrap">
-                        <span>ОСТАЛОСЬ ТОЛЬКО ЗАПОЛНИТЬ</span>
-                        <div class="grey_blog_button">
-                            <a href="#">
-                                <span>ЗАПРОС</span>
-                            </a>
+        <?if($act == 'index'){?>
+            <div class="grey_blog">
+                <div class="mbox">
+                    <div class="grey_blog_text">
+                        <div class="grey_blog_text_wrap">
+                            <span>ОСТАЛОСЬ ТОЛЬКО ЗАПОЛНИТЬ</span>
+                            <div class="grey_blog_button">
+                                <a href="#">
+                                    <span>ЗАПРОС</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        <? } ?>
         <div class="footer-blog">
             <div class="footer-blog-wrap">
                 <div class="mbox">

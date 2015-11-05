@@ -50,6 +50,106 @@
 }
 
 /* /titles */
+/* rectange */
+.specialization-main {
+  text-align: center;
+}
+
+.rectange {
+  display: inline-block;
+  background-color: green;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.rectange .rectange-img-wrap {
+  position: relative;
+  z-index: 1;
+  width: 120px;
+  height: 102px;
+  position: relative;
+}
+
+.rectange .rectange-img {
+  position: absolute;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  width: 60px;
+  height: 102px;
+  left: 30px;
+  top: 0;
+  overflow: hidden;
+  padding: 2px 0;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #000;
+  background-color: red;
+}
+
+.rectange .rectange-img.first-layer {
+  position: relative;
+}
+
+.rectange .rectange-img.first-layer img {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.rectange .rectange-img.second-layer, .rectange .rectange-img.third-layer {
+  height: 102px;
+  width: 60px;
+  top: 0px;
+  left: 30px;
+}
+
+.rectange .rectange-img.second-layer {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.rectange .rectange-img.second-layer img {
+  -webkit-transform: translate(-50%, -50%) rotate(-60deg);
+  -moz-transform: translate(-50%, -50%) rotate(-60deg);
+  -ms-transform: translate(-50%, -50%) rotate(-60deg);
+  -o-transform: translate(-50%, -50%) rotate(-60deg);
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+.rectange .rectange-img.third-layer {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+.rectange .rectange-img.third-layer img {
+  -webkit-transform: translate(-50%, -50%) rotate(60deg);
+  -moz-transform: translate(-50%, -50%) rotate(60deg);
+  -ms-transform: translate(-50%, -50%) rotate(60deg);
+  -o-transform: translate(-50%, -50%) rotate(60deg);
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+.rectange .rectange-img img {
+  position: absolute;
+  max-width: 200px;
+  max-height: 102px;
+  left: 50%;
+  top: 50%;
+}
+
+/* /rectange */
 /* functional-way */
 .functional-way {
   padding-top: 50px;
