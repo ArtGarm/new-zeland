@@ -11,7 +11,7 @@
 
 }
 @media screen and (max-width: 1024px){
-
+    .wrap-content .wrap-top-city .nav-box-wrap {    right: 20px; }
 }
 @media screen and (max-width: 992px){
 
@@ -23,7 +23,20 @@
 
 }
 @media screen and (max-width: 479px){
+    .wrap-content .wrap-bot-form #letter-online .letter-online-popup h1 { text-align: justify; }
+    #letter-online .letter-online-popup form .atribute .convert-left { width: 100%; float: none; }
+    #letter-online .letter-online-popup form .atribute .convert-left p  {text-align: center;}
+    #letter-online .letter-online-popup form .atribute .convert-right  {width: 90%; float: none; margin: 0 auto;}
+    #letter-online .letter-online-popup p {    margin-bottom: 6px;}
+    #letter-online .letter-online-popup form .letter-online-wrap-submit button {width: 90%; margin: 0 auto;}
+    #letter-online .letter-online-popup form .letter-online-wrap-submit {text-align: center;}
+    .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-box p {font-size: 10px;}
+    .wrap-content .wrap-top-city .nav-box-wrap .context-box { min-width: 230px;}
+}
 
+@media screen and (max-width: 419px){
+    .wrap-content .wrap-top-city .nav-box-wrap .context-box{min-width: 160px; }
+    .wrap-content .wrap-top-city .nav-box-wrap .context-box {padding-right: 10px;}
 }
 @media screen and (max-width: 320px){
 

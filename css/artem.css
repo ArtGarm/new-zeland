@@ -126,16 +126,17 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%;
+  width: 35%;
+  float: right;
   color: black;
   cursor: pointer;
+  padding: 1px 0;
+  background-color: #b0bdc8;
+  text-decoration: none;
 }
 
 #call-popup .call-popup .callback-form .form-wrap-for-rows a .no-submit {
-  width: 35%;
-  float: right;
   text-align: center;
-  background-color: #b0bdc8;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -200,10 +201,12 @@
   font-weight: 700;
 }
 
-#letter-online .letter-online-popup h1 {
+#letter-online .letter-online-popup .subtitle {
   font-size: 11px;
   font-family: "Tahoma", sans-serif;
   padding-bottom: 20px;
+  display: block;
+  font-weight: 600;
 }
 
 #letter-online .letter-online-popup form .atribute {
@@ -308,6 +311,9 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
 }
 
 .wrap-content .wrap-top-city {
@@ -460,22 +466,31 @@
   padding-left: 25px;
 }
 
+.wrap-content .wrap-top-city .nav-box-wrap .context-box .context-box p a {
+  text-decoration: underline;
+  color: black;
+}
+
 .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-moskow {
   padding-top: 31px;
+  z-index: 0;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-kazan {
   padding-top: 68px;
+  z-index: 0;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-london {
   padding-top: 108px;
+  z-index: 0;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-active {
   display: inline-block;
   background-color: transparent;
   opacity: 1;
+  z-index: 2;
 }
 
 .wrap-content {

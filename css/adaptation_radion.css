@@ -329,6 +329,25 @@
     float: none;
     width: 100%;
   }
+  #letter-online .letter-online-popup form .atribute .convert-right textarea, #letter-online .letter-online-popup form .atribute .convert-right input {
+    padding: 6px;
+    font-size: 14px;
+  }
+  #letter-online .letter-online-popup .subtitle {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+  }
+  #letter-online .letter-online-popup form .letter-online-wrap-submit {
+    text-align: center;
+  }
+  #letter-online .letter-online-popup form .letter-online-wrap-submit button {
+    width: auto;
+  }
+  #call-popup {
+    padding: 20px;
+    min-width: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
