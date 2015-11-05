@@ -56,7 +56,7 @@
                 <? if($act == "services-econom"){ ?>
                     Экономические иследования
                 <? } ?>
-                <? if($act == 'projects'){?>
+                <? if($act == 'projects' || $act == 'project'){?>
                     Проекты
                 <? } ?>
              </span>

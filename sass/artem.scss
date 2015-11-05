@@ -33,7 +33,7 @@
                     button:hover, button:active, button:focus, button:visited {outline: none;}
                 }
                 a{ box-sizing: border-box; width:35%; float: right; color: black; cursor: pointer; padding: 1px 0;background-color: #b0bdc8; text-decoration: none;
-                .no-submit{ text-align: center; font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 20px;
+                    .no-submit{ text-align: center; font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 20px;
                         .form-input{background-color: #b0bdc8; text-transform: uppercase;  border: none; text-align: center;}
                     }
                 }
@@ -68,7 +68,10 @@
                 }
             }
             .letter-online-wrap-submit{ text-align: right;
-                button{width: 35%;background-color: #b0bdc8; text-transform: uppercase; color: black;font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 20px;  border: none; cursor: pointer;}
+                button{width: 35%;background-color: #b0bdc8; text-transform: uppercase; color: black;font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 20px;  border: none; cursor: pointer;
+                    &:before{content: '>'; font-size: 20px;}
+                }
+
                 button:hover, button:active, button:focus, button:visited {outline: none;}
             }
         }
@@ -131,7 +134,7 @@
     .wrap-bot-form{
         #letter-online .letter-online-popup {width: 100%; max-width: 999px;
             p{display: none;}
-            h1 {font-size: 15px;}
+            h1 {font-size: 15px; padding-bottom: 20px;}
             form .atribute .convert-left{
                 p {display: block; font-size: 15px; font-weight: 400;}
             }
