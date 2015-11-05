@@ -244,7 +244,7 @@
 /* doneproject */
 .doneproject-section {
   position: relative;
-  margin-bottom: -45px;
+  margin-bottom: -66px;
 }
 
 .doneproject-section a {
@@ -267,7 +267,7 @@
   float: right;
   padding: 4px;
   position: relative;
-  top: 50px;
+  top: 70px;
   background-image: url(../images/project-title-bg.png);
   background-repeat: no-repeat;
   z-index: 2;
@@ -292,6 +292,10 @@
   background-position: center;
   z-index: 1;
   padding-bottom: 118px;
+}
+
+.doneproject-section .doneproject-body .mbox {
+  overflow: hidden;
 }
 
 .doneproject-section .doneproject-body .slick-prev.slick-arrow, .doneproject-section .doneproject-body .slick-next.slick-arrow {

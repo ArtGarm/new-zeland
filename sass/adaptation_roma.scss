@@ -48,7 +48,7 @@
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap{padding-bottom: 20px;}
 }
 @media screen and (max-width: 666px){
-	.doneproject-section .doneproject-body{padding-bottom: 100px;background-size: cover;}
+	.doneproject-section .doneproject-body{padding-bottom: 100px;}
 .doneproject-section a{width: 100%;}
 .doneproject-section .doneproject-title-wrap{    width: 82.2%;}
 .doneproject-section .doneproject-body .doneproject-slider .doneproject .text-wrap{    width: 100%;     text-align: center;}
@@ -64,6 +64,10 @@
 .doneproject-section .doneproject-body .slick-prev.slick-arrow, .doneproject-section .doneproject-body .slick-next.slick-arrow{left: 0;}
 .doneproject-section .doneproject-body .slick-next.slick-arrow{right: 0;left: inherit;top: 55%;}
 
+}
+@media screen and (max-width: 480px){
+	.doneproject-section .doneproject-title-wrap {width: 93.2%;}
+	.doneproject-section .doneproject-body .doneproject-slider .doneproject .rectange{width: 25%;}
 }
 @media screen and (max-width: 479px){
 .doneproject-section .doneproject-title-wrap{width: 100%;background-color: #D5E0E6;padding-left: 0;}
