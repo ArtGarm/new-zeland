@@ -12,7 +12,7 @@
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
-                                <div class="image-wrap" style="background-image: url(images/project1.jpg);">
+                                <div class="image-wrap" style="background-image: url(images/projects_1.png);">
                                     <div></div>
                                     <div></div>
                                 </div>
