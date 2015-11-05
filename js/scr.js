@@ -318,6 +318,7 @@ $(window).load(function(){
 
     validate('.callback-form',{submitFunction:validationCall});
     validate('.letter-online-form',{submitFunction:validationCall});
+    validate('.letter-online-page',{submitFunction:validationCall});
     inputNumber($('.inputNum'));
 
     oneHeightItems();

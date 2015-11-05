@@ -5,8 +5,8 @@ function initFancyBox () {
     });
 }
 
-$(document).ready(function() {
-    $('select').styler({
+function onMyDuckReady (){
+     $('select').styler({
         onSelectClosed: function() {
 
             var sel = $('select[name="select-time"]').find('option[value="time-choose"]').prop("selected");
@@ -28,4 +28,24 @@ $(document).ready(function() {
        $.fancybox.close("#call-popup");
     })
 
+    $('.tread-box').click(function(){
+
+        $('.tread-box').removeClass('tread-active');
+        $('.image-box').removeClass('active-img');
+        $('.context-box').removeClass('context-active');
+        $('.box-line').removeClass('box-line-active');
+
+        var ddd = $(this).index();
+
+        $('.tread-box').eq(ddd).addClass('tread-active');
+        $('.image-box').eq(ddd).addClass('active-img');
+        $('.context-box').eq(ddd+1).addClass('context-active');
+        $('.box-line').eq(ddd).addClass('box-line-active');
+
+    });
+
+}
+
+$(document).ready(function() {
+   onMyDuckReady ();
 });

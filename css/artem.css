@@ -240,6 +240,7 @@
   font-size: 12px;
   font-family: "Tahoma", sans-serif;
   border: 1px solid transparent;
+  resize: none;
 }
 
 #letter-online .letter-online-popup form .atribute .convert-right textarea.error, #letter-online .letter-online-popup form .atribute .convert-right input.error {
@@ -299,5 +300,206 @@
   padding-top: 20px;
   font-family: 'Tahoma', sans-serif;
   font-weight: 400;
+  font-size: 15px;
+}
+
+.wrap-content {
+  width: 100%;
+}
+
+.wrap-content .wrap-top-city {
+  position: relative;
+}
+
+.wrap-content .wrap-top-city .convert-city-box {
+  background-color: #f2dc5e;
+  overflow: hidden;
+  width: 100%;
+  height: 495px;
+}
+
+.wrap-content .wrap-top-city .convert-city-box .convert-city {
+  position: relative;
+}
+
+.wrap-content .wrap-top-city .convert-city-box .convert-city .image-box {
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+}
+
+.wrap-content .wrap-top-city .convert-city-box .convert-city .image-box img {
+  width: 100%;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  left: 50%;
+  height: 495px;
+  min-width: 1920px;
+}
+
+.wrap-content .wrap-top-city .convert-city-box .convert-city .moskow-img {
+  z-index: 0;
+}
+
+.wrap-content .wrap-top-city .convert-city-box .convert-city .kazan-img {
+  z-index: 0;
+}
+
+.wrap-content .wrap-top-city .convert-city-box .convert-city .london-img {
+  z-index: 0;
+}
+
+.wrap-content .wrap-top-city .convert-city-box .convert-city .active-img {
+  z-index: 2;
+  opacity: 1;
+}
+
+.wrap-content .wrap-top-city .mbox {
+  margin: 0 auto;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap {
+  position: absolute;
+  z-index: 3;
+  top: 25px;
+  right: 20%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .box-line {
+  position: relative;
+  border-bottom: 1px dotted white;
+  top: 25px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .box-line-moskow {
+  top: 25px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .box-line-kazan {
+  top: 66px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .box-line-london {
+  top: 104px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .box-line-active {
+  opacity: 1;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .nav-box {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .nav-box .tread-box {
+  cursor: pointer;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .nav-box .tread-box p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 29px;
+  color: #546472;
+  text-align: right;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .nav-box .tread-box p:hover {
+  color: #9EA9B3;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .nav-box .tread-active p {
+  color: #fff !important;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .context-box {
+  position: relative;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 25px;
+  min-width: 300px;
+  min-height: 225px;
+  padding-right: 25px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .context-box .context-box {
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+  position: absolute;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .context-box .context-box p {
+  font-family: "Tahoma", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  padding-left: 25px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .context-box .context-moskow {
+  padding-top: 31px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .context-box .context-kazan {
+  padding-top: 68px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .context-box .context-london {
+  padding-top: 108px;
+}
+
+.wrap-content .wrap-top-city .nav-box-wrap .context-box .context-active {
+  display: inline-block;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.wrap-content {
+  background-color: #d7dfe4;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup {
+  width: 100%;
+  max-width: 999px;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup p {
+  display: none;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup h1 {
+  font-size: 15px;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-left p {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-right input {
+  font-size: 15px;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-right textarea {
   font-size: 15px;
 }
