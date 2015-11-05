@@ -315,6 +315,20 @@
   .footer .grey_blog .grey_blog_text_wrap .grey_blog_button a {
     display: inline-block;
   }
+  #letter-online .letter-online-popup form .atribute .convert-left p {
+    margin-right: 0;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+  #letter-online .letter-online-popup form .atribute .convert-left {
+    float: none;
+    width: 100%;
+  }
+  #letter-online .letter-online-popup form .atribute .convert-right {
+    float: none;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 479px) {
