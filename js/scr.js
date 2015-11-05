@@ -308,7 +308,7 @@ function animationBlock(item){
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
-	$('.footer_placeholder').height($('.footer').outerHeight());
+	$('.footer_placeholder').height($('.footer').height());
 
 
 });
@@ -327,7 +327,7 @@ $(window).load(function(){
 
 $(window).resize(function() {
 
-    $('.footer_placeholder').height($('.footer').outerHeight());
+    $('.footer_placeholder').height($('.footer').height());
 });
 
 
