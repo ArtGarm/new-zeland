@@ -63,19 +63,40 @@
                         </div>
                         <div class="hexa-item">
                             <div class="img-item">
-                                .center>.hexagon>.hexagon-in1>.hexagon-in2
+                                <div class="image-wrap" style="background-image: url(images/project1.jpg);">
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="border-project"></div>
+                                <a href="#">
+                                    <div class="hover-project"><p>Подробнее о проекте</p></div>
+                                </a>
                             </div>
                             <div class="text-item"><span>ФЦП “Социально-экономическое развитие Республики Татарстан</span></div>
                         </div>
                         <div class="hexa-item">
                             <div class="img-item">
-                                .center>.hexagon>.hexagon-in1>.hexagon-in2
+                                <div class="image-wrap" style="background-image: url(images/project1.jpg);">
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="border-project"></div>
+                                <a href="#">
+                                    <div class="hover-project"><p>Подробнее о проекте</p></div>
+                                </a>
                             </div>
                             <div class="text-item"><span>Прогноз развития нефтехимической и машиностроительной отраслей камского кластера</span></div>
                         </div>
                         <div class="hexa-item">
                             <div class="img-item">
-                                .center>.hexagon>.hexagon-in1>.hexagon-in2
+                                <div class="image-wrap" style="background-image: url(images/project1.jpg);">
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="border-project"></div>
+                                <a href="#">
+                                    <div class="hover-project"><p>Подробнее о проекте</p></div>
+                                </a>
                             </div>
                             <div class="text-item"><span>Социально-экономическое развитие камского кластера и факторы влияющие на развитие ее транспортно-логистической системы</span></div>
                         </div>
