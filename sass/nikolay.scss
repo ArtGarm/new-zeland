@@ -165,7 +165,11 @@
     /*/strategy*/
     /*econom*/
         .managment-wrapp{
+            .projects_item_row{
+                .projects_items{width: 49%;}
+            }
             &.econom{
+
                 .content-block{  padding-top: 29px;
                     .content-item{padding-bottom: 10px;
                         .text-box{margin-left:0;
@@ -191,7 +195,7 @@
             }
         }
         .content-item{
-            .gray-title-wrap{    margin-left: -36px;
+            .gray-title-wrap{    margin-left: -36px;     padding: 10px 0 0;
                 .gray-title{padding: 5px 0 5px 0;text-align: left; font-size: 20px;padding-left: 36px;}
             }
         }
@@ -212,7 +216,8 @@
                 img{margin: 0 auto; display: block;}
             }
         }
-
+        .bookmark-page{display:none; min-height: 800px;}
+        .its-a-kind-of-magic{display:block;}
     /*operation*/
 /*/service-4page*/
 

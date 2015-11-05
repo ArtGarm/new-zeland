@@ -82,7 +82,7 @@
 
 
 // contact box
-.wrap-content{ width: 100%;box-sizing: border-box;
+.wrap-content{ width: 100%;box-sizing: border-box;z-index: 1;  position: relative; overflow: hidden;
     .wrap-top-city{position: relative;
         .convert-city-box{background-color: #f2dc5e; overflow: hidden; width: 100%;height: 495px;
             .convert-city{position: relative;
@@ -113,12 +113,14 @@
                 }
             .context-box{position: relative; display: inline-block;  background-color: rgba(255, 255, 255, 0.8);padding-bottom:25px;  min-width: 300px; min-height: 225px;  padding-right: 25px;
                 .context-box{ opacity: 0; transition: opacity 500ms ease; position: absolute;
-                    p{font-family: "Tahoma", sans-serif; font-size: 15px; font-weight: 400; color: black; padding-left: 25px;}
+                    p{font-family: "Tahoma", sans-serif; font-size: 15px; font-weight: 400; color: black; padding-left: 25px;
+                        a {text-decoration: underline; color: black; }
+                    }
                 }
-                .context-moskow{padding-top: 31px; }
-                .context-kazan{padding-top: 68px;}
-                .context-london{padding-top: 108px;}
-                .context-active{display: inline-block; background-color: transparent; opacity: 1;}
+                .context-moskow{padding-top: 31px; z-index: 0; }
+                .context-kazan{padding-top: 68px; z-index: 0;}
+                .context-london{padding-top: 108px; z-index: 0;}
+                .context-active{display: inline-block; background-color: transparent; opacity: 1; z-index: 2;}
             }
 
         }
