@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="projects_item_wrap">
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
@@ -102,7 +102,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
@@ -196,7 +196,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
@@ -290,7 +290,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
@@ -385,7 +385,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
@@ -481,7 +481,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
@@ -579,7 +579,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
@@ -680,7 +680,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
