@@ -57,10 +57,10 @@
 
 .rectange {
   display: inline-block;
-  background-color: green;
   position: relative;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px;
+  vertical-align: middle;
+  width: 44%;
 }
 
 .rectange .rectange-img-wrap {

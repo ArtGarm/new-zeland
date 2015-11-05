@@ -548,6 +548,10 @@
   padding-top: 64px;
 }
 
+.projects_wrap .projects_item_wrap {
+  padding-bottom: 50px;
+}
+
 .projects_item_row {
   margin-bottom: 28px;
 }
@@ -584,4 +588,22 @@
   display: table-cell;
   vertical-align: middle;
   padding-left: 12px;
+}
+
+.projects_item_row .rectange .rectange-img:before {
+  top: -3px;
+  width: 104%;
+  background-color: #7f8c95;
+}
+
+.projects_item_row .rectange .rectange-img:after {
+  bottom: -3px;
+  width: 104%;
+  background-color: #7f8c95;
+}
+
+.projects_item_row .rectange {
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: transparent;
 }

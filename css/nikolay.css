@@ -308,5 +308,193 @@
 
 /*/services*/
 /*/clients*/
-/*service-4page*/
+/*service-4page f2dc5e */
+/*strategy*/
+.managment-wrapp {
+  position: relative;
+  z-index: 100;
+}
+
+.managment-wrapp.strategy .content-block {
+  padding-top: 22px;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box {
+  margin-left: 0;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box li {
+  position: relative;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box li:before {
+  background-color: #f2dc5e;
+  width: 7px;
+  height: 7px;
+  content: '';
+  display: block;
+  position: absolute;
+  left: -19px;
+  top: 8px;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box .text-body {
+  padding: 13px 0 18px 20px;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box .text-body:nth-child(1) {
+  padding: 13px 0 18px 0;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box .text-title {
+  padding-bottom: 9px;
+}
+
+.back-bttn-wrapp {
+  text-align: right;
+  margin-bottom: -25px;
+}
+
+.back-bttn-wrapp .back-bttn span {
+  font-size: 15rem;
+  color: #000;
+}
+
+.back-bttn-wrapp .back-bttn span a {
+  text-decoration: none;
+  display: inline-block;
+  width: 53px;
+  height: 27px;
+  text-align: center;
+  padding-top: 4px;
+  margin-left: 5px;
+}
+
+.back-bttn-wrapp .back-bttn span a:hover {
+  background-color: #f2dc5e;
+}
+
+.back-bttn-wrapp .back-bttn span a span {
+  text-transform: uppercase;
+  font-family: 'MyriadProCond';
+}
+
+/*/strategy*/
+/*econom*/
+.managment-wrapp.econom .content-block {
+  padding-top: 29px;
+}
+
+.managment-wrapp.econom .content-block .content-item {
+  padding-bottom: 10px;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box {
+  margin-left: 0;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box li {
+  position: relative;
+  padding-bottom: 22px;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box li:before {
+  width: 14px;
+  height: 81px;
+  content: '';
+  display: block;
+  position: absolute;
+  left: -24px;
+  top: 8px;
+  background-image: url("../images/li-style-1.png");
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box .text-body {
+  padding: 13px 0 9px 23px;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box .text-body:nth-child(1) {
+  padding: 13px 0 9px 3px;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box .text-title {
+  padding-bottom: 9px;
+}
+
+.managment-wrapp.econom .content-block .hexa-wrapp .hexa-item {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.managment-wrapp.econom .content-block .hexa-wrapp .hexa-item .img-item {
+  -webkit-transform: scale(0.65);
+  -moz-transform: scale(0.65);
+  -ms-transform: scale(0.65);
+  -o-transform: scale(0.65);
+  transform: scale(0.65);
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+}
+
+.managment-wrapp.econom .content-block .hexa-wrapp .hexa-item .text-item {
+  display: inline-block;
+  width: 45%;
+}
+
+.managment-wrapp.econom .content-block .hexa-wrapp .hexa-item .text-item span {
+  font-family: 'Tahoma';
+  font-size: 13rem;
+  color: #000;
+}
+
+.content-item .gray-title-wrap {
+  margin-left: -36px;
+}
+
+.content-item .gray-title-wrap .gray-title {
+  padding: 5px 0 5px 0;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 36px;
+}
+
+/*/econom*/
+/*operation*/
+.operation .top-sub-menu {
+  border-bottom: 1px solid #ccc;
+  margin-top: -23px;
+}
+
+.operation .top-sub-menu .sub-menu-wrapp {
+  text-align: justify;
+  width: 72%;
+  float: right;
+}
+
+.operation .top-sub-menu .sub-menu-wrapp .sub-menu-item {
+  display: inline-block;
+  padding-top: 1px;
+}
+
+.operation .top-sub-menu .sub-menu-wrapp .sub-menu-item a {
+  font-family: 'Tahoma';
+  font-size: 9rem;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 3px 18px;
+}
+
+.operation .top-sub-menu .sub-menu-wrapp .sub-menu-item a:hover {
+  background-color: #f2dc5e;
+}
+
+.operation .text-image img {
+  margin: 0 auto;
+  display: block;
+}
+
+/*operation*/
 /*/service-4page*/

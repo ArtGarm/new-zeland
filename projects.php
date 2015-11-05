@@ -8,20 +8,26 @@
                 </div>
             </div>
             <div class="projects_item_wrap">
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_1.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_1.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_1.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_1.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_1.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_1.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -40,13 +46,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_2.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_2.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_2.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_2.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_2.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_2.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -64,13 +76,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_3.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_3.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_3.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_3.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_3.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_3.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -84,20 +102,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_4.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_4.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_4.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_4.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_4.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_4.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -116,13 +140,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_5.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_5.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_5.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_5.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_5.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_5.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -140,13 +170,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_6.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_6.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_6.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_6.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_6.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_6.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -160,20 +196,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_7.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_7.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_7.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_7.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_7.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_7.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -191,13 +233,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_8.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_8.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_8.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_8.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_8.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_8.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -217,13 +265,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_9.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_9.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_9.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_9.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_9.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_9.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -236,20 +290,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_10.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_10.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_10.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_10.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_10.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_10.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -268,13 +328,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_11.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_11.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_11.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_11.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_11.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_11.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -292,13 +358,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_12.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_12.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_12.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_12.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_12.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_12.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -313,20 +385,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_13.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_13.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_13.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_13.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_13.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_13.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -346,13 +424,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_14.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_14.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_14.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_14.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_14.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_14.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -372,13 +456,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_15.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_15.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_15.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_15.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_15.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_15.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -391,20 +481,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_16.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_16.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_16.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_16.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_16.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_16.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -423,13 +519,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_17.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_17.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_17.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_17.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_17.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_17.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -451,13 +553,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_18.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_18.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_18.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_18.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_18.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_18.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -471,20 +579,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_19.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_19.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_19.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_19.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_19.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_19.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -505,13 +619,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_20.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_20.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_20.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_20.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_20.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_20.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -532,13 +652,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_21.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_21.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_21.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_21.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_21.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_21.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -554,20 +680,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="projects_item_row cfix oneHeight">
+                <div class="projects_item_row cfix">
                     <div class="projects_items">
                         <a href="#">
                             <div class="projects_items_img">
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_22.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_22.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_22.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_22.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_22.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_22.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -586,13 +718,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_23.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_23.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_23.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_23.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_23.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_23.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -613,13 +751,19 @@
                                 <div class="rectange">
                                     <div class="rectange-img-wrap">
                                         <div class="rectange-img first-layer">
-                                            <img src="images/projects_24.png" alt="">
+                                            <div class="first-layer-wrap">
+                                                <img src="images/projects_24.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img second-layer">
-                                            <img src="images/projects_24.png" alt="">
+                                            <div class="second-layer-wrap">
+                                                <img src="images/projects_24.png" alt="">
+                                            </div>
                                         </div>
                                         <div class="rectange-img third-layer">
-                                            <img src="images/projects_24.png" alt="">
+                                            <div class="third-layer-wrap">
+                                                <img src="images/projects_24.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -638,3 +782,4 @@
         </div>
     </div>
 </div>
+<?partial('foot-callback')?>

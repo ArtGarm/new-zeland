@@ -132,12 +132,88 @@
     /*/services*/
 /*/clients*/
 
-/*service-4page*/
+/*service-4page f2dc5e */
+    /*strategy*/
 
+        .managment-wrapp{position: relative; z-index: 100;
+            &.strategy{
+                .content-block{    padding-top: 22px;
+                    .content-item{
+                        .text-box{margin-left:0;
+                            li{position: relative;
+                                &:before{background-color: #f2dc5e; width: 7px; height: 7px; content: ''; display: block; position: absolute; left:-19px; top:8px;}
+                            }
+                            .text-body{ padding: 13px 0 18px 20px;
+                                &:nth-child(1){padding: 13px 0 18px 0;}
+                            }
+                            .text-title{    padding-bottom: 9px;}
+                        }
+                    }
+                }
+            }
+        }
+        .back-bttn-wrapp{text-align: right; margin-bottom: -25px;
+            .back-bttn{
+                span{font-size: 15rem; color: #000;
+                    a{text-decoration: none; display: inline-block; width: 53px; height:27px;  text-align: center;padding-top: 4px; margin-left: 5px;
+                        &:hover{background-color: #f2dc5e; }
+                        span{text-transform: uppercase;font-family: 'MyriadProCond';}
+                    }
+                }
+            }
+        }
+    /*/strategy*/
+    /*econom*/
+        .managment-wrapp{
+            &.econom{
+                .content-block{  padding-top: 29px;
+                    .content-item{padding-bottom: 10px;
+                        .text-box{margin-left:0;
+                            li{position: relative;     padding-bottom: 22px;
+                                &:before{ width: 14px; height: 81px; content: ''; display: block; position: absolute; left:-24px; top:8px;background-image: url('../images/li-style-1.png');}
+                            }
+                            .text-body{ padding: 13px 0 9px 23px;
+                                &:nth-child(1){padding: 13px 0 9px 3px;}
+                            }
+                            .text-title{    padding-bottom: 9px;}
+                        }
+
+                    }
+                    .hexa-wrapp{
+                        .hexa-item{ display: inline-block; width:49%; vertical-align: top;
+                            .img-item{transform: scale(0.65);display: inline-block;vertical-align: middle;width:45%;}
+                            .text-item{display: inline-block;width: 45%;
+                                span{font-family: 'Tahoma'; font-size: 13rem; color:#000;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content-item{
+            .gray-title-wrap{    margin-left: -36px;
+                .gray-title{padding: 5px 0 5px 0;text-align: left; font-size: 20px;padding-left: 36px;}
+            }
+        }
+    /*/econom*/
+    /*operation*/
+        .operation{
+            .top-sub-menu{border-bottom: 1px solid #ccc; margin-top: -23px;
+                .sub-menu-wrapp{text-align: justify; width: 72%; float: right;
+                    .sub-menu-item{ display: inline-block;  padding-top: 1px;
+                        a{font-family: 'Tahoma'; font-size: 9rem;color: #000; text-decoration: none;text-align: center;padding: 3px 18px;
+                            &:hover{background-color: #f2dc5e;}
+                        }
+
+                    }
+                }
+            }
+            .text-image{
+                img{margin: 0 auto; display: block;}
+            }
+        }
+
+    /*operation*/
 /*/service-4page*/
-
-
-
-
 
 

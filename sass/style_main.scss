@@ -21,7 +21,7 @@
 
 .specialization-main{text-align: center;}
 
-.rectange{display: inline-block;background-color:green;position: relative;padding-top: 5px;padding-bottom: 5px;
+.rectange{display: inline-block;position: relative;padding: 5px;    vertical-align: middle; width: 44%;
     .rectange-img-wrap{position: relative;z-index: 1;width: 120px;height: 102px;position: relative;}
     .rectange-img{position: absolute;transform-origin:50% 50%;width: 60px;height: 102px;left:30px;top:0;
         &:before{display: block;content: ''; width: 107%; position: absolute;left: 50%;transform:translateX(-50%);top: -6px;height: 2px;background-color: #fff;}
