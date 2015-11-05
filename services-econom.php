@@ -48,57 +48,135 @@
                         </div>
                     </div>
                     <div class="hexa-wrapp">
-                        <div class="hexa-item">
-                            <div class="img-item">
-                                <div class="image-wrap" style="background-image: url(images/project1.jpg);">
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <div class="border-project"></div>
+                       <div class="projects_item_row cfix">
+                            <div class="projects_items">
                                 <a href="#">
-                                    <div class="hover-project"><p>Подробнее о проекте</p></div>
+                                    <div class="projects_items_img">
+                                        <div class="rectange">
+                                            <div class="rectange-img-wrap">
+                                                <div class="rectange-img first-layer">
+                                                    <div class="first-layer-wrap">
+                                                        <img src="images/projects_7.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="rectange-img second-layer">
+                                                    <div class="second-layer-wrap">
+                                                        <img src="images/projects_7.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="rectange-img third-layer">
+                                                    <div class="third-layer-wrap">
+                                                        <img src="images/projects_7.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects_items_text">
+                                        <p>Разработка</p>
+                                        <p>и реализация проекта</p>
+                                        <p>"Социальная ипотека"</p>
+                                    </div>
                                 </a>
                             </div>
-                            <div class="text-item"><span>Разработка и реализация проекта Социальная ипотека</span></div>
+
+                            <div class="projects_items">
+                                <a href="#">
+                                    <div class="projects_items_img">
+                                        <div class="rectange">
+                                            <div class="rectange-img-wrap">
+                                                <div class="rectange-img first-layer">
+                                                    <div class="first-layer-wrap">
+                                                        <img src="images/projects_11.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="rectange-img second-layer">
+                                                    <div class="second-layer-wrap">
+                                                        <img src="images/projects_11.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="rectange-img third-layer">
+                                                    <div class="third-layer-wrap">
+                                                        <img src="images/projects_11.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects_items_text">
+                                        <p>ФЦП “Социально-</p>
+                                        <p>-экономическое развитие</p>
+                                         <p>Республики Татарстан”</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="hexa-item">
-                            <div class="img-item">
-                                <div class="image-wrap" style="background-image: url(images/project1.jpg);">
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <div class="border-project"></div>
+                        <div class="projects_item_row cfix oneHeight">
+                            <div class="projects_items">
                                 <a href="#">
-                                    <div class="hover-project"><p>Подробнее о проекте</p></div>
+                                    <div class="projects_items_img">
+                                        <div class="rectange">
+                                            <div class="rectange-img-wrap">
+                                                <div class="rectange-img first-layer">
+                                                    <div class="first-layer-wrap">
+                                                        <img src="images/projects_22.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="rectange-img second-layer">
+                                                    <div class="second-layer-wrap">
+                                                        <img src="images/projects_22.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="rectange-img third-layer">
+                                                    <div class="third-layer-wrap">
+                                                        <img src="images/projects_22.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects_items_text">
+                                        <p>Прогноз развития</p>
+                                        <p>нефтехимической</p>
+                                        <p>и машиностроительной</p>
+                                        <p>отраслей камского кластера</p>
+                                    </div>
                                 </a>
                             </div>
-                            <div class="text-item"><span>ФЦП “Социально-экономическое развитие Республики Татарстан</span></div>
-                        </div>
-                        <div class="hexa-item">
-                            <div class="img-item">
-                                <div class="image-wrap" style="background-image: url(images/project1.jpg);">
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <div class="border-project"></div>
+
+                            <div class="projects_items">
                                 <a href="#">
-                                    <div class="hover-project"><p>Подробнее о проекте</p></div>
+                                    <div class="projects_items_img">
+                                        <div class="rectange">
+                                            <div class="rectange-img-wrap">
+                                                <div class="rectange-img first-layer">
+                                                    <div class="first-layer-wrap">
+                                                        <img src="images/projects_23.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="rectange-img second-layer">
+                                                    <div class="second-layer-wrap">
+                                                        <img src="images/projects_23.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="rectange-img third-layer">
+                                                    <div class="third-layer-wrap">
+                                                        <img src="images/projects_23.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects_items_text">
+                                        <p>Социально-экономическое</p>
+                                        <p>развитие камского</p>
+                                        <p>кластера и факторы</p>
+                                        <p>влияющие на развитие</p>
+                                        <p>ее транспортно-</p>
+                                        <p>-логистической системы</p>
+                                    </div>
                                 </a>
                             </div>
-                            <div class="text-item"><span>Прогноз развития нефтехимической и машиностроительной отраслей камского кластера</span></div>
-                        </div>
-                        <div class="hexa-item">
-                            <div class="img-item">
-                                <div class="image-wrap" style="background-image: url(images/project1.jpg);">
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <div class="border-project"></div>
-                                <a href="#">
-                                    <div class="hover-project"><p>Подробнее о проекте</p></div>
-                                </a>
-                            </div>
-                            <div class="text-item"><span>Социально-экономическое развитие камского кластера и факторы влияющие на развитие ее транспортно-логистической системы</span></div>
                         </div>
                     </div>
                 </div>
@@ -110,3 +188,4 @@
     </div>
 </div>
 <?partial('foot-callback')?>
+
