@@ -1,5 +1,5 @@
 /*foot-callback*/
-    .foot-contact-wrapp-main{overflow: hidden;text-align: center;width: 100%;}
+    .foot-contact-wrapp-main{overflow: hidden;text-align: center;width: 100%;    z-index: 0;    position: relative;}
     .foot-contact-wrapp{
         .fc-align{
             .fc-img{position: absolute; transform:translateX(-50%); left:50%;
@@ -135,7 +135,7 @@
 /*service-4page f2dc5e */
     /*strategy*/
 
-        .managment-wrapp{position: relative; z-index: 100;
+        .managment-wrapp{position: relative; z-index: 1;
             &.strategy{
                 .content-block{    padding-top: 22px;
                     .content-item{
@@ -220,5 +220,30 @@
         .its-a-kind-of-magic{display:block;}
     /*operation*/
 /*/service-4page*/
+/*project*/
+        .managment-wrapp{
+            &.project{    padding-top: 33px;
+                .menu-block{    width: 29%;
+                    .menu-align{
+                        .menu-title{
+                            a{text-decoration: none;
+                                &:hover{span{color: #d92819;}}
+                            }
+                        }
+                        .menu-item{width: 96%;
+                            span{font-size: 20rem;line-height: 31rem;}
+                        }
+                    }
+                }
+                .content-block{
+                    .content-item{
+                        .text-box{  margin-left: 0px;}
+                    }
+                }
+            }
+        }
+
+
+/*/project*/
 
 

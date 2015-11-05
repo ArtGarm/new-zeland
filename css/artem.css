@@ -274,6 +274,11 @@
   cursor: pointer;
 }
 
+#letter-online .letter-online-popup form .letter-online-wrap-submit button:before {
+  content: '>';
+  font-size: 20px;
+}
+
 #letter-online .letter-online-popup form .letter-online-wrap-submit button:hover, #letter-online .letter-online-popup form .letter-online-wrap-submit button:active, #letter-online .letter-online-popup form .letter-online-wrap-submit button:focus, #letter-online .letter-online-popup form .letter-online-wrap-submit button:visited {
   outline: none;
 }
@@ -508,6 +513,7 @@
 
 .wrap-content .wrap-bot-form #letter-online .letter-online-popup h1 {
   font-size: 15px;
+  padding-bottom: 20px;
 }
 
 .wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-left p {

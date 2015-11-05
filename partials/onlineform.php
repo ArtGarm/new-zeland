@@ -41,7 +41,7 @@
             </div>
 
             <div class="letter-online-wrap-submit form_input">
-                <button type="submit" class="submit-form"><span> >Отправить</span></button>
+                <button type="submit" class="submit-form"><span>Отправить</span></button>
             </div>
 
         </form>

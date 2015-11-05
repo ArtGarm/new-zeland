@@ -3,6 +3,8 @@
   overflow: hidden;
   text-align: center;
   width: 100%;
+  z-index: 0;
+  position: relative;
 }
 
 .foot-contact-wrapp .fc-align .fc-img {
@@ -312,7 +314,7 @@
 /*strategy*/
 .managment-wrapp {
   position: relative;
-  z-index: 100;
+  z-index: 1;
 }
 
 .managment-wrapp.strategy .content-block {
@@ -512,3 +514,34 @@
 
 /*operation*/
 /*/service-4page*/
+/*project*/
+.managment-wrapp.project {
+  padding-top: 33px;
+}
+
+.managment-wrapp.project .menu-block {
+  width: 29%;
+}
+
+.managment-wrapp.project .menu-block .menu-align .menu-title a {
+  text-decoration: none;
+}
+
+.managment-wrapp.project .menu-block .menu-align .menu-title a:hover span {
+  color: #d92819;
+}
+
+.managment-wrapp.project .menu-block .menu-align .menu-item {
+  width: 96%;
+}
+
+.managment-wrapp.project .menu-block .menu-align .menu-item span {
+  font-size: 20rem;
+  line-height: 31rem;
+}
+
+.managment-wrapp.project .content-block .content-item .text-box {
+  margin-left: 0px;
+}
+
+/*/project*/
