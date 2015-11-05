@@ -17,6 +17,29 @@
 
 /* /titles */
 
+/* rectange */
+
+.specialization-main{text-align: center;}
+
+.rectange{display: inline-block;background-color:green;position: relative;padding-top: 5px;padding-bottom: 5px;
+    .rectange-img-wrap{position: relative;z-index: 1;width: 120px;height: 102px;position: relative;}
+    .rectange-img{position: absolute;transform-origin:50% 50%;width: 60px;height: 102px;left:30px;top:0;overflow: hidden;padding: 2px 0;border-width:1px 0;border-style:solid;border-color:#000;background-color:red;
+        &.first-layer{position: relative;
+            img{transform:translate(-50%, -50%);}
+        }
+        &.second-layer, &.third-layer{height: 102px;width: 60px;top:0px;left:30px;}
+        &.second-layer{transform:rotate(60deg);
+            img{transform:translate(-50%, -50%) rotate(-60deg);}
+        }
+        &.third-layer{transform:rotate(-60deg);
+            img{transform:translate(-50%, -50%) rotate(60deg);}
+        }
+        img{position: absolute;max-width: 200px;max-height: 102px;left: 50%;top: 50%;}
+    }
+}
+
+/* /rectange */
+
 /* functional-way */
 
 .functional-way{padding-top:50px;overflow: hidden;}
