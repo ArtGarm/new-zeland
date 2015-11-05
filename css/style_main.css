@@ -82,12 +82,38 @@
   height: 102px;
   left: 30px;
   top: 0;
-  overflow: hidden;
-  padding: 2px 0;
-  border-width: 1px 0;
-  border-style: solid;
-  border-color: #000;
-  background-color: red;
+}
+
+.rectange .rectange-img:before {
+  display: block;
+  content: '';
+  width: 107%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: -6px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.rectange .rectange-img:after {
+  display: block;
+  content: '';
+  width: 107%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -6px;
+  height: 2px;
+  background-color: #fff;
 }
 
 .rectange .rectange-img.first-layer {
@@ -123,6 +149,13 @@
   -ms-transform: translate(-50%, -50%) rotate(-60deg);
   -o-transform: translate(-50%, -50%) rotate(-60deg);
   transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+.rectange .rectange-img .first-layer-wrap, .rectange .rectange-img .second-layer-wrap, .rectange .rectange-img .third-layer-wrap {
+  overflow: hidden;
+  width: 60px;
+  height: 102px;
+  position: relative;
 }
 
 .rectange .rectange-img.third-layer {

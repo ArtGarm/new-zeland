@@ -23,7 +23,9 @@
 
 .rectange{display: inline-block;background-color:green;position: relative;padding-top: 5px;padding-bottom: 5px;
     .rectange-img-wrap{position: relative;z-index: 1;width: 120px;height: 102px;position: relative;}
-    .rectange-img{position: absolute;transform-origin:50% 50%;width: 60px;height: 102px;left:30px;top:0;overflow: hidden;padding: 2px 0;border-width:1px 0;border-style:solid;border-color:#000;background-color:red;
+    .rectange-img{position: absolute;transform-origin:50% 50%;width: 60px;height: 102px;left:30px;top:0;
+        &:before{display: block;content: ''; width: 107%; position: absolute;left: 50%;transform:translateX(-50%);top: -6px;height: 2px;background-color: #fff;}
+        &:after{display: block;content: ''; width: 107%; position: absolute;left: 50%;transform:translateX(-50%);bottom: -6px;height: 2px;background-color: #fff;}
         &.first-layer{position: relative;
             img{transform:translate(-50%, -50%);}
         }
@@ -31,6 +33,8 @@
         &.second-layer{transform:rotate(60deg);
             img{transform:translate(-50%, -50%) rotate(-60deg);}
         }
+        .first-layer-wrap, .second-layer-wrap, .third-layer-wrap{overflow: hidden;width: 60px;height: 102px;position: relative;}
+        
         &.third-layer{transform:rotate(-60deg);
             img{transform:translate(-50%, -50%) rotate(60deg);}
         }
