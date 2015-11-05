@@ -229,6 +229,28 @@
   .top_section_wrap .top_title {
     padding-right: 4%;
   }
+  .projects_item_row .projects_items_text {
+    padding-left: 3px;
+  }
+  .projects_item_row a {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects_items {
+    text-align: center;
+  }
+  .projects_item_row .projects_items_img {
+    width: 100%;
+    display: inline-block;
+  }
+  .projects_item_row .projects_items_text {
+    width: 100%;
+    display: inline-block;
+    padding-left: 0;
+    padding-top: 10px;
+  }
 }
 
 @media screen and (max-width: 666px) {
@@ -302,6 +324,15 @@
   }
   .footer .footer-blog-wrap .footer-blog-middle-side li:after {
     right: 2px;
+  }
+  .projects_item_row .projects_items {
+    width: 100%;
+    float: none;
+    display: block;
+    margin-bottom: 31px;
+  }
+  .projects_item_row {
+    margin-bottom: 0;
   }
 }
 
