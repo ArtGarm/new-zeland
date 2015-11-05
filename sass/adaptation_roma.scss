@@ -2,28 +2,78 @@
 
 }
 @media screen and (max-width: 1600px){
-
+ .doneproject-section .doneproject-title-wrap{width: 63%;padding-left: 60px;}
+  .bottomsection-section .top-arrow{padding-top: 0;}
 }
 @media screen and (max-width: 1366px){
-
+ .doneproject-section .doneproject-title-wrap{width: 65.2%;}
 }
 @media screen and (max-width: 1280px){
-
+ .doneproject-section .doneproject-title-wrap{width: 66.2%;}
 }
 @media screen and (max-width: 1024px){
-
+ .doneproject-section .doneproject-title-wrap{width: 70.2%;}
 }
 @media screen and (max-width: 992px){
-
+ .aboutus-section .aboutus-title-wrap{    top: 2px;}
+ .doneproject-section .doneproject-title-wrap{width: 70.9%;}
+ .aboutus-section .aboutus-body{padding-left: 30px;}
+ .bottomsection-section .top-arrow h2{padding: 0px 30px;
+ 	span{word-spacing: 0;text-align: center;}
+ }
+ .aboutus-section .aboutus-body .aboutus-list{    width: 100%;}
+}
+@media screen and (max-width: 768px){
+.aboutus-section .aboutus-title-wrap {top: 14px;}
+.doneproject{}
+.aboutus-section .aboutus-body .aboutus-list .aboutus p{position: relative;
+	&:before{top: 50%;transform: translateY(-50%);    left: -35px;}
+}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .doneproject-img{width: 25%;}
+.doneproject-section .doneproject-body .slick-prev.slick-arrow, .doneproject-section .doneproject-body .slick-next.slick-arrow{left: -30px;}
+.doneproject-section .doneproject-body .slick-next.slick-arrow{    right: -30px;left: inherit;}
+.doneproject-section .doneproject-title-wrap{    width: 76.9%;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .text-wrap{    width: 74%;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .doneproject-img:hover .hover-project{left: -83px;}
+.bottomsection-section .top-arrow h2 span{font-size: 20px;}
+.bottomsection-section .top-arrow h2{font-size: 19px;}
+.bottomsection-section .top-arrow{padding-bottom: 120px;}
 }
 @media screen and (max-width: 767px){
-
+.doneproject-section .doneproject-title-wrap{    width: 81.2%;}
+.aboutus-section .aboutus-title-wrap{    top: 27px;}
+.bottomsection-section .top-arrow h2 span{font-size: 17px;}
+.bottomsection-section .top-arrow h2{font-size: 16px;}
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap{padding-bottom: 20px;}
 }
 @media screen and (max-width: 666px){
+.doneproject-section a{width: 100%;}
+.doneproject-section .doneproject-title-wrap{    width: 93.2%;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .text-wrap{    width: 100%; }
+.aboutus-section .aboutus-title-wrap,.aboutus-section a{    top: 20px;}
+.aboutus-section .aboutus-body .aboutus-list{font-size: 13px;}
+.bottomsection-section .top-arrow h2 span{font-size: 16px;}
+.bottomsection-section .top-arrow h2{font-size: 12px;}
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap{    width: calc(100% - 20px);float: none;margin:0 auto; margin-bottom: 40px;}
+.bottomsection-section .bottomsection-info{    font-size: 16px;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .doneproject-img{width: 100%}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .doneproject-img:hover .hover-project{      left: 129px;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .doneproject-img .image-wrap{    left: 50%; transform: translateX(-75%);}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .doneproject-img .border-project{    left: 122px;}	
+.doneproject-section .doneproject-body .slick-prev.slick-arrow, .doneproject-section .doneproject-body .slick-next.slick-arrow{left: 0;}
+.doneproject-section .doneproject-body .slick-next.slick-arrow{right: 0;left: inherit;}
 
 }
 @media screen and (max-width: 479px){
-
+.doneproject-section .doneproject-title-wrap{width: 100%;background-color: #D5E0E6;padding-left: 0;}
+.doneproject-section .doneproject-title-wrap .doneproject-title{font-size: 21px;text-align: center;}
+.aboutus-section .aboutus-body{background-size: cover;}
+.aboutus-section .aboutus-title-wrap, .aboutus-section a{top: 31px;text-align: center;}
+.bottomsection-section .top-arrow h2{background-color: #fff;}
+.bottomsection-section .top-arrow{padding-bottom: 80px;}
+.bottomsection-section .bottomsection-info{    font-size: 14px;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .doneproject-img .border-project{  left: 22%;}	
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .doneproject-img:hover .hover-project{          left: 24%;}
 }
 @media screen and (max-width: 320px){
 
