@@ -13,8 +13,12 @@
   width: 29%;
 }
 
+.header_wrap .header_logo a {
+  display: inline-block;
+}
+
 .header_wrap .header_logo img {
-  max-width: 50%;
+  max-width: 52%;
 }
 
 .header_wrap .header-nav {
@@ -44,6 +48,7 @@
 .header_wrap .header-nav ul a {
   text-decoration: none;
   color: #546472;
+  font-size: 15px;
 }
 
 .header_wrap .header-nav ul li {
@@ -98,7 +103,7 @@
 
 .header_wrap .header_leng:after {
   position: absolute;
-  height: 50%;
+  height: 37%;
   right: 48.4%;
   top: 0;
   border-right: 2px dotted #546472;
@@ -116,11 +121,13 @@
 .header_wrap .header_leng li {
   float: left;
   width: 50%;
-  padding-top: 20px;
   text-align: center;
-  padding-bottom: 7px;
   position: relative;
   z-index: 1;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 
 .header_wrap .header_leng li.active a {
@@ -139,6 +146,13 @@
   color: #546472;
   text-decoration: none;
   font-size: 10px;
+  padding-bottom: 7px;
+  padding-top: 20px;
+  display: inline-block;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 
 .header_wrap .header_right {
@@ -172,6 +186,10 @@
   text-decoration: none;
 }
 
+.header_wrap .header_right .header_tel_row a:hover {
+  text-decoration: underline;
+}
+
 .header_wrap .header_right .header_tel {
   padding-left: 12%;
   padding-top: 10px;
@@ -192,6 +210,10 @@
   background-color: #d8dee2;
   padding: 3px 2px;
   text-transform: uppercase;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 
 .header_wrap .header_right .header_button a.zvonok {
@@ -339,6 +361,10 @@
   border-radius: 50%;
   padding-top: 10px;
   margin-top: 9px;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
 }
 
 .top_section_wrap .top_section_button a span {
@@ -510,6 +536,14 @@
   font-size: 14px;
 }
 
+.footer .footer-blog-wrap .footer-blog-middle-side li a:hover {
+  text-decoration: underline;
+}
+
 .footer .footer-blog-wrap .copywriting {
   padding-bottom: 6px;
+}
+
+.projects_wrap .gray-title-wrap {
+  padding-top: 64px;
 }

@@ -17,20 +17,50 @@
 
 /* /titles */
 
+/* rectange */
+
+.specialization-main{text-align: center;}
+
+.rectange{display: inline-block;background-color:green;position: relative;padding-top: 5px;padding-bottom: 5px;
+    .rectange-img-wrap{position: relative;z-index: 1;width: 120px;height: 102px;position: relative;}
+    .rectange-img{position: absolute;transform-origin:50% 50%;width: 60px;height: 102px;left:30px;top:0;overflow: hidden;padding: 2px 0;border-width:1px 0;border-style:solid;border-color:#000;background-color:red;
+        &.first-layer{position: relative;
+            img{transform:translate(-50%, -50%);}
+        }
+        &.second-layer, &.third-layer{height: 102px;width: 60px;top:0px;left:30px;}
+        &.second-layer{transform:rotate(60deg);
+            img{transform:translate(-50%, -50%) rotate(-60deg);}
+        }
+        &.third-layer{transform:rotate(-60deg);
+            img{transform:translate(-50%, -50%) rotate(60deg);}
+        }
+        img{position: absolute;max-width: 200px;max-height: 102px;left: 50%;top: 50%;}
+    }
+}
+
+/* /rectange */
+
 /* functional-way */
 
 .functional-way{padding-top:50px;overflow: hidden;}
 .functional-way-wrap{margin: 0px -3px 0 -3px;overflow: hidden;}
 .functional-way-col{display: inline-block;vertical-align: top;width: calc(25% - 9.3rem);margin:0 3px;}
-.functional-way-title{display: table;height: 96px;width: 100%;text-align: center;margin-bottom: 7px;
+.functional-way-title{display: table;height: 96px;width: 100%;text-align: center;margin-bottom: 7px;position: relative;z-index: 1;
     >a, >span{display: table-cell;vertical-align: middle;font-family: 'MyriadProCond', sans-serif;color:#fff;text-decoration: none;background-color: #1d457f;color:#fff;font-size: 25px;text-transform: uppercase;padding: 0 5px;}
-    >a:hover{background-color: #f2dc5e;color:#000;}
+    >a{position: relative;transition:color 300ms ease;
+        span{position: relative;z-index: 1;}
+        &:before{content: '';display: block;position: absolute;left:0;top: 0;right: 0;bottom:0;background-color:#f2dc5e;transform:scale(0);transition:transform 300ms ease;}
+        &:hover{color:#000;
+            &:before{transform:scale(1);}
+        }
+    }
 }
-.functional-way-list{padding-top: 5px;border-top:1px solid #7f8c95;
-    li{
-       a{display: block;text-align: right;padding:7px 10px 9px 5px;font-family: Tahoma, sans-serif;text-decoration: none;color:#000101;font-size: 13px;
-        &:hover{background-color:#f2dc5e;}
+.functional-way-list{padding-top: 5px;border-top:1px solid #7f8c95;position: relative;z-index: 1;
+    li{position: relative;
+       a{display: block;text-align: right;padding:7px 10px 9px 5px;font-family: Tahoma, sans-serif;text-decoration: none;color:#000101;font-size: 13px;position: relative;z-index: 1;
        }
+       &:before{content: '';display: block;position: absolute;right: 0;height: 100%;background-color:#f2dc5e;width: 0;transition:width 300ms ease;z-index: 0}
+       &:hover:before{width: 100%;}
     }
 }
 
@@ -38,8 +68,9 @@
     .functional-way-title{
         >a, >span{background-color: transparent;color:#d92819;font-size: 24px;font-family: 'PT Sans Narrow', sans-serif;}
     }
-    .functional-way-col{
-        &:hover{background-color: #e3e9ed;}
+    .functional-way-col{position: relative;
+        &:before{content: '';display: block;position: absolute;left: 0;top: 0;right:0;bottom:0;background-color: #e3e9ed;transform:scale(0);transition:transform 300ms ease;}
+        &:hover:before{transform:scale(1);}
     }
 }
 
@@ -54,9 +85,9 @@
 .specialization-wrap{text-align: center;margin:0 -15px;
     li{display: inline-block;vertical-align: top;width: calc(25% - 3.3rem);padding:0 15px;margin-bottom: 20px;
         a{display: table;font-size: 18px;color:#fff;font-weight: 700;text-decoration: none;width: 100%;padding:0 15px;border:1px solid #fff;border-radius: 3px;background-color: rgba(0,45,111,.8);position: relative;
-            &:before{content: '';position: absolute;z-index: 0;background-color: #0b1d4a;top: 0;left: 0;bottom: 0;right:0;display: none;}
+            &:before{content: '';position: absolute;z-index: 0;background-color: #0b1d4a;top: 0;left: 0;bottom: 0;right:0;opacity: 0;transition:opacity 300ms ease, left 300ms ease, top 300ms ease, bottom 300ms, right 300ms;display: block;}
             span{display: table-cell;vertical-align: middle;text-align: center;padding:10px 0 10px 0;position: relative;z-index: 1;}
-            &:hover:before{display: block;left: -10px;top: -10px;bottom:-10px;right:-10px;}
+            &:hover:before{left: -10px;top: -10px;bottom:-10px;right:-10px;opacity: 1;}
         }
     }
 }

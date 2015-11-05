@@ -45,4 +45,18 @@
         </div>
     </div>
 
+    <div class="rectange">
+        <div class="rectange-img-wrap">
+            <div class="rectange-img first-layer">
+                <img src="images/project1.jpg" alt="" />
+            </div>
+            <div class="rectange-img second-layer">
+                <img src="images/project1.jpg" alt="" />
+            </div>
+            <div class="rectange-img third-layer">
+                <img src="images/project1.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+
 </div>
