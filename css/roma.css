@@ -3,6 +3,7 @@
   background-image: url(../images/bottomsection-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  overflow: hidden;
 }
 
 .bottomsection-section .top-arrow {
@@ -253,7 +254,7 @@
   height: 40px;
   position: absolute;
   right: 0;
-  top: 50px;
+  top: 70px;
   z-index: 3;
   outline: none;
 }
@@ -278,7 +279,7 @@
 }
 
 .doneproject-section .doneproject-title-wrap .doneproject-title {
-  text-align: left;
+  text-align: right;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 26px;
   text-transform: uppercase;
