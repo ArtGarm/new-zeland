@@ -49,7 +49,7 @@
 
 .specialization-main{position: relative;padding-top:102px;overflow: hidden;}
 .specialization{background-image:url(../images/specialization-bg.png);background-position: center top;border-bottom: 12px solid #f2dc5e;padding: 0px 0 20px 0;position: relative;z-index: 1;position: relative;
-    &:before{content: '';display: block;height: 102px;width: 100%;background-image:url(../images/specialization-top-bg.png);background-position:center top;position: absolute;top: -102px;}
+    &:before{content: '';display: block;height: 102px;width: 100%;background-image:url(../images/specialization-top-bg.png);background-position:center top;position: absolute;top: -101px;}
 }
 .specialization-wrap{text-align: center;margin:0 -15px;
     li{display: inline-block;vertical-align: top;width: calc(25% - 3.3rem);padding:0 15px;margin-bottom: 20px;
