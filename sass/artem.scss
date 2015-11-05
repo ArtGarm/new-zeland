@@ -32,8 +32,8 @@
                     button{width: 100%; background-color: #b0bdc8; text-transform: uppercase; color: black; font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 20px; border: none; width: 100%; cursor: pointer;}
                     button:hover, button:active, button:focus, button:visited {outline: none;}
                 }
-                a{ box-sizing: border-box; width: 100%;color: black; cursor: pointer;
-                .no-submit{width:35%; float: right; text-align: center; background-color: #b0bdc8;font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 20px;
+                a{ box-sizing: border-box; width:35%; float: right; color: black; cursor: pointer; padding: 1px 0;background-color: #b0bdc8; text-decoration: none;
+                .no-submit{ text-align: center; font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 20px;
                         .form-input{background-color: #b0bdc8; text-transform: uppercase;  border: none; text-align: center;}
                     }
                 }

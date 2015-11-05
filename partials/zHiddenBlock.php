@@ -51,7 +51,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <a class="form-button-close" href="#">
+                            <a class="form-button-close cfix" href="#">
                                 <div class="form-wrap-value no-submit">
                                     <div class="form-wrap-input">Отмена</div>
                                 </div>
