@@ -3,14 +3,15 @@ $yellow:#f2dc5e;
 .header_wrap{display: table;width: 100%;
     &>div{display: table-cell;vertical-align: top;}
     .header_logo{width: 29%;
-        img{max-width: 50%;}
+        a{display: inline-block;}
+        img{max-width: 52%;}
     }
     .header-nav{width: 43%;vertical-align: bottom;font-family: 'Tahoma';font-size: 15px;
         ul{margin:0;padding: 0;list-style-type: none;
             &>li{width: 16.5%;float: left;border-bottom:4px solid transparent;text-align: center;
                 &.active{border-bottom:4px solid $yellow;}
             }
-            a{text-decoration: none;color: #546472;}
+            a{text-decoration: none;color: #546472;font-size: 15px;}
             li{position: relative;}
         }
         .next{position: absolute;left: 0;top: 18px;padding: 4px 0;width: 100%;min-width:230px;background-color: $yellow;display: none;
@@ -24,16 +25,16 @@ $yellow:#f2dc5e;
         }
     }
     .header_leng{width: 7%;vertical-align: top;position: relative;
-        &:after{position: absolute;height: 50%;right: 48.4%;top: 0;border-right:2px dotted #546472;content: '';z-index: 2;}
+        &:after{position: absolute;height: 37%;right: 48.4%;top: 0;border-right:2px dotted #546472;content: '';z-index: 2;}
         ul{list-style-type: none;margin: 0;width: 100%;padding: 0;}
-        li{float: left;width: 50%;padding-top: 20px;text-align: center;padding-bottom: 7px;position: relative;z-index: 1;
+        li{float: left;width: 50%;text-align: center;position: relative;z-index: 1;transition:all ease .2s;
             &.active{
                 a{color: #d92819;}
             }
             &:hover{background-color: $yellow;
                 a{color: #000;}}
         }
-        a{color: #546472;text-decoration: none;font-size: 10px;}
+        a{color: #546472;text-decoration: none;font-size: 10px;padding-bottom: 7px;padding-top: 20px;display: inline-block;transition:all ease .2s;}
     }
     .header_right{width: 21%;
         .header_tel_row{font-size: 12rem;color: #000;
@@ -42,11 +43,13 @@ $yellow:#f2dc5e;
                 &.london{background-image: url(../images/london.png);}
             }
             span{}
-            a{font-size: 11px;color: #000;text-decoration: none;}
+            a{font-size: 11px;color: #000;text-decoration: none;
+                &:hover{text-decoration: underline;}
+            }
         }
         .header_tel{padding-left: 12%;padding-top: 10px}
         .header_button{text-align: center;padding-top: 6px;padding-left: 12%;
-            a{width: 48%;display: inline-block;color: #485762;font-size: 9px;text-decoration: none;background-color: #d8dee2;padding: 3px 2px;text-transform: uppercase;
+            a{width: 48%;display: inline-block;color: #485762;font-size: 9px;text-decoration: none;background-color: #d8dee2;padding: 3px 2px;text-transform: uppercase;transition:all ease .2s;
                 &.zvonok{background-color: #8e99a1;color:white;}
                 &:hover{background-color: $yellow;color: #000;}
             }
@@ -86,7 +89,7 @@ $yellow:#f2dc5e;
                 a{height: 52px;width: 52px;margin-top: 3px;padding-top: 16px;}
             }
         }
-        a{text-decoration: none;font-size: 13px;color: #000;background-color: #f2dc5e;height: 41px;width: 41px;display: inline-block;border-radius: 50%;padding-top: 10px;margin-top: 9px;
+        a{text-decoration: none;font-size: 13px;color: #000;background-color: #f2dc5e;height: 41px;width: 41px;display: inline-block;border-radius: 50%;padding-top: 10px;margin-top: 9px;transition:all ease .2s;
            span{position: relative;z-index: 1;
                 &:after{position: absolute;content: '';height: 75px;left: 50%;top:50%;border:1px dotted #95abc2;transform: translate(-50%,-50%);z-index: 1;}
                 b{position: relative;z-index: 2;display: inline-block;background-color: #f2dc5e;font-weight: normal;}
@@ -127,7 +130,9 @@ $yellow:#f2dc5e;
                 &:last-child{margin-right: 0;
                     &:after{display: none;}
                 }
-                a{font-family: "Tahoma",sans-serif;text-decoration: none;font-size: 14px;}
+                a{font-family: "Tahoma",sans-serif;text-decoration: none;font-size: 14px;
+                    &:hover{text-decoration: underline;}
+                }
             }
         }
         .copywriting{padding-bottom: 6px;}
