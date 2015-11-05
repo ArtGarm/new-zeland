@@ -308,5 +308,134 @@
 
 /*/services*/
 /*/clients*/
-/*service-4page*/
+/*service-4page f2dc5e */
+/*strategy*/
+.managment-wrapp {
+  position: relative;
+  z-index: 100;
+}
+
+.managment-wrapp.strategy .content-block {
+  padding-top: 22px;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box {
+  margin-left: 0;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box li {
+  position: relative;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box li:before {
+  background-color: #f2dc5e;
+  width: 7px;
+  height: 7px;
+  content: '';
+  display: block;
+  position: absolute;
+  left: -19px;
+  top: 8px;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box .text-body {
+  padding: 13px 0 18px 20px;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box .text-body:nth-child(1) {
+  padding: 13px 0 18px 0;
+}
+
+.managment-wrapp.strategy .content-block .content-item .text-box .text-title {
+  padding-bottom: 9px;
+}
+
+.back-bttn-wrapp {
+  text-align: right;
+  margin-bottom: -25px;
+}
+
+.back-bttn-wrapp .back-bttn span {
+  font-size: 15rem;
+  color: #000;
+}
+
+.back-bttn-wrapp .back-bttn span a {
+  text-decoration: none;
+  display: inline-block;
+  width: 53px;
+  height: 27px;
+  text-align: center;
+  padding-top: 4px;
+  margin-left: 5px;
+}
+
+.back-bttn-wrapp .back-bttn span a:hover {
+  background-color: #f2dc5e;
+}
+
+.back-bttn-wrapp .back-bttn span a span {
+  text-transform: uppercase;
+  font-family: 'MyriadProCond';
+}
+
+/*/strategy*/
+/*econom*/
+.managment-wrapp.econom .content-block {
+  padding-top: 29px;
+}
+
+.managment-wrapp.econom .content-block .content-item {
+  padding-bottom: 10px;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box {
+  margin-left: 0;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box li {
+  position: relative;
+  padding-bottom: 22px;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box li:before {
+  width: 14px;
+  height: 81px;
+  content: '';
+  display: block;
+  position: absolute;
+  left: -24px;
+  top: 8px;
+  background-image: url("../images/li-style-1.png");
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box .text-body {
+  padding: 13px 0 9px 23px;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box .text-body:nth-child(1) {
+  padding: 13px 0 9px 3px;
+}
+
+.managment-wrapp.econom .content-block .content-item .text-box .text-title {
+  padding-bottom: 9px;
+}
+
+.managment-wrapp.econom .content-block .content-item .gray-title-wrap {
+  margin-left: -36px;
+}
+
+.managment-wrapp.econom .content-block .content-item .gray-title-wrap .gray-title {
+  padding: 5px 0 5px 0;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 36px;
+}
+
+/*/econom*/
 /*/service-4page*/
+/* width: 0;
+    height: 0;
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: #f2dc5e transparent transparent transparent; */
