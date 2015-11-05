@@ -1,6 +1,6 @@
 $yellow:#f2dc5e;
 /*header*/
-.header_wrap{display: table;width: 100%;
+.header_wrap{display: table;width: 100%;min-height: 80px;
     &>div{display: table-cell;vertical-align: top;}
     .header_logo{width: 29%;
         a{display: inline-block;}
