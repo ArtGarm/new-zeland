@@ -42,8 +42,13 @@
                     .foto-box{float:left;}
                     .text-box{ padding-top: 3px; margin-left: 187px; color: #000;
                         .text-title{span{font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;font-size: 22rem;}}
+                        .text-title2{span{font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;font-size: 18rem;color:#546472;}}
                         .text-body{padding: 13px 0 0;
                             p{font-family: 'Tahoma'; font-size: 15rem;text-align: justify;line-height: 22px;}
+                            i{text-style:none; color:#546472;font-family: 'Tahoma'; font-size: 15rem;}
+                            a{text-decoration: none;
+                                  &:hover{i{color:red;}}
+                            }
                         }
                     }
                 }
@@ -237,7 +242,9 @@
                 }
                 .content-block{
                     .content-item{
-                        .text-box{  margin-left: 0px;}
+                        .text-box{  margin-left: 0px;
+                            .text-body{    padding: 13px 0 22px;}
+                        }
                     }
                 }
             }
@@ -245,5 +252,29 @@
 
 
 /*/project*/
-
+/*news*/
+    .managment-wrapp{
+            &.news{    padding-top: 33px;
+                .menu-block{    width: 29%;
+                    .menu-align{
+                        .menu-title{
+                            a{text-decoration: none;
+                                &:hover{span{color: #d92819;}}
+                            }
+                        }
+                        .menu-item{width: 96%;
+                            span{font-size: 20rem;line-height: 31rem;}
+                        }
+                    }
+                }
+                .content-block{
+                    .content-item{
+                        .text-box{  margin-left: 0px;
+                            .text-body{    padding: 13px 0 22px;}
+                        }
+                    }
+                }
+            }
+        }
+/*/news*/
 
