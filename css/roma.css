@@ -573,16 +573,4 @@
   font-size: 12px;
 }
 
-.doneproject-section:before {
-  display: block;
-  content: '';
-  width: 0;
-  height: 0;
-  border-bottom: 96px solid white;
-  border-left: 747px solid transparent;
-  position: absolute;
-  bottom: 0px;
-  right: 0;
-}
-
 /* /doneproject */
