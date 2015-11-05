@@ -5,7 +5,14 @@
 }
 
 .text-title-wrap{margin-bottom: 33px;
-    .text-title{text-align: center;font-family: 'Open Sans Condensed', sans-serif;color:#465460;font-size: 29px;font-weight: 700;text-decoration: underline;}
+    &.white-color .text-title{color:#fff;
+        span:after{background-color: #fff;}
+    }
+    .text-title{text-align: center;font-family: 'Open Sans Condensed', sans-serif;color:#465460;font-size: 29px;font-weight: 700;
+        span{display: inline-block;position: relative;
+            &:after{content: '';display: block;position: absolute;top:100%;left:0;height: 1px;background-color:#465460;width: 100%;}
+        }
+    }
 }
 
 /* /titles */
@@ -38,14 +45,40 @@
 
 /* /functional-way */
 
+/* specialization */
+
+.specialization-main{position: relative;padding-top:102px;overflow: hidden;}
+.specialization{background-image:url(../images/specialization-bg.png);background-position: center top;border-bottom: 12px solid #f2dc5e;padding: 0px 0 20px 0;position: relative;z-index: 1;position: relative;
+    &:before{content: '';display: block;height: 102px;width: 100%;background-image:url(../images/specialization-top-bg.png);background-position:center top;position: absolute;top: -101px;}
+}
+.specialization-wrap{text-align: center;margin:0 -15px;
+    li{display: inline-block;vertical-align: top;width: calc(25% - 3.3rem);padding:0 15px;margin-bottom: 20px;
+        a{display: table;font-size: 18px;color:#fff;font-weight: 700;text-decoration: none;width: 100%;padding:0 15px;border:1px solid #fff;border-radius: 3px;background-color: rgba(0,45,111,.8);position: relative;
+            &:before{content: '';position: absolute;z-index: 0;background-color: #0b1d4a;top: 0;left: 0;bottom: 0;right:0;display: none;}
+            span{display: table-cell;vertical-align: middle;text-align: center;padding:10px 0 10px 0;position: relative;z-index: 1;}
+            &:hover:before{display: block;left: -10px;top: -10px;bottom:-10px;right:-10px;}
+        }
+    }
+}
+
+/* /specialization */
+
 
 @media screen and (max-width: 992px){
 
     /* functional-way */
 
-    .functional-way-col{width: calc(50% - 8.3rem);margin-bottom: 25px;}
+    .functional-way-col{width: calc(50% - 8.3rem);margin-bottom: 25px;
+
+    }
 
     /* /fucntional-way */
+
+    /* specialization */
+
+    .specialization-wrap li{width: calc(33.33% - 3.3rem);}
+
+    /* /specialization */
 
 }
 @media screen and (max-width: 767px){
@@ -65,6 +98,12 @@
 
     /* /functional-way */
 
+    /* specialization */
+
+    .specialization-wrap li{width: calc(50% - 3.3rem);}
+
+    /* /specialization */
+
 }
 @media screen and (max-width: 479px){
 
@@ -75,5 +114,17 @@
     .functional-way-list li a{text-align: center;}
 
     /* /functional-way */
+
+    /* specialization */
+
+    .specialization-wrap li{width: 100%;margin-bottom: 15px;}
+
+    /* /specialization */
+
+    /* titles */
+
+    .text-title-wrap .text-title{font-size: 20px;}
+
+    /* /titles */
 
 }

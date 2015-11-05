@@ -180,7 +180,7 @@
 				</div>
 				<div class="header_right">
 					<div class="header_tel">
-						<div class="header_tel_wrap">
+						<div class="header_tel_wrap cfix">
 							<div class="header_tel_row">
 								<span class="icon moscow"></span>
 								<span>Москва:</span>
@@ -199,8 +199,8 @@
 						</div>
 					</div>
 					<div class="header_button cfix">
-						<a href="#" class="online"><span>ОН-ЛАЙН ЗАЯВКА</span></a>
-						<a href="#" class="zvonok"><span>ЗАКАЗАТЬ ЗВОНОК</span></a>
+						<a href="#letter-online" class="online fancybox"><span>ОН-ЛАЙН ЗАЯВКА</span></a>
+						<a href="#wrappp" class="zvonok fancybox"><span>ЗАКАЗАТЬ ЗВОНОК</span></a>
 					</div>
 				</div>
 				<div class="sendwich-icon">

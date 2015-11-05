@@ -1,6 +1,9 @@
 @media screen and (max-width: 1024px) {
-  .header_wrap {
-    background-color: pink;
+  .header {
+    position: relative;
+  }
+  .header .mbox {
+    position: static;
   }
   .header_wrap .header_logo {
     max-width: 30%;
@@ -24,7 +27,7 @@
   .header_wrap .header_leng {
     position: absolute;
     top: 0;
-    left: 52%;
+    right: 9%;
   }
   .header_wrap .sendwich-icon {
     width: 30rem;
@@ -109,6 +112,8 @@
   .header_wrap .header-nav ul > li a {
     display: block;
     padding: 6px 0px;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
   .header_wrap .header-nav .next {
     position: relative;
@@ -122,5 +127,104 @@
     position: relative;
     left: 0;
     top: 0;
+  }
+  .header_wrap .header-nav .next li.arrow-next:after {
+    display: none;
+  }
+  .header_wrap .arrow-next a span {
+    position: relative;
+  }
+  .header_wrap li.arrow-next > a span:after {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    right: -18px;
+    top: 3px;
+    background: url("../images/head_arrow.png") center center no-repeat;
+    content: '';
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .header_wrap .header_right {
+    width: 54%;
+  }
+  .header_wrap .header_right .header_tel {
+    padding-left: 0;
+  }
+  .header_wrap .header_right .header_button {
+    padding-left: 0;
+    padding-top: 15px;
+  }
+  .header_wrap .header_right .header_button a {
+    padding: 6px 2px;
+    font-size: 12px;
+  }
+  .header_wrap .header_right .header_tel_row {
+    width: 33%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header_wrap .header_logo img {
+    max-width: 100%;
+  }
+  .header_wrap .header_logo {
+    width: 19%;
+  }
+  .header_wrap .header_right {
+    width: 63%;
+    padding: 0 2%;
+  }
+  .header_wrap .header_right .header_button {
+    padding-top: 8px;
+  }
+  .header_wrap .header_right .header_tel_row {
+    text-align: center;
+  }
+  .header_wrap .header_leng a {
+    font-size: 12px;
+  }
+  .header_wrap .header_leng li {
+    float: none;
+    width: 100%;
+    padding-top: 0;
+  }
+  .header_wrap .header_leng:after {
+    display: none;
+  }
+  .header_wrap .header_leng {
+    top: 18px;
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .header_wrap .header_logo {
+    width: 100%;
+    max-width: 100%;
+  }
+  .header_wrap .header_right {
+    width: 100%;
+    padding: 0 1% 6%;
+  }
+  .header_wrap .sendwich-icon {
+    position: relative;
+    float: right;
+  }
+  .header_wrap {
+    padding-bottom: 6%;
+  }
+  .header_wrap .header-nav {
+    top: 100%;
+  }
+  .header_wrap .header_leng {
+    bottom: 20px;
+    right: auto;
+    top: auto;
+    left: 19px;
   }
 }
