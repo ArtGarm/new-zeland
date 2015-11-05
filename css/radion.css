@@ -2,6 +2,7 @@
 .header_wrap {
   display: table;
   width: 100%;
+  min-height: 80px;
 }
 
 .header_wrap > div {

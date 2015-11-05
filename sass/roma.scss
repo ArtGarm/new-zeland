@@ -1,6 +1,6 @@
 /* bottomsection */
 
-.bottomsection-section{background-image: url(../images/bottomsection-bg.jpg);background-repeat: no-repeat;background-position: center;
+.bottomsection-section{background-image: url(../images/bottomsection-bg.jpg);background-repeat: no-repeat;background-position: center;overflow: hidden;
 	.top-arrow{position: relative;padding-bottom: 100px;padding-top: 26px;
 		h2{font-family: 'Open Sans Condensed', sans-serif;color: #000;font-size: 21px; font-weight: 700;text-align: center;padding-left: 42px;letter-spacing: 0.5px;line-height: 1.5;
 			span{color: #d92819;font-size: 25px;display: block;text-align: justify;width: 100%;padding-top: 3px;word-spacing: 11px;letter-spacing: 0;}
@@ -58,13 +58,14 @@
 
 /* doneproject */
 
-.doneproject-section{position: relative;margin-bottom: -45px;
-	a{display: inline-block;width: 60%;height: 40px;position: absolute;right: 0;top: 50px;z-index: 3;outline: none;}
+.doneproject-section{position: relative;margin-bottom: -66px;
+	a{display: inline-block;width: 60%;height: 40px;position: absolute;right: 0;top: 70px;z-index: 3;outline: none;}
 	a:hover+.doneproject-title-wrap{background-image: url(../images/project-title-hover.png);}
-	.doneproject-title-wrap{width: 61%;float: right;padding: 4px;position: relative;top: 50px;background-image: url(../images/project-title-bg.png);background-repeat: no-repeat;    z-index: 2;transition:all 300ms ease;
-		.doneproject-title{text-align: left;font-family: 'PT Sans Narrow', sans-serif;font-size: 26px;text-transform: uppercase;color: #465460;font-weight: 100;}
+	.doneproject-title-wrap{width: 61%;float: right;padding: 4px;position: relative;top: 70px;background-image: url(../images/project-title-bg.png);background-repeat: no-repeat;    z-index: 2;transition:all 300ms ease;
+		.doneproject-title{text-align: right;font-family: 'PT Sans Narrow', sans-serif;font-size: 26px;text-transform: uppercase;color: #465460;font-weight: 100;}
 	}
 	.doneproject-body{background-image: url(../images/project-bg.png);background-repeat: no-repeat;background-position: center;z-index: 1;padding-bottom: 118px;
+		.mbox{overflow: hidden;}
 		.slick-prev.slick-arrow,.slick-next.slick-arrow {outline:none;cursor:pointer;position: absolute;background-image: url(../images/arrow.png);background-repeat: no-repeat;width: 33px;height: 89px;background-color: transparent;border: 0;transform: rotate(180deg) translateY(-20%);text-indent: -9999px;left: -50px;
 			&:hover{background-image: url(../images/arrow-hover.png);}
 		}
@@ -89,7 +90,7 @@
 /* romb */
 
 
-.hover-project{z-index:12;width: 177px;height: 102.19px;background-color: #001C59;margin: 51.10px 0;position: absolute;top: -96px;transform: rotate(30deg)  scale(0.591);left: -77px;opacity: 0;transition:all 300ms ease;
+.hover-project{z-index:12;width: 177px;height: 102.19px;background-color: #001C59;margin: 51.10px 0;position: absolute;top: -116px;transform: rotate(30deg)  scale(0.591);left: -77px;opacity: 0;transition:all 300ms ease;
 	&:before,&:after{content: "";position: absolute;width: 0;border-left: 88.5px solid transparent;border-right: 88.5px solid transparent;}
 	&:before{bottom: 99%;border-bottom: 51.10px solid #001C59;}
 	&:after{top: 99%;width: 0;border-top: 51.10px solid #001C59;}

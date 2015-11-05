@@ -3,6 +3,7 @@
   background-image: url(../images/bottomsection-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  overflow: hidden;
 }
 
 .bottomsection-section .top-arrow {
@@ -244,7 +245,7 @@
 /* doneproject */
 .doneproject-section {
   position: relative;
-  margin-bottom: -45px;
+  margin-bottom: -66px;
 }
 
 .doneproject-section a {
@@ -253,7 +254,7 @@
   height: 40px;
   position: absolute;
   right: 0;
-  top: 50px;
+  top: 70px;
   z-index: 3;
   outline: none;
 }
@@ -267,7 +268,7 @@
   float: right;
   padding: 4px;
   position: relative;
-  top: 50px;
+  top: 70px;
   background-image: url(../images/project-title-bg.png);
   background-repeat: no-repeat;
   z-index: 2;
@@ -278,7 +279,7 @@
 }
 
 .doneproject-section .doneproject-title-wrap .doneproject-title {
-  text-align: left;
+  text-align: right;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 26px;
   text-transform: uppercase;
@@ -292,6 +293,10 @@
   background-position: center;
   z-index: 1;
   padding-bottom: 118px;
+}
+
+.doneproject-section .doneproject-body .mbox {
+  overflow: hidden;
 }
 
 .doneproject-section .doneproject-body .slick-prev.slick-arrow, .doneproject-section .doneproject-body .slick-next.slick-arrow {
@@ -369,7 +374,7 @@
   background-color: #001C59;
   margin: 51.10px 0;
   position: absolute;
-  top: -96px;
+  top: -116px;
   -webkit-transform: rotate(30deg) scale(0.591);
   -moz-transform: rotate(30deg) scale(0.591);
   -ms-transform: rotate(30deg) scale(0.591);
