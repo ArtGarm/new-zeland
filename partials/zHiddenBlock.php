@@ -42,7 +42,7 @@
                             </div>
                         </div>
 
-                        <div class="form-wrap-row ">
+                        <div class="form-wrap-row cfix">
                             <div class="form-wrap-value submit">
                                 <div class="form-wrap-input">
                                     <button class="form-button" type="submit">
