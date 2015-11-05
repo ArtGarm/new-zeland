@@ -112,6 +112,12 @@ $yellow:#f2dc5e;
     #letter-online .letter-online-popup form .atribute .convert-left p{margin-right: 0;text-align: center;font-size: 15px;margin-bottom: 7px;}
     #letter-online .letter-online-popup form .atribute .convert-left{float: none;width: 100%;}
     #letter-online .letter-online-popup form .atribute .convert-right{float: none;width: 100%;}
+    #letter-online .letter-online-popup form .atribute .convert-right textarea, #letter-online .letter-online-popup form .atribute .convert-right input{padding: 6px;font-size: 14px;}
+    #letter-online .letter-online-popup .subtitle{font-size: 15px;font-weight: 500;text-align: center;}
+    #letter-online .letter-online-popup form .letter-online-wrap-submit{text-align: center;}
+    #letter-online .letter-online-popup form .letter-online-wrap-submit button{width: auto;}
+
+    #call-popup{padding: 20px;min-width:auto;}
 }
 @media screen and (max-width: 479px){
     .footer .footer-blog-wrap .footer-blog-middle-side li{padding-right: 9px;margin: 0 -1px;}

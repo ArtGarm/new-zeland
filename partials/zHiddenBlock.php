@@ -42,7 +42,7 @@
                             </div>
                         </div>
 
-                        <div class="form-wrap-row ">
+                        <div class="form-wrap-row cfix">
                             <div class="form-wrap-value submit">
                                 <div class="form-wrap-input">
                                     <button class="form-button" type="submit">
@@ -51,7 +51,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <a class="form-button-close" href="#">
+                            <a class="form-button-close cfix" href="#">
                                 <div class="form-wrap-value no-submit">
                                     <div class="form-wrap-input">Отмена</div>
                                 </div>
