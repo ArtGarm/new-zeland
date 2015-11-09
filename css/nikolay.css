@@ -246,6 +246,14 @@
 /*/company*/
 /*/about*/
 /*clients*/
+.petro-img {
+  overflow: hidden;
+}
+
+.petro-img img {
+  max-width: none;
+}
+
 .clients-wrapp .clients-align .slider .slide-item {
   height: 220px;
 }

@@ -100,6 +100,10 @@
 /*/about*/
 
 /*clients*/
+
+    .petro-img{overflow: hidden;
+        img{max-width: none;}
+    }
     .clients-wrapp{
         .clients-align{
             .slider{

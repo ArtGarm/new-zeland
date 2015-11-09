@@ -1,6 +1,7 @@
 <div class="clients-wrapp">
+    <div class="petro-img"><img src="images/petro.png" alt=""></div>
     <div class="client-title-wrapp">
-        <div class="petro-img"><img src="images/petro.png" alt=""></div>
+
         <div class="mbox">
             <div class="clients-title"><span>клиенты</span></div>
 
