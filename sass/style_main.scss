@@ -85,9 +85,8 @@
 
 /* specialization */
 
-.specialization-main{position: relative;top: -32px;}
+.specialization-main{position: relative;top: -99px;}
 .specialization{background-image:url(../images/specialization-bg.jpg);background-position: center top;border-bottom: 12px solid #f2dc5e;padding: 0px 0 49px 0;position: relative;z-index: 1;background-attachment: fixed;padding-top: 102px;
-    &:before{content:'';display: block;position: absolute;width: 100%;top: 0px;height: 102px;background-image: url(../images/specialization-top-bg.png);z-index: 2;background-position: center center;}
     .text-title-wrap{position: relative;top: -17px;margin-bottom: 38px;}
 
 }

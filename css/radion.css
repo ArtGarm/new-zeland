@@ -234,8 +234,14 @@
 
 /*top section*/
 .top_section_wrap {
-  min-height: 605px;
-  background: url("../images/top_section.jpg") center center no-repeat;
+  min-height: 665px;
+  background: url("../images/top_section_bg.png") center center no-repeat;
+  position: relative;
+  z-index: 2;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .top_section_wrap .top_title {
