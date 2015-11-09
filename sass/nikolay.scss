@@ -101,9 +101,15 @@
 
 /*clients*/
 
-    .petro-img{overflow: hidden;width: 100%;    margin-top: -95px; position: relative;}
+    .petro-img{overflow: hidden;     margin-bottom: -46px;
+        .petro-align{ position: relative;
+            .petro-wrapp{position: absolute; left:50%;transform:translateX(-50%);
+                img{  max-width: none;}
+            }
+        }
+    }
 
-    .clients-wrapp{    padding-bottom: 11px;
+    .clients-wrapp{    padding-bottom: 11px;     margin-top: -83px;
         .clients-align{
             .slider{
                 .slide-item{  height: 220px;
@@ -140,7 +146,7 @@
                 }
             }
         }
-        .client-title-wrapp{ margin: -47px 0 0;
+        .client-title-wrapp{
             .clients-title{    padding: 6px 19px 4px;
                 span{    font-family: 'PT Sans Narrow', sans-serif;    font-size: 26px;    text-transform: uppercase;    color: #465460;    font-weight: 100;}
             }
