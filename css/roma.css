@@ -247,6 +247,7 @@
 .doneproject-section {
   position: relative;
   /*margin-bottom: -66px;*/
+  overflow: hidden;
 }
 
 .doneproject-section:after {
@@ -302,7 +303,7 @@
   background: url(../images/project-bg-paralacks.jpg) center center no-repeat;
   background-attachment: fixed;
   z-index: 1;
-  padding-bottom: 71px;
+  padding-bottom: 115px;
 }
 
 .doneproject-section .doneproject-body .mbox {
