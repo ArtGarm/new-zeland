@@ -39,19 +39,28 @@
 .bottomsection-section .top-arrow{padding-bottom: 120px;}
 
 /*dev4*/
-.doneproject-section .doneproject-title-wrap {width: 72.5%;height: 36px;top: 10px;padding-right: 30px;}
+.doneproject-section .doneproject-title-wrap {width: 72.5%;height: 36px;top: -2px;padding-right: 30px;}
 .doneproject-section .doneproject-title-wrap .doneproject-title{font-size: 19px;}
-.doneproject-section a{top: 10px;}
+.doneproject-section a{top: 0px;}
 .doneproject-section .doneproject-body{background-image: url(../images/project-bg-768.png);padding-bottom: 0;}
 .doneproject-section .doneproject-body .doneproject-slider{padding-top: 40px;}
 .doneproject-section{margin-bottom: -43px;}
 
-.rectange .rectange-img-wrap {width: 90px;height: 80px;}
-.rectange .rectange-img{width: 44px;height: 78px;left: 30px;top: 0;}
-.rectange .rectange-img.second-layer, .rectange .rectange-img.third-layer {height: 78px;width: 44px;top: 0px;left: 30px;}
-.rectange .rectange-img .first-layer-wrap, .rectange .rectange-img .second-layer-wrap, .rectange .rectange-img .third-layer-wrap {width: 44px;height: 78px;}
-.rectange .rectange-img:before{width: 118%;top: -5px;height: 1px;}
-.rectange .rectange-img:after{width: 118%;left: 50%;bottom: -5px;height: 1px;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .rectange {width: 44%;padding: 5px;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .text-wrap{width: 54%;}
+.doneproject-section .doneproject-body .doneproject-slider {padding-top: 40px;padding-bottom: 62px;}
+
+.hover-project {z-index: 12;width: 140px;height: 85.19px;background-color: #001C59;margin: 52.1px 0;position: absolute;top: -50px;-webkit-transform: rotate(30deg) scale(0.591);-moz-transform: rotate(30deg) scale(0.591);-ms-transform: rotate(30deg) scale(0.591);-o-transform: rotate(30deg) scale(0.591);transform: rotate(30deg) scale(0.565);left: -77px;opacity: 0;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .rectange:hover .hover-project {
+    left: -53px;}
+.hover-project:before, .hover-project:after {content: "";position: absolute;width: 0;border-left: 70px solid transparent;border-right: 70px solid transparent;}
+.hover-project:before {bottom: 99%;border-bottom: 40px solid #001C59;}
+.hover-project:after {top: 99%;width: 0;border-top: 40px solid #001C59;}
+.hover-project p {transform: rotate(-30deg);font-family: tahoma;color: #f1dc5e;font-size: 14rem;text-align: center;padding: 22px 13px 0px 0px;position: relative;z-index: 0;}
+.doneproject-section .doneproject-body .doneproject-slider .doneproject .text-wrap p{font-size: 9px;font-weight: normal;}
+.doneproject-section .doneproject-body .slick-prev.slick-arrow, .doneproject-section .doneproject-body .slick-next.slick-arrow{width: 35px;height: 60px;background-position: center center;}
+.doneproject-section .doneproject-body .slick-next.slick-arrow{top: 21%;}
+.doneproject-section .doneproject-body .slick-next.slick-arrow {right: -30px;left: inherit}
 
 }
 @media screen and (max-width: 767px){
