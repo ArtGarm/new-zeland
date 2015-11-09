@@ -370,6 +370,7 @@
 
 .functional-index .functional-way-list {
   padding-top: 10px;
+  border-top: 2px solid #7f8c95;
 }
 
 .functional-index .functional-way-list li a {
