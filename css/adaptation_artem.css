@@ -1,3 +1,9 @@
+@media screen and (max-width: 1366px) {
+  .aboutus-section:after {
+    border-width: 0 430px 52px 0;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .wrap-content .wrap-top-city .nav-box-wrap {
     right: 20px;
