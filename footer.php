@@ -1,6 +1,6 @@
     <div class="footer_placeholder"></div>
 	<footer class="footer">
-        <?if($act == 'index'){?>
+        <?if($act == 'index' || $act == 'none'){?>
             <div class="grey_blog">
                 <div class="mbox">
                     <div class="grey_blog_text">

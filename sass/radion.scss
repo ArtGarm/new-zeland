@@ -107,7 +107,7 @@ $yellow:#f2dc5e;
             span{margin-right: 20px;}
             &>div{display: inline-block;}
             a{text-decoration: none;color: inherit;color: #000000;}
-            .grey_blog_button{position: relative;z-index: 2;
+            .grey_blog_button{position: relative;z-index: 2;margin-right: 36px;
                 a{position: relative;
                     span{position: relative;z-index: 6;color: #000000;}
                     &:after{position: absolute;height: 80px;width: 80px;content: '';background-color: $yellow;top: -22px;left: -2px;z-index: 1;border-radius: 50%;transition:all ease .3s;}
@@ -121,16 +121,18 @@ $yellow:#f2dc5e;
         }
     }
     .footer-blog{padding-bottom: 49px;}
-    .footer-blog-wrap{font-family: "Tahoma",sans-serif;color: #546472;font-size: 12px;padding-top: 30px;
-        .footer-blog-middle-side{float: left;width: 50%;
+    .footer-blog-wrap{font-family: "Tahoma",sans-serif;color: #546472;font-size: 12px;padding-top: 33px;
+        .mbox{padding: 0 3px;}
+        .footer-blog-middle-side{float: left;width: 50%;position: relative;
+            &:last-child{top: -2px;right:-5px;}
             a{font-family: "Tahoma",sans-serif;color: #546472;font-size: 12px;}
-            ul{padding-left: 21%;}
-            li{float: left;padding-right: 14px;position: relative;
+            ul{float: right;}
+            li{float: left;padding-right: 21px;position: relative;
                 &:after{content: '';position: absolute;right: 6px;top: 0;width: 1px;height: 100%;background-color: #546472;}
-                &:last-child{margin-right: 0;
+                &:last-child{padding-right: 0;
                     &:after{display: none;}
                 }
-                a{font-family: "Tahoma",sans-serif;text-decoration: none;font-size: 14px;
+                a{font-family: "Tahoma",sans-serif;text-decoration: none;font-size: 13px;
                     &:hover{text-decoration: underline;}
                 }
             }
