@@ -381,13 +381,13 @@
 .wrap-content .wrap-top-city .nav-box-wrap {
   position: absolute;
   z-index: 3;
-  top: 25px;
+  top: 17px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  right: -webkit-calc(50% - 450px);
-  right: -moz-calc(50% - 450px);
-  right: calc(50% - 450px);
+  right: -webkit-calc(50% - 507px);
+  right: -moz-calc(50% - 507px);
+  right: calc(50% - 507px);
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .box-line {
@@ -402,15 +402,15 @@
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .box-line-moskow {
-  top: 25px;
+  top: 13px;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .box-line-kazan {
-  top: 66px;
+  top: 56px;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .box-line-london {
-  top: 104px;
+  top: 94px;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .box-line-active {
@@ -420,7 +420,7 @@
 .wrap-content .wrap-top-city .nav-box-wrap .nav-box {
   display: inline-block;
   vertical-align: top;
-  padding-top: 20px;
+  padding-top: 11px;
   margin-right: 20px;
 }
 
@@ -434,6 +434,7 @@
   font-size: 29px;
   color: #546472;
   text-align: right;
+  text-transform: uppercase;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .nav-box .tread-box p:hover {
@@ -449,9 +450,9 @@
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.8);
   padding-bottom: 25px;
-  min-width: 300px;
+  min-width: 270px;
   min-height: 225px;
-  padding-right: 25px;
+  padding-right: 10px;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-box {
@@ -465,10 +466,11 @@
 
 .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-box p {
   font-family: "Tahoma", sans-serif;
+  line-height: 21px;
   font-size: 15px;
   font-weight: 400;
   color: black;
-  padding-left: 25px;
+  padding-left: 18px;
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-box p a {
@@ -477,7 +479,7 @@
 }
 
 .wrap-content .wrap-top-city .nav-box-wrap .context-box .context-moskow {
-  padding-top: 31px;
+  padding-top: 22px;
   z-index: 0;
 }
 
@@ -502,9 +504,16 @@
   background-color: #d7dfe4;
 }
 
-.wrap-content .wrap-bot-form #letter-online .letter-online-popup {
+.wrap-content .wrap-bot-form {
   width: 100%;
-  max-width: 999px;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup {
+  max-width: 1040px;
+  margin-left: -webkit-calc(100%/2 - 1040px/2);
+  margin-left: -moz-calc(100%/2 - 1040px/2);
+  margin-left: calc(100%/2 - 1040px/2);
+  padding-top: 15px;
 }
 
 .wrap-content .wrap-bot-form #letter-online .letter-online-popup p {
@@ -514,18 +523,58 @@
 .wrap-content .wrap-bot-form #letter-online .letter-online-popup h1 {
   font-size: 15px;
   padding-bottom: 20px;
+  line-height: 21px;
+  padding-top: 2px;
+  text-align: justify;
+  margin-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute {
+  margin: 0 auto;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-left {
+  width: 33.1%;
 }
 
 .wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-left p {
   display: block;
   font-size: 15px;
   font-weight: 400;
+  margin-right: 6px;
+  margin-bottom: 22px;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-right {
+  width: 66.5%;
 }
 
 .wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-right input {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .wrap-content .wrap-bot-form #letter-online .letter-online-popup form .atribute .convert-right textarea {
   font-size: 15px;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .letter-online-wrap-submit {
+  padding-top: 23px;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .letter-online-wrap-submit button {
+  background-color: #b0bdc8;
+  margin-right: -14%;
+  width: 268px;
+  text-align: left;
+  text-transform: none;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .letter-online-wrap-submit button span {
+  font-size: 18px;
+  font-family: "Tahoma", sans-serif;
+}
+
+.wrap-content .wrap-bot-form #letter-online .letter-online-popup form .letter-online-wrap-submit button:before {
+  padding-left: 16px;
 }
