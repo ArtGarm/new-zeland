@@ -18,8 +18,13 @@
 @media screen and (max-width: 992px){
 
 }
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 768px){
+    .rectange .rectange-img-wrap {width: 90px;height: 80px;}
+    .rectange .rectange-img{width: 44px;height: 78px;left: 30px;top: 0;}
+    .rectange .rectange-img.second-layer, .rectange .rectange-img.third-layer {height: 78px;width: 44px;top: 0px;left: 30px;}
+    .rectange .rectange-img .first-layer-wrap, .rectange .rectange-img .second-layer-wrap, .rectange .rectange-img .third-layer-wrap {width: 44px;height: 78px;}
+    .rectange .rectange-img:before{width: 118%;top: -5px;height: 1px;}
+    .rectange .rectange-img:after{width: 118%;left: 50%;bottom: -5px;height: 1px;}
 }
 @media screen and (max-width: 666px){
 
