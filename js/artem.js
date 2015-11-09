@@ -7,7 +7,7 @@ function initFancyBox () {
 }
 
 function onMyDuckReady (){
-     $('select').styler({
+    $('select').styler({
         onSelectClosed: function() {
 
             var sel = $('select[name="select-time"]').find('option[value="time-choose"]').prop("selected");
