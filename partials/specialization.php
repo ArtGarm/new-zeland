@@ -4,7 +4,7 @@
 
             <div class="text-title-wrap white-color">
                 <div class="text-title">
-                    <span>ФУНКЦИОНАЛЬНЫЕ НАПРАВЛЕНИЯ</span>
+                    <span>ОТРАСЛЕВАЯ СПЕЦИАЛИЗАЦИЯ</span>
                 </div>
             </div>
 

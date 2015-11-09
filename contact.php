@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <div class="wrap-bot-form mbox">
+    <div class="wrap-bot-form ">
         <div id="letter-online">
             <div class="letter-online-popup">
                 <p>ОН-ЛАЙН ЗАЯВКА</p>
@@ -95,9 +95,9 @@
                         </div>
                     </div>
                     <div class="atribute cfix">
-                        <div class="convert-left"><p>Описание запроса</p></div>
+                        <div class="convert-left"><p>Описание запроса консультационных услуг</p></div>
                         <div class="convert-right form_input">
-                            <textarea class="atribute-caption atrr-texter" rows="10" cols="50"></textarea>
+                            <textarea class="atribute-caption atrr-texter" rows="8" cols="50"></textarea>
                         </div>
                     </div>
 

@@ -2,8 +2,9 @@
 .bottomsection-section {
   background-image: url(../images/bottomsection-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   overflow: hidden;
+  background-attachment: fixed;
 }
 
 .bottomsection-section .top-arrow {
