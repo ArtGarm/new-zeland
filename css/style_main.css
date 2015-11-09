@@ -376,6 +376,10 @@
   position: relative;
 }
 
+.specialization .text-title-wrap {
+  margin-top: -17px;
+}
+
 .specialization:before {
   content: '';
   display: block;
@@ -384,7 +388,7 @@
   background-image: url(../images/specialization-top-bg.png);
   background-position: center top;
   position: absolute;
-  top: -101px;
+  top: -85px;
 }
 
 .specialization-wrap {
