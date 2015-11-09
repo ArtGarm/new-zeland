@@ -8,7 +8,7 @@
 <div class="title-wrapp">
     <div class="title-main mbox">
         <div class="title-img">
-            <? if($act == 'about-company' || $act == 'about-price' || $act == 'about-managment' ){?>
+            <? if($act == 'about-company' || $act == 'about-price' || $act == 'about-managment' || $act == 'news' ){?>
                 <img src="images/title-about.png" >
             <? } ?>
             <? if($act == "services"){ ?>
@@ -56,8 +56,11 @@
                 <? if($act == "services-econom"){ ?>
                     Экономические иследования
                 <? } ?>
-                <? if($act == 'projects'){?>
+                <? if($act == 'projects' || $act == 'project'){?>
                     Проекты
+                <? } ?>
+                <? if($act == 'projects' || $act == 'news'){?>
+                    новости
                 <? } ?>
              </span>
         </div>

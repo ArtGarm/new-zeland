@@ -3,6 +3,8 @@
   overflow: hidden;
   text-align: center;
   width: 100%;
+  z-index: 0;
+  position: relative;
 }
 
 .foot-contact-wrapp .fc-align .fc-img {
@@ -141,6 +143,13 @@
   font-size: 22rem;
 }
 
+.managment-wrapp .content-block .content-item .text-box .text-title2 span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 18rem;
+  color: #546472;
+}
+
 .managment-wrapp .content-block .content-item .text-box .text-body {
   padding: 13px 0 0;
 }
@@ -150,6 +159,21 @@
   font-size: 15rem;
   text-align: justify;
   line-height: 22px;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-body i {
+  text-style: none;
+  color: #546472;
+  font-family: 'Tahoma';
+  font-size: 15rem;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-body a {
+  text-decoration: none;
+}
+
+.managment-wrapp .content-block .content-item .text-box .text-body a:hover i {
+  color: red;
 }
 
 .menu-block {
@@ -312,7 +336,7 @@
 /*strategy*/
 .managment-wrapp {
   position: relative;
-  z-index: 100;
+  z-index: 1;
 }
 
 .managment-wrapp.strategy .content-block {
@@ -512,3 +536,73 @@
 
 /*operation*/
 /*/service-4page*/
+/*project*/
+.managment-wrapp.project {
+  padding-top: 33px;
+}
+
+.managment-wrapp.project .menu-block {
+  width: 29%;
+}
+
+.managment-wrapp.project .menu-block .menu-align .menu-title a {
+  text-decoration: none;
+}
+
+.managment-wrapp.project .menu-block .menu-align .menu-title a:hover span {
+  color: #d92819;
+}
+
+.managment-wrapp.project .menu-block .menu-align .menu-item {
+  width: 96%;
+}
+
+.managment-wrapp.project .menu-block .menu-align .menu-item span {
+  font-size: 20rem;
+  line-height: 31rem;
+}
+
+.managment-wrapp.project .content-block .content-item .text-box {
+  margin-left: 0px;
+}
+
+.managment-wrapp.project .content-block .content-item .text-box .text-body {
+  padding: 13px 0 22px;
+}
+
+/*/project*/
+/*news*/
+.managment-wrapp.news {
+  padding-top: 33px;
+}
+
+.managment-wrapp.news .menu-block {
+  width: 29%;
+}
+
+.managment-wrapp.news .menu-block .menu-align .menu-title a {
+  text-decoration: none;
+}
+
+.managment-wrapp.news .menu-block .menu-align .menu-title a:hover span {
+  color: #d92819;
+}
+
+.managment-wrapp.news .menu-block .menu-align .menu-item {
+  width: 96%;
+}
+
+.managment-wrapp.news .menu-block .menu-align .menu-item span {
+  font-size: 20rem;
+  line-height: 31rem;
+}
+
+.managment-wrapp.news .content-block .content-item .text-box {
+  margin-left: 0px;
+}
+
+.managment-wrapp.news .content-block .content-item .text-box .text-body {
+  padding: 13px 0 22px;
+}
+
+/*/news*/
