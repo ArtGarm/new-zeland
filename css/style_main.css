@@ -403,6 +403,7 @@
   height: 102px;
   background-image: url(../images/specialization-top-bg.png);
   z-index: 2;
+  background-position: center center;
 }
 
 .specialization .text-title-wrap {
