@@ -161,51 +161,71 @@
 /* aboutus */
 .aboutus-section {
   position: relative;
-}
-
-.aboutus-section a {
-  display: block;
-  width: 100%;
-  height: 47px;
-  z-index: 3;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.aboutus-section a:hover + .aboutus-title-wrap {
-  background-color: #FADD52;
+  background-image: url(../images/paralax-last-1-img.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
 }
 
 .aboutus-section .aboutus-title-wrap {
   padding: 5px 0px 5px;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 26px;
-  text-transform: uppercase;
-  color: #465460;
-  font-weight: 100;
-  position: absolute;
-  width: 100%;
-  top: 3px;
   background-color: #D5E0E6;
   z-index: 1;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
+  -webkit-border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
+  -moz-border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
+  border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
+  height: 43px;
+  width: -webkit-calc(100%/2 - 999px/2 + 708px);
+  width: -moz-calc(100%/2 - 999px/2 + 708px);
+  width: calc(100%/2 - 999px/2 + 708px);
+}
+
+.aboutus-section .aboutus-title-wrap:hover {
+  background-color: #FADD52;
+}
+
+.aboutus-section .aboutus-title-wrap a {
+  display: block;
+  width: 100%;
+  height: 47px;
+  z-index: 3;
+  text-decoration: none;
+}
+
+.aboutus-section .aboutus-title-wrap a:hover {
+  text-decoration: none;
 }
 
 .aboutus-section .aboutus-title-wrap .aboutus-title {
-  padding-left: 20px;
   word-spacing: -1px;
   letter-spacing: -2px;
+  text-align: right;
+  margin-right: 549px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #465460;
+  font-weight: 100;
+}
+
+.aboutus-section:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 753px 90px 0;
+  border-color: transparent #ffffff transparent transparent;
 }
 
 .aboutus-section .aboutus-body {
-  background-image: url(../images/aboutus-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 81px;
+  padding-top: 37px;
   position: relative;
   z-index: 2;
   padding-bottom: 8px;
