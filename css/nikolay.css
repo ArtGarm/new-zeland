@@ -248,10 +248,9 @@
 /*clients*/
 .petro-img {
   overflow: hidden;
-}
-
-.petro-img img {
-  max-width: none;
+  width: 100%;
+  margin-top: -95px;
+  position: relative;
 }
 
 .clients-wrapp .clients-align .slider .slide-item {
@@ -365,7 +364,7 @@
 }
 
 .clients-wrapp .client-title-wrapp {
-  background-color: #D5E0E6;
+  margin: -47px 0 0;
 }
 
 .clients-wrapp .client-title-wrapp .clients-title {
@@ -409,9 +408,9 @@
   height: 89px;
   background-color: transparent;
   border: none;
-  top: -webkit-calc(50% - 45px);
-  top: -moz-calc(50% - 45px);
-  top: calc(50% - 45px);
+  top: -webkit-calc(50% - 34px);
+  top: -moz-calc(50% - 34px);
+  top: calc(50% - 34px);
   cursor: pointer;
 }
 

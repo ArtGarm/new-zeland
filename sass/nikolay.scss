@@ -101,9 +101,8 @@
 
 /*clients*/
 
-    .petro-img{overflow: hidden;
-        img{max-width: none;}
-    }
+    .petro-img{overflow: hidden;width: 100%;    margin-top: -95px; position: relative;}
+
     .clients-wrapp{
         .clients-align{
             .slider{
@@ -141,7 +140,7 @@
                 }
             }
         }
-        .client-title-wrapp{ background-color: #D5E0E6;
+        .client-title-wrapp{ margin: -47px 0 0;
             .clients-title{    padding: 6px 19px 4px;
                 span{    font-family: 'PT Sans Narrow', sans-serif;    font-size: 26px;    text-transform: uppercase;    color: #465460;    font-weight: 100;}
             }
@@ -153,7 +152,7 @@
         .slick-next{left:0;  background-image: url('../images/slider-arrow-left.png');
             &:hover{background-image: url('../images/slider-arrow-left-h.png');}
         }
-        .slick-arrow{ position:absolute; z-index: 100;width:32px; height: 89px; background-color: transparent; border:none;top:calc(50% - 45px); cursor: pointer;
+        .slick-arrow{ position:absolute; z-index: 100;width:32px; height: 89px; background-color: transparent; border:none;top:calc(50% - 34px); cursor: pointer;
             &:focus{outline: none;}
         }
     }
