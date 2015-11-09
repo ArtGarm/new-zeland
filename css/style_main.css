@@ -317,7 +317,8 @@
   background-image: url(../images/functional-index-background.png);
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 38px;
+  padding-top: 4px;
+  padding-bottom: 13px;
 }
 
 .functional-index .functional-way-title {
@@ -381,6 +382,7 @@
 /* specialization */
 .specialization-main {
   position: relative;
+  top: -32px;
 }
 
 .specialization {
