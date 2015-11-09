@@ -1,10 +1,11 @@
 <div class="aboutus-section">
-	<a href="#"></a>
 	<div class="aboutus-title-wrap">
 		<div class="mbox">
-			<div class="aboutus-title">
-				<h2>О НАС</h2>
-			</div>
+			<a href="#" class="">
+				<div class="aboutus-title">
+					<h2>О НАС</h2>
+				</div>
+			</a>
 		</div>
 	</div>
 	<div class="aboutus-body">
@@ -19,5 +20,5 @@
 			</div>
 		</div>
 	</div>
-	
+
 </div>

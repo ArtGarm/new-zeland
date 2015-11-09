@@ -1,6 +1,6 @@
 /* bottomsection */
 
-.bottomsection-section{background-image: url(../images/bottomsection-bg.jpg);background-repeat: no-repeat;background-position: bottom;overflow: hidden; background-attachment: fixed;
+.bottomsection-section{background-image: url(../images/bottomsection-bg.jpg);background-repeat: no-repeat;background-position: bottom;overflow: hidden;     background-attachment: fixed;
 	.top-arrow{position: relative;padding-bottom: 100px;padding-top: 26px;
 		h2{font-family: 'Open Sans Condensed', sans-serif;color: #000;font-size: 21px; font-weight: 700;text-align: center;padding-left: 42px;letter-spacing: 0.5px;line-height: 1.5;
 			span{color: #d92819;font-size: 25px;display: block;text-align: justify;width: 100%;padding-top: 3px;word-spacing: 11px;letter-spacing: 0;}
@@ -35,14 +35,18 @@
 
 /* aboutus */
 
-.aboutus-section{position: relative;
-	a{display: block;width: 100%;height: 47px;z-index: 3;position: absolute;top: 0;left: 0;}
-	a:hover+.aboutus-title-wrap{background-color: #FADD52;}
-	.aboutus-title-wrap{padding: 5px 0px 5px;font-family: 'PT Sans Narrow', sans-serif;font-size: 26px;text-transform: uppercase;color: #465460;font-weight: 100;position: absolute;width: 100%;top: 3px;background-color: #D5E0E6;z-index: 1;transition:all 300ms ease;
-		.aboutus-title{padding-left: 20px;word-spacing: -1px;letter-spacing: -2px;
-}
+.aboutus-section{position: relative; background-image: url(../images/paralax-last-1-img.jpg); background-repeat: no-repeat;    background-position: top ; background-attachment: fixed;
+	.aboutus-title-wrap{padding: 5px 0px 5px;background-color: #D5E0E6;z-index: 1;transition:all 300ms ease; border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px; height: 43px; width: calc(100%/2 - 999px/2 + 708px); cursor: pointer;
+		&:hover{background-color: #FADD52;}
+		a{display: block;width: 100%;height: 47px;z-index: 3; text-decoration: none; }
+		a:hover{text-decoration: none;}
+		.aboutus-title{word-spacing: -1px;letter-spacing: -2px;text-align: right; margin-right: 549px; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100;}
+
 	}
-	.aboutus-body{background-image: url(../images/aboutus-bg.png);background-repeat: no-repeat;background-position: center;padding-top: 81px;position: relative;z-index: 2;padding-bottom: 8px;
+	&:after{ content: ""; position: absolute; top: 0 ; right: 0; width: 0; height: 0; border-style: solid; border-width: 0 753px 90px 0; border-color: transparent #ffffff transparent transparent;
+
+}
+	.aboutus-body{padding-top: 37px;position: relative;z-index: 2;padding-bottom: 8px;
 		.aboutus-list{color: #fff;font-family: tahoma;font-size: 16px;font-weight: 700;word-spacing: 2px;line-height: 1.5;width: 76%;letter-spacing: 1.3px;word-spacing: 7.5px;
 			.aboutus{padding-left: 31px;
 				p{margin-bottom: 20px;
@@ -59,11 +63,11 @@
 /* doneproject */
 
 .doneproject-section{position: relative;/*margin-bottom: -66px;*/overflow: hidden;
-	&:after{position: absolute;width: 103%;height: 94px;background: url('../images/doneproject_top_line.png') center center no-repeat;top: -1px;left: -10px;content: '';z-index: 10;}
+	&:after{position: absolute;width: 101%;height: 94px;background: url('../images/doneproject_top_line.png') center center no-repeat;top: -1px;left: -10px;content: '';z-index: 1;}
 	a{display: inline-block;width: 60%;height: 40px;position: absolute;right: 0;top: 45px;z-index: 3;outline: none;}
 	a:hover+.doneproject-title-wrap{background-image: url(../images/project-title-hover.png);}
 	.doneproject-title-wrap{width: 61%;padding: 4px;position: absolute;top: 43px;background-image: url(../images/project-title-bg.png);background-repeat: no-repeat;z-index: 2;transition:all 300ms ease;right: 0;z-index: 1;
-		.doneproject-title{text-align: right;font-family: 'PT Sans Narrow', sans-serif;font-size: 26px;text-transform: uppercase;color: #465460;font-weight: 100;}
+		.doneproject-title{text-align: right;font-family: 'PT Sans Narrow', sans-serif;font-size: 26px;text-transform: uppercase;color: #465460;font-weight: 100;margin-right: 385px;}
 	}
 	.doneproject-body{background: url(../images/project-bg-paralacks.jpg) center center no-repeat;background-attachment: fixed;z-index: 1;padding-bottom: 115px;
 		.mbox{overflow: hidden;}

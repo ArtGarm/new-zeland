@@ -317,7 +317,8 @@
   background-image: url(../images/functional-index-background.png);
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 38px;
+  padding-top: 4px;
+  padding-bottom: 13px;
 }
 
 .functional-index .functional-way-title {
@@ -381,6 +382,7 @@
 /* specialization */
 .specialization-main {
   position: relative;
+  top: -99px;
 }
 
 .specialization {
@@ -392,18 +394,6 @@
   z-index: 1;
   background-attachment: fixed;
   padding-top: 102px;
-}
-
-.specialization:before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  top: 0px;
-  height: 102px;
-  background-image: url(../images/specialization-top-bg.png);
-  z-index: 2;
-  background-position: center center;
 }
 
 .specialization .text-title-wrap {
