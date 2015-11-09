@@ -24,7 +24,7 @@
  .aboutus-section .aboutus-body .aboutus-list{    width: 100%;}
 }
 @media screen and (max-width: 768px){
-.aboutus-section .aboutus-title-wrap {top: 14px;}
+
 .doneproject{}
 .aboutus-section .aboutus-body .aboutus-list .aboutus p{position: relative;
 	&:before{top: 50%;transform: translateY(-50%);    left: -35px;}
@@ -32,12 +32,27 @@
 .doneproject-section .doneproject-body .doneproject-slider .doneproject .rectange{width: 25%;}
 .doneproject-section .doneproject-body .slick-prev.slick-arrow, .doneproject-section .doneproject-body .slick-next.slick-arrow{left: -30px;}
 .doneproject-section .doneproject-body .slick-next.slick-arrow{    right: -30px;left: inherit;}
-.doneproject-section .doneproject-title-wrap{    width: 76.9%;}
 .doneproject-section .doneproject-body .doneproject-slider .doneproject .text-wrap{    width: 74%;}
 .doneproject-section .doneproject-body .doneproject-slider .doneproject .rectange:hover .hover-project{left: -93px;}
 .bottomsection-section .top-arrow h2 span{font-size: 20px;}
 .bottomsection-section .top-arrow h2{font-size: 19px;}
 .bottomsection-section .top-arrow{padding-bottom: 120px;}
+
+/*dev4*/
+.doneproject-section .doneproject-title-wrap {width: 72.5%;height: 36px;top: 10px;padding-right: 30px;}
+.doneproject-section .doneproject-title-wrap .doneproject-title{font-size: 19px;}
+.doneproject-section a{top: 10px;}
+.doneproject-section .doneproject-body{background-image: url(../images/project-bg-768.png);padding-bottom: 0;}
+.doneproject-section .doneproject-body .doneproject-slider{padding-top: 40px;}
+.doneproject-section{margin-bottom: -43px;}
+
+.rectange .rectange-img-wrap {width: 90px;height: 80px;}
+.rectange .rectange-img{width: 44px;height: 78px;left: 30px;top: 0;}
+.rectange .rectange-img.second-layer, .rectange .rectange-img.third-layer {height: 78px;width: 44px;top: 0px;left: 30px;}
+.rectange .rectange-img .first-layer-wrap, .rectange .rectange-img .second-layer-wrap, .rectange .rectange-img .third-layer-wrap {width: 44px;height: 78px;}
+.rectange .rectange-img:before{width: 118%;top: -5px;height: 1px;}
+.rectange .rectange-img:after{width: 118%;left: 50%;bottom: -5px;height: 1px;}
+
 }
 @media screen and (max-width: 767px){
 .doneproject-section .doneproject-title-wrap{    width: 81.2%;}

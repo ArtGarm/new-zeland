@@ -1,12 +1,12 @@
 function showSecondLevel(){
     $('.header-nav-wrap nav ul li').hover(
         function() {
-            if($(window).width()>1024){
+            if($(window).width()>666){
                 $(this).children(".next").stop().slideDown(300);
             }
         },
         function() {
-            if($(window).width()>1024){
+            if($(window).width()>666){
                 $(this).children(".next").stop().slideUp(300);
             }
         }
@@ -62,5 +62,5 @@ function showSecondLevelDevices(){
 }
 $(document).ready(function() {
     showSecondLevel();
-    showSecondLevelDevices();
+    //showSecondLevelDevices();
 });

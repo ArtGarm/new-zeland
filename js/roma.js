@@ -2,7 +2,7 @@ $(document).ready(function(){
 	});
 
 $(window).load(function(){
-	if ($(window).width() <= 768) {
+	if ($(window).width() <= 640) {
 		$('.doneproject-slider').slick({
 		  slidesToShow: 1,
 		  slidesToScroll: 1,
@@ -20,7 +20,7 @@ $(window).load(function(){
 
 
 $(window).resize(function(){
-	if ($(window).width() <= 768) {
+	if ($(window).width() <= 640) {
 		$('.doneproject-slider').slick({
 		  slidesToShow: 1,
 		  slidesToScroll: 1,

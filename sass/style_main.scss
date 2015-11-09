@@ -34,7 +34,7 @@
             img{transform:translate(-50%, -50%) rotate(-60deg);}
         }
         .first-layer-wrap, .second-layer-wrap, .third-layer-wrap{overflow: hidden;width: 60px;height: 102px;position: relative;}
-        
+
         &.third-layer{transform:rotate(-60deg);
             img{transform:translate(-50%, -50%) rotate(60deg);}
         }
@@ -84,7 +84,8 @@
 
 .specialization-main{position: relative;padding-top:102px;overflow: hidden;}
 .specialization{background-image:url(../images/specialization-bg.png);background-position: center top;border-bottom: 12px solid #f2dc5e;padding: 0px 0 20px 0;position: relative;z-index: 1;position: relative;
-    &:before{content: '';display: block;height: 102px;width: 100%;background-image:url(../images/specialization-top-bg.png);background-position:center top;position: absolute;top: -101px;}
+    .text-title-wrap{margin-top: -17px;}
+    &:before{content: '';display: block;height: 102px;width: 100%;background-image:url(../images/specialization-top-bg.png);background-position:center top;position: absolute;top: -85px;}
 }
 .specialization-wrap{text-align: center;margin:0 -15px;
     li{display: inline-block;vertical-align: top;width: calc(25% - 3.3rem);padding:0 15px;margin-bottom: 20px;
