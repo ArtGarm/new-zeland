@@ -182,6 +182,7 @@
   width: -webkit-calc(100%/2 - 999px/2 + 708px);
   width: -moz-calc(100%/2 - 999px/2 + 708px);
   width: calc(100%/2 - 999px/2 + 708px);
+  cursor: pointer;
 }
 
 .aboutus-section .aboutus-title-wrap:hover {
