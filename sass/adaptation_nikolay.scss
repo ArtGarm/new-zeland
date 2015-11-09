@@ -11,16 +11,123 @@
 
 }
 @media screen and (max-width: 1024px){
-
+.managment-wrapp{padding:0 6px 0 11px;}
 }
 @media screen and (max-width: 992px){
+    /*<<<title*/
+        .title-wrapp{
+            .title-main{
+                .title-img{ left:46%;
+                    img{width: 1258px;}
+                }
+                .title-text{
+                    span{ font-size: 21.27rem;padding:20px 98px 50px;}
+                }
+            }
+        }
+    /*title>>>*/
+
+
+
+    /*foot-callback*/
+
+    .foot-contact-wrapp{
+        .fc-align{
+            .fc-img{ left:46.8%;
+                img{width: 1304px;}
+            }
+        }
+        .fc-butt-wrapp{
+            a{text-decoration: none;}
+            .fc-butt-img{position: relative;
+                img{    margin-top: -11px; margin-left: -5px; width: 149px;}
+            }
+            .fc-butt-text{ position:absolute;top:56px; left:calc(50% - 57px);display: block;
+                span{font-size: 15.55rem;     letter-spacing: 1.4rem;}
+                .fc-butt-hover{width: 49px;height: 49px; background-color: #f2dc5e; border-radius:50%; position:absolute;top:-16px;left:calc(50% + 7px); opacity: 0; transition:opacity 300ms linear;}
+                &:hover{
+                    .fc-butt-hover{opacity: 1;}
+                }
+            }
+        }
+    }
+/*/footcallback*/
+
+
+
+    /*<<<managment*/
+        .mangment{    margin-bottom: -4px;}
+        .managment-wrapp{
+            .content-block{ width: 70.5%;    padding-top: 15px;
+                .content-item{padding-bottom: 25px;
+                    .foto-box{
+                        img{width:126px;}
+                    }
+                    &.hayruliun{     padding-bottom: 0px;
+                        .foto-box{     padding-top: 6px;}
+                    }
+                    .text-box{ padding-top: 2px; margin-left: 142px;
+                        .text-title{    padding-bottom: 12px;span{font-size: 16rem;}}
+                        .text-title2{span{font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;font-size: 12rem;color:#546472;}}
+                        .text-body{padding: 0;
+                            p{ font-size: 11rem;line-height: 16px;}
+                            i{ font-size: 11rem;}
+                        }
+                    }
+                }
+            }
+        }
+        .menu-block{
+            .menu-align{    padding: 15px 0 0;
+                .menu-title{padding-bottom: 3px;
+                    span{font-size: 16rem;}
+                }
+                .menu-item{
+                    ul{
+                        li{padding-bottom: 3px;
+                            a{
+                                span{font-size: 14rem;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    /*managment>>>*/
+    /*<<<company*/
+    .managment-wrapp{
+        &.company{
+            .content-block {padding: 14px 0 4px;
+                .content-item {padding-bottom: 14px;}
+            }
+        }
+    }
+    /*company>>>*/
+
+
+
+    /*<<<price*/
+        .managment-wrapp{
+            &.price{    margin-bottom: -5px;
+                .content-block {padding-top: 13px;
+                    .content-item{  padding-bottom: 12px;
+                        .text-box{
+                            .text-body{    padding: 5px 0 0 14px;}
+                        }
+                    }
+                }
+            }
+        }
+
+    /*price>>>*/
 
 }
 @media screen and (max-width: 767px){
 
 }
 @media screen and (max-width: 666px){
-
+.managment-wrapp{.content-block { width: 100%;}}
 }
 @media screen and (max-width: 479px){
 
