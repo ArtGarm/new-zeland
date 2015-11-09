@@ -253,6 +253,10 @@
   position: relative;
 }
 
+.clients-wrapp {
+  padding-bottom: 11px;
+}
+
 .clients-wrapp .clients-align .slider .slide-item {
   height: 220px;
 }
