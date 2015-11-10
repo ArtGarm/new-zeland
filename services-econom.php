@@ -43,7 +43,7 @@
                     <div class="content-item cfix">
                         <div class="gray-title-wrap">
                             <div class="gray-title">
-                                <span>примеры выполненых проектов</span>
+                                <span>примеры выполненных проектов</span>
                             </div>
                         </div>
                     </div>
