@@ -444,16 +444,16 @@
   margin-right: 385px;
 }
 
-.functional-index .doneproject-title-wrap:after {
+.functional-index:after {
   content: "";
   position: absolute;
-  top: 0;
+  top: 395px;
   left: 0;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 753px 90px 0;
-  border-color: transparent #ffffff transparent transparent;
+  border-width: 90px 0  0   753px;
+  border-color: transparent transparent transparent  #184995;
 }
 
 .functional-index .doneproject-title-wrap:hover {
