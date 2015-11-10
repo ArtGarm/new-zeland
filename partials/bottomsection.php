@@ -1,4 +1,7 @@
 <div class="bottomsection-section">
+	<!--<div class="parallax">
+		<img src="images/bottomsection-bg.jpg" alt="" />
+	</div>-->
 	<div class="top-arrow">
 		<div class="mbox">
 			<h2><span>НАШ  УРОВЕНЬ  СЕРВИСА НАЦЕЛЕН  НА  ПРЕВЫШЕНИЕ  ОЖИДАНИЙ НАШИХ  КЛИЕНТОВ.</span>ПОЭТОМУ, ДЛЯ КОМПЛЕКСНЫХ ПРОЕКТОВ МЫ ГОТОВЫ ЗА 5-7 ДНЕЙ БЕСПЛАТНО ПРОВЕСТИ ДИАГНОСТИКУ, ВО ВРЕМЯ КОТОРОЙ МЫ:</h2>
