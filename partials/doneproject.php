@@ -1,4 +1,7 @@
 <div class="doneproject-section">
+	<div class="parallax">
+		<img src="images/project-bg-paralacks.jpg" alt="" />
+	</div>
 	<div class="doneproject-body">
 		<div class="mbox">
 			<div class="doneproject-slider">

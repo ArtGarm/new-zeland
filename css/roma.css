@@ -1,6 +1,6 @@
 /* bottomsection */
 .bottomsection-section {
-  background-image: url(../images/bottomsection-bg.jpg);
+  /*background-image: url(../images/bottomsection-bg.jpg);*/
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: hidden;
@@ -162,10 +162,11 @@
 /* aboutus */
 .aboutus-section {
   position: relative;
-  background-image: url(../images/paralax-last-1-img.jpg);
+  /*background-image: url(../images/paralax-last-1-img.jpg);*/
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .aboutus-section .aboutus-title-wrap {
@@ -184,6 +185,7 @@
   width: -moz-calc(100%/2 - 999px/2 + 708px);
   width: calc(100%/2 - 999px/2 + 708px);
   cursor: pointer;
+  position: relative;
 }
 
 .aboutus-section .aboutus-title-wrap:hover {
@@ -268,6 +270,7 @@
 /* doneproject */
 .doneproject-section {
   position: relative;
+  /*margin-bottom: -66px;*/
   overflow: hidden;
 }
 
