@@ -307,7 +307,7 @@ function animationBlock(item){
 
 function parallaxScroll(){
     var scrolled = $(window).scrollTop();
-    $('.parallax-bg, .parallax-bg2, .paralax-bg3').css('top',(0-(scrolled*.35))+'px');
+    $('.parallax-bg').css('top',(0-(scrolled*.35))+'px');
 }
 
 /* DOCUMENT READY  */

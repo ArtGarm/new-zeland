@@ -1,4 +1,7 @@
 <div class="aboutus-section">
+	<div class="paralax">
+		<img src="images/paralax-last-1-img.jpg" alt="">
+	</div>
 	<div class="aboutus-title-wrap">
 		<div class="mbox">
 			<a href="#" class="">
