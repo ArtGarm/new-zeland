@@ -5,6 +5,7 @@
   background-position: bottom;
   overflow: hidden;
   background-attachment: fixed;
+  position: relative;
 }
 
 .bottomsection-section .top-arrow {
