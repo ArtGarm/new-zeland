@@ -1,9 +1,20 @@
 @media screen and (max-width: 1366px) {
   .aboutus-section:after {
     border-width: 0 430px 52px 0;
+    top: -1px;
+  }
+  .petro-img .petro-wrapp .petro-align:after {
+    border-width: 0 0 52px 430px;
+    top: -8px;
   }
   .doneproject-section .doneproject-title-wrap .doneproject-title {
     margin-right: 90px;
+  }
+  .clients-wrapp {
+    padding-bottom: 19px;
+  }
+  .aboutus-section .aboutus-title-wrap .aboutus-title {
+    margin-right: 636px;
   }
 }
 

@@ -1,5 +1,11 @@
 <div class="clients-wrapp">
-    <div class="petro-img"><div class="petro-wrapp"><div class="petro-align"><img src="images/petro.png" alt=""></div></div></div>
+    <div class="petro-img">
+        <div class="petro-wrapp">
+            <div class="petro-align">
+            </div>
+        </div>
+    </div>
+
     <div class="client-title-wrapp">
 
         <div class="mbox">

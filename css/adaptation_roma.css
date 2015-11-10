@@ -27,6 +27,13 @@
   .bottomsection-section .top-arrow {
     padding-bottom: 124px;
   }
+  .bottomsection-section .top-arrow {
+    padding-top: 22px;
+    padding-bottom: 102px;
+  }
+  .bottomsection-section {
+    padding-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 1024px) {

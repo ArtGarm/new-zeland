@@ -5,8 +5,8 @@
 		h2{font-family: 'Open Sans Condensed', sans-serif;color: #000;font-size: 21px; font-weight: 700;text-align: center;padding-left: 42px;letter-spacing: 0.5px;line-height: 1.5;
 			span{color: #d92819;font-size: 25px;display: block;text-align: justify;width: 100%;padding-top: 3px;word-spacing: 11px;letter-spacing: 0;}
 		}
-		&:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 49vw solid transparent;border-top: 110px solid white;z-index: 0;top: 55px;}
-		&:before{display: block;content: '';position: absolute;left: 0; height: 55px;width: 100%;background-color: #fff;top: 0;}
+		&:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 49vw solid transparent;border-top: 74px solid white;z-index: 0;top: 93px;}
+		&:before{display: block;content: '';position: absolute;left: 0; height: 93px;width: 100%;background-color: #fff;top: 0;}
 	}
 	.bottomsection-punkts{padding-bottom: 20px;
 		.bottomsection-punkt-wrap{width: calc(33.33% - 20px);float: left;background-color: rgba(200,200,200,0.5);margin-right: 30px;
@@ -43,9 +43,8 @@
 		.aboutus-title{word-spacing: -1px;letter-spacing: -2px;text-align: right; margin-right: 549px; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100;}
 
 	}
-	&:after{ content: ""; position: absolute; top: 0 ; right: 0; width: 0; height: 0; border-style: solid; border-width: 0 753px 90px 0; border-color: transparent #ffffff transparent transparent;
+	&:after{ content: ""; position: absolute; top: 0 ; right: 0; width: 0; height: 0; border-style: solid; border-width: 0 753px 90px 0; border-color: transparent #ffffff transparent transparent;}
 
-}
 	.aboutus-body{padding-top: 37px;position: relative;z-index: 2;padding-bottom: 8px;
 		.aboutus-list{color: #fff;font-family: tahoma;font-size: 16px;font-weight: 700;word-spacing: 2px;line-height: 1.5;width: 76%;letter-spacing: 1.3px;word-spacing: 7.5px;
 			.aboutus{padding-left: 31px;
