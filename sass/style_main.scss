@@ -17,6 +17,14 @@
 
 /* /titles */
 
+/* paralax */
+
+.parallax{position: absolute;width: 100%;left: 0;
+    img{position: absolute;left: 50%;transform:translate(-50%, 0);}
+}
+
+/* /paralax */
+
 /* rectange */
 
 .specialization-main{text-align: center;}
