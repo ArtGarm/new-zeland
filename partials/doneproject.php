@@ -1,12 +1,4 @@
 <div class="doneproject-section">
-	<a href="#"></a>
-	<div class="doneproject-title-wrap">
-		<div class="mbox">
-			<div class="doneproject-title">
-				<h2>Выполненные проекты</h2>
-			</div>
-		</div>
-	</div>
 	<div class="doneproject-body">
 		<div class="mbox">
 			<div class="doneproject-slider">

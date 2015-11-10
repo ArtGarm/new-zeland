@@ -103,4 +103,13 @@
             </div>
         </div>
     </div>
+    <div class="doneproject-title-wrap">
+        <div class="mbox">
+            <a href="#" class="">
+                <div class="doneproject-title">
+                    <h2>Выполненные проекты</h2>
+                </div>
+            </a>
+        </div>
+    </div>
 </div>
