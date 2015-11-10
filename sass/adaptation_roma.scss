@@ -12,9 +12,16 @@
  .doneproject-section .doneproject-title-wrap{width: 67.1%;}
  .doneproject-section .doneproject-body{padding-bottom: 83px;}
  .aboutus-section .aboutus-body{padding-bottom: 0;}
- .bottomsection-section .top-arrow{padding-bottom: 124px;}
+ // .bottomsection-section .top-arrow{padding-bottom: 124px;}
  .bottomsection-section .top-arrow{padding-top: 22px;padding-bottom: 102px;}
  .bottomsection-section{padding-bottom: 10px;}
+ // .bottomsection-section .top-arrow{    padding-top: 26px;}
+ .bottomsection-section{
+    .top-arrow{
+        &:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 49vw solid transparent;border-top: 74px solid white;z-index: 0;top: 93px;}
+        &:before{display: block;content: '';position: absolute;left: 0; height: 93px;width: 100%;background-color: #fff;top: 0;}
+    }
+ }
 }
 @media screen and (max-width: 1024px){
  .doneproject-section .doneproject-title-wrap{width: 70.2%;}
