@@ -1,4 +1,7 @@
 <div class="doneproject-section">
+	<div class="parallax">
+		<img src="images/project-bg-paralacks.jpg" alt="" />
+	</div>
 	<a href="#"></a>
 	<div class="doneproject-title-wrap">
 		<div class="mbox">

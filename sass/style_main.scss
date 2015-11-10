@@ -19,8 +19,8 @@
 
 /* paralax */
 
-.parallax{position: absolute;width: 100%;left: 0;
-    img{position: absolute;left: 50%;transform:translate(-50%, 0);}
+.parallax{position: absolute;width: 100%;left: 0;right: 0;top: 0;bottom: 0;
+    img{position: absolute;left: 50%;transform:translate(-50%, 0);top: 0;transition:top ease-out .4s;}
 }
 
 /* /paralax */
@@ -76,7 +76,7 @@
     }
 }
 
-.functional-index{background-image:url(../images/functional-index-background.png);background-repeat: no-repeat;background-attachment:fixed;background-position: center top;padding-top: 53px;padding-bottom: 13px;margin-top: -99px;
+.functional-index{/*background-image:url(../images/functional-index-background.png);*/background-repeat: no-repeat;background-attachment:fixed;background-position: center top;padding-top: 53px;padding-bottom: 13px;margin-top: -99px;position: relative;
     .functional-way-title{text-align: right;height: 72px;margin-bottom: 1px;
         >a, >span{background-color: transparent;color:#d92819;font-size: 27px;font-family: 'PT Sans Narrow', sans-serif;vertical-align: top;line-height: 1.2;padding-top: 9px;}
     }

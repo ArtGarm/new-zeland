@@ -1,4 +1,7 @@
 <div class="functional-way functional-index">
+    <div class="parallax">
+        <img src="images/functional-index-background.png" alt="" />
+    </div>
     <div class="mbox">
 
         <div class="text-title-wrap">
