@@ -5,8 +5,8 @@
 		h2{font-family: 'Open Sans Condensed', sans-serif;color: #000;font-size: 21px; font-weight: 700;text-align: center;padding-left: 42px;letter-spacing: 0.5px;line-height: 1.5;
 			span{color: #d92819;font-size: 25px;display: block;text-align: justify;width: 100%;padding-top: 3px;word-spacing: 11px;letter-spacing: 0;}
 		}
-		&:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 49vw solid transparent;border-top: 110px solid white;z-index: 0;top: 55px;}
-		&:before{display: block;content: '';position: absolute;left: 0; height: 55px;width: 100%;background-color: #fff;top: 0;}
+		&:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 49vw solid transparent;border-top: 74px solid white;z-index: 0;top: 93px;}
+		&:before{display: block;content: '';position: absolute;left: 0; height: 93px;width: 100%;background-color: #fff;top: 0;}
 	}
 	.bottomsection-punkts{padding-bottom: 20px;
 		.bottomsection-punkt-wrap{width: calc(33.33% - 20px);float: left;background-color: rgba(200,200,200,0.5);margin-right: 30px;

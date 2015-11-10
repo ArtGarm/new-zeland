@@ -42,9 +42,9 @@
   left: 0;
   border-left: 50vw solid transparent;
   border-right: 49vw solid transparent;
-  border-top: 110px solid white;
+  border-top: 74px solid white;
   z-index: 0;
-  top: 55px;
+  top: 93px;
 }
 
 .bottomsection-section .top-arrow:before {
@@ -52,7 +52,7 @@
   content: '';
   position: absolute;
   left: 0;
-  height: 55px;
+  height: 93px;
   width: 100%;
   background-color: #fff;
   top: 0;
