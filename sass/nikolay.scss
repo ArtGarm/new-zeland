@@ -11,8 +11,8 @@
             .fc-butt-img{position: relative;
                 img{    margin-top: -5px;}
             }
-            .fc-butt-text{ position:absolute;top:85px; left:calc(50% - 68px);display: block;
-                span{font-family: 'MyriadProCond';font-size: 22.16rem; color:#000;text-transform: uppercase;position: relative;}
+            .fc-butt-text{ position:absolute;top:82px; left:calc(50% - 75px);display: block;
+                span{font-family: 'PT Sans Narrow', sans-serif;font-size: 22.16rem; color:#000;text-transform: uppercase;position: relative;    letter-spacing: -0.6px;}
                 .fc-butt-hover{width: 60px;height: 60px; background-color: #f2dc5e; border-radius:50%; position:absolute;top:-18px;left:calc(50% + 16px); opacity: 0; transition:opacity 300ms linear;}
                 &:hover{
                     .fc-butt-hover{opacity: 1;}
@@ -109,10 +109,9 @@
         }
     }
 
-    .clients-wrapp{    padding-bottom: 11px;     margin-top: -43px;
-        .clients-align{
-            .slider{
-                .slide-item{  height: 220px;
+    .clients-wrapp{    padding-bottom: 11px;     margin-top: -43px;}
+
+                .slide-item, .clients{  height: 220px;
                     .item-wrapper{position:relative; z-index: 1;
                         .item-img{position: absolute; left:0; top:0;
                             a{
@@ -144,8 +143,7 @@
                         }
                     }
                 }
-            }
-        }
+
         .client-title-wrapp{
             .clients-title{    padding: 6px 19px 4px; position: absolute;
                 span{ position: relative; top: -43px;   font-family: 'PT Sans Narrow', sans-serif;    font-size: 26px;    text-transform: uppercase;    color: #465460;    font-weight: 100;}
@@ -161,14 +159,31 @@
         .slick-arrow{ position:absolute; z-index: 100;width:32px; height: 89px; background-color: transparent; border:none;top:calc(50% - 34px); cursor: pointer;
             &:focus{outline: none;}
         }
-    }
+
     /*services*/
-        .service-clients-wrapp{padding: 52px 63px;
-            .clients-item{    padding: 0 30px;
-                .item-wrapper{text-align: justify;
-                    .item-img{display: inline-block;}
+        .service-clients-wrapp{padding: 38px 0 87px;
+            .gray-title-wrap {   margin-bottom: 25px;}
+                .clients{
+                    .item-wrapper{
+                        .item-img{
+                            &:nth-child(1){left:892px;}
+                            &:nth-child(2){left:884px;}
+                            &:nth-child(3){left:35px;}
+                            &:nth-child(4){left:25px;}
+                            &:nth-child(5){left:140px;}
+                            &:nth-child(6){left:763px; top: 27px;}
+                            &:nth-child(7){left:783px;}
+                            &:nth-child(8){left:646px;top: 22px;}
+                            &:nth-child(9){left:537px;top: 119px;}
+                            &:nth-child(10){left:312px;}
+                            &:nth-child(11){left:243px;}
+                            &:nth-child(12){left:522px;}
+                            &:nth-child(13){left:437px;}
+                            &:nth-child(14){left:398px;}
+                            &:nth-child(15){left:247px;}
+                        }
+                    }
                 }
-            }
         }
     /*/services*/
 /*/clients*/
@@ -178,13 +193,13 @@
 
         .managment-wrapp{position: relative; z-index: 1;
             &.strategy{
-                .content-block{    padding-top: 22px;
-                    .content-item{
+                .content-block{    padding-top: 35px;     width: 70.2%;
+                    .content-item{padding-bottom: 60px;
                         .text-box{margin-left:0;
                             li{position: relative;
                                 &:before{background-color: #f2dc5e; width: 7px; height: 7px; content: ''; display: block; position: absolute; left:-19px; top:8px;}
                             }
-                            .text-body{ padding: 13px 0 18px 20px;
+                            .text-body{ padding: 13px 0 14px 20px;
                                 &:nth-child(1){padding: 13px 0 18px 0;}
                             }
                             .text-title{    padding-bottom: 9px;}
@@ -193,12 +208,12 @@
                 }
             }
         }
-        .back-bttn-wrapp{text-align: right; margin-bottom: -25px;
+        .back-bttn-wrapp{text-align: right; margin-bottom: -23px;
             .back-bttn{
-                span{font-size: 15rem; color: #000;
-                    a{text-decoration: none; display: inline-block; width: 53px; height:27px;  text-align: center;padding-top: 4px; margin-left: 5px;
+                span{font-size: 15rem; color: #000;     letter-spacing: -1.8px;
+                    a{text-decoration: none; display: inline-block; width: 53px; height:27px;  text-align: center;padding-top: 4px; margin-left: 14px;
                         &:hover{background-color: #f2dc5e; }
-                        span{text-transform: uppercase;font-family: 'MyriadProCond';}
+                        span{text-transform: uppercase;font-family: 'MyriadProCond';    letter-spacing: 1.2px;}
                     }
                 }
             }
@@ -206,13 +221,14 @@
     /*/strategy*/
     /*econom*/
         .managment-wrapp{
+
             .projects_item_row{
                 .projects_items{width: 49%;}
             }
             &.econom{
 
-                .content-block{  padding-top: 29px;
-                    .content-item{padding-bottom: 10px;
+                .content-block{  padding-top: 29px; width: 74%;
+                    .content-item{padding-bottom: 0px; padding-left: 37px;
                         .text-box{margin-left:0;
                             li{position: relative;     padding-bottom: 22px;
                                 &:before{ width: 14px; height: 81px; content: ''; display: block; position: absolute; left:-24px; top:8px;background-image: url('../images/li-style-1.png');}
@@ -224,7 +240,7 @@
                         }
 
                     }
-                    .hexa-wrapp{
+                    .hexa-wrapp{ padding-bottom: 18px;
                         .hexa-item{ display: inline-block; width:49%; vertical-align: top;
                             .img-item{transform: scale(0.65);display: inline-block;vertical-align: middle;width:45%;}
                             .text-item{display: inline-block;width: 45%;
@@ -236,17 +252,21 @@
             }
         }
         .content-item{
-            .gray-title-wrap{    margin-left: -36px;     padding: 10px 0 0;
+            .gray-title-wrap{    margin-left: -36px;     padding: 10px 0 0; margin-bottom: 56px;
                 .gray-title{padding: 5px 0 5px 0;text-align: left; font-size: 20px;padding-left: 36px;}
             }
         }
     /*/econom*/
     /*operation*/
         .operation{
-            .top-sub-menu{border-bottom: 1px solid #ccc; margin-top: -23px;
+            .menu-block{
+                .menu-align {padding: 25px 0 0;}
+            }
+
+            .top-sub-menu{border-bottom: 1px solid #ccc; margin-top: -25px;
                 .sub-menu-wrapp{text-align: justify; width: 72%; float: right;
                     .sub-menu-item{ display: inline-block;  padding-top: 1px;
-                        a{font-family: 'Tahoma'; font-size: 9rem;color: #000; text-decoration: none;text-align: center;padding: 3px 18px;
+                        a{font-family: 'Tahoma'; font-size: 9rem;color: #000; text-decoration: none;text-align: center;padding: 3px 18px; vertical-align: -1px;
                             &:hover{background-color: #f2dc5e;}
                         }
 
@@ -255,6 +275,23 @@
             }
             .text-image{
                 img{margin: 0 auto; display: block;}
+            }
+        }
+        .managment-wrapp{
+            &.operation{
+                .content-block { padding-top: 15px;
+                    .content-item{
+                        .text-box{     padding-top: 2px;
+                            .text-title {padding: 5px 0 9px;}
+                            .text-body {padding: 13px 0 9px 0px;
+                                ul{margin-left: 20px;}
+                            }
+                            .text-img{    padding: 19px 0 7px;}
+                        }
+                        .gray-title-wrap {padding: 19px 0 0;margin-bottom: 45px;}
+                        .hexa-wrapp{margin-left: -34px;}
+                    }
+                }
             }
         }
         .bookmark-page{display:none; min-height: 800px;}
@@ -276,10 +313,10 @@
                         }
                     }
                 }
-                .content-block{
+                .content-block{     padding-top: 36px;
                     .content-item{
                         .text-box{  margin-left: 0px;
-                            .text-body{    padding: 13px 0 22px;}
+                            .text-body{ padding: 21px 0 15px;}
                         }
                     }
                 }
@@ -292,21 +329,25 @@
     .managment-wrapp{
             &.news{    padding-top: 33px;
                 .menu-block{    width: 29%;
-                    .menu-align{
-                        .menu-title{
+                    .menu-align{padding: 36px 0 0;
+                        .menu-title{padding-bottom: 1px;
                             a{text-decoration: none;
                                 &:hover{span{color: #d92819;}}
                             }
                         }
                         .menu-item{width: 96%;
                             span{font-size: 20rem;line-height: 31rem;}
+                            ul{
+                                li{padding-bottom: 0;}
+                            }
                         }
                     }
                 }
-                .content-block{
+                .content-block{     padding-top: 36px;
                     .content-item{
                         .text-box{  margin-left: 0px;
-                            .text-body{    padding: 13px 0 22px;}
+                            .text-body{padding: 13px 0 23px;}
+                            .text-title2{padding-bottom: 10px;}
                         }
                     }
                 }

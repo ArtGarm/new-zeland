@@ -10,7 +10,7 @@
                 </div>
                 <a href="#" class="fc-butt-text">
                     <div class="fc-butt-hover"></div>
-                    <span>связатся с нами</span>
+                    <span>связаться с нами</span>
                 </a>
 
         </div>
