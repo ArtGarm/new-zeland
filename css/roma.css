@@ -316,13 +316,13 @@
   transform: rotate(0deg) translateY(20%);
   right: -50px;
   left: inherit;
-  top: 60%;
+  top: 34%;
 }
 
 .doneproject-section .doneproject-body .doneproject-slider {
   width: 90%;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 72px;
   overflow: visible;
 }
 

@@ -66,8 +66,8 @@
 		.slick-prev.slick-arrow,.slick-next.slick-arrow {outline:none;cursor:pointer;position: absolute;background-image: url(../images/arrow.png);background-repeat: no-repeat;width: 33px;height: 89px;background-color: transparent;border: 0;transform: rotate(180deg) translateY(-20%);text-indent: -9999px;left: -50px;
 			&:hover{background-image: url(../images/arrow-hover.png);}
 		}
-		.slick-next.slick-arrow {transform: rotate(0deg) translateY(20%);right: -50px;left: inherit;top: 60%;}
-		.doneproject-slider{width: 90%;margin: 0 auto;padding-top: 60px;overflow: visible;
+		.slick-next.slick-arrow {transform: rotate(0deg) translateY(20%);right: -50px;left: inherit;top: 34%;}
+		.doneproject-slider{width: 90%;margin: 0 auto;padding-top: 72px;overflow: visible;
 			.doneproject{display: inline-block;outline: none;vertical-align: middle;
 				.rectange{
 					&:hover{
