@@ -68,7 +68,7 @@
     }
 }
 
-.functional-index{background-image:url(../images/functional-index-background.png);background-repeat: no-repeat;background-position: center;padding-top: 4px;padding-bottom: 13px;margin-top: -60px;
+.functional-index{background-image:url(../images/functional-index-background.png);background-repeat: no-repeat;background-attachment:fixed;background-position: center top;padding-top: 53px;padding-bottom: 13px;margin-top: -99px;
     .functional-way-title{text-align: right;height: 72px;margin-bottom: 1px;
         >a, >span{background-color: transparent;color:#d92819;font-size: 27px;font-family: 'PT Sans Narrow', sans-serif;vertical-align: top;line-height: 1.2;padding-top: 9px;}
     }
@@ -86,7 +86,7 @@
 /* specialization */
 
 .specialization-main{position: relative;top: -99px;}
-.specialization{background-image:url(../images/specialization-bg.jpg);background-position: center top;border-bottom: 12px solid #f2dc5e;padding: 0px 0 49px 0;position: relative;z-index: 1;background-attachment: fixed;padding-top: 102px;
+.specialization{background-image:url(../images/specialization-bg.jpg);background-position: center center;border-bottom: 12px solid #f2dc5e;padding: 0px 0 49px 0;position: relative;z-index: 1;padding-top: 102px;
     .text-title-wrap{position: relative;top: -17px;margin-bottom: 38px;}
 
 }
