@@ -305,6 +305,12 @@ function animationBlock(item){
     checkForAnimate();
 }
 
+function parallaxScroll(){
+
+    var scrolled = $(window).scrollTop();
+    $('.parallax img').css('top',(0-(scrolled*0.12))+'px');
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -322,6 +328,10 @@ $(window).load(function(){
     inputNumber($('.inputNum'));
 
     oneHeightItems();
+
+    $(window).bind('scroll', function(e){
+        parallaxScroll(); // radion
+    });
 
 
 });

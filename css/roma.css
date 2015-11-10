@@ -1,16 +1,17 @@
 /* bottomsection */
 .bottomsection-section {
-  background-image: url(../images/bottomsection-bg.jpg);
+  /*background-image: url(../images/bottomsection-bg.jpg);*/
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: hidden;
   background-attachment: fixed;
+  position: relative;
 }
 
 .bottomsection-section .top-arrow {
   position: relative;
   padding-bottom: 100px;
-  padding-top: 26px;
+  padding-top: 21px;
 }
 
 .bottomsection-section .top-arrow h2 {
@@ -42,9 +43,9 @@
   left: 0;
   border-left: 50vw solid transparent;
   border-right: 49vw solid transparent;
-  border-top: 74px solid white;
+  border-top: 111px solid white;
   z-index: 0;
-  top: 93px;
+  top: 52px;
 }
 
 .bottomsection-section .top-arrow:before {
@@ -52,7 +53,7 @@
   content: '';
   position: absolute;
   left: 0;
-  height: 93px;
+  height: 52px;
   width: 100%;
   background-color: #fff;
   top: 0;
@@ -161,10 +162,11 @@
 /* aboutus */
 .aboutus-section {
   position: relative;
-  background-image: url(../images/paralax-last-1-img.jpg);
+  /*background-image: url(../images/paralax-last-1-img.jpg);*/
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .aboutus-section .aboutus-title-wrap {
@@ -183,6 +185,7 @@
   width: -moz-calc(100%/2 - 999px/2 + 708px);
   width: calc(100%/2 - 999px/2 + 708px);
   cursor: pointer;
+  position: relative;
 }
 
 .aboutus-section .aboutus-title-wrap:hover {
@@ -271,58 +274,6 @@
   overflow: hidden;
 }
 
-.doneproject-section:after {
-  position: absolute;
-  width: 101%;
-  height: 94px;
-  background: url("../images/doneproject_top_line.png") center center no-repeat;
-  top: -1px;
-  left: -10px;
-  content: '';
-  z-index: 1;
-}
-
-.doneproject-section a {
-  display: inline-block;
-  width: 60%;
-  height: 40px;
-  position: absolute;
-  right: 0;
-  top: 45px;
-  z-index: 3;
-  outline: none;
-}
-
-.doneproject-section a:hover + .doneproject-title-wrap {
-  background-image: url(../images/project-title-hover.png);
-}
-
-.doneproject-section .doneproject-title-wrap {
-  width: 61%;
-  padding: 4px;
-  position: absolute;
-  top: 43px;
-  background-image: url(../images/project-title-bg.png);
-  background-repeat: no-repeat;
-  z-index: 2;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
-  right: 0;
-  z-index: 1;
-}
-
-.doneproject-section .doneproject-title-wrap .doneproject-title {
-  text-align: right;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 26px;
-  text-transform: uppercase;
-  color: #465460;
-  font-weight: 100;
-  margin-right: 385px;
-}
-
 .doneproject-section .doneproject-body {
   background: url(../images/project-bg-paralacks.jpg) center center no-repeat;
   background-attachment: fixed;
@@ -371,7 +322,7 @@
 .doneproject-section .doneproject-body .doneproject-slider {
   width: 90%;
   margin: 0 auto;
-  padding-top: 160px;
+  padding-top: 60px;
   overflow: visible;
 }
 

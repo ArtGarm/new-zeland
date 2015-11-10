@@ -50,6 +50,32 @@
 }
 
 /* /titles */
+/* paralax */
+.parallax {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.parallax img {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  top: 0;
+  -webkit-transition: top ease-out .4s;
+  -moz-transition: top ease-out .4s;
+  -o-transition: top ease-out .4s;
+  transition: top ease-out .4s;
+}
+
+/* /paralax */
 /* rectange */
 .specialization-main {
   text-align: center;
@@ -186,7 +212,7 @@
 /* functional-way */
 .functional-way {
   padding-top: 64px;
-  overflow: hidden;
+  position: relative;
 }
 
 .functional-way-wrap {
@@ -314,12 +340,14 @@
 }
 
 .functional-index {
-  background-image: url(../images/functional-index-background.png);
+  /*background-image:url(../images/functional-index-background.png);*/
   background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 4px;
-  padding-bottom: 13px;
-  margin-top: -60px;
+  background-attachment: fixed;
+  background-position: center top;
+  padding-top: 53px;
+  padding-bottom: 91px;
+  margin-top: -99px;
+  position: relative;
 }
 
 .functional-index .functional-way-title {
@@ -379,6 +407,59 @@
   padding: 5px 10px 5px 5px;
 }
 
+.functional-index .doneproject-title-wrap {
+  padding: 4px;
+  position: absolute;
+  top: 441px;
+  background-repeat: no-repeat;
+  z-index: 2;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  right: 0;
+  z-index: 1;
+  -webkit-border-radius: 100px 0px 0px 0px / 75px 0px 0px 0px;
+  -moz-border-radius: 100px 0px 0px 0px / 75px 0px 0px 0px;
+  border-radius: 100px 0px 0px 0px / 75px 0px 0px 0px;
+  height: 43px;
+  width: -webkit-calc(100%/2 - 999px/2 + 708px);
+  width: -moz-calc(100%/2 - 999px/2 + 708px);
+  width: calc(100%/2 - 999px/2 + 708px);
+  cursor: pointer;
+  background-color: #D5E0E6;
+}
+
+.functional-index .doneproject-title-wrap a {
+  text-decoration: none;
+}
+
+.functional-index .doneproject-title-wrap .doneproject-title {
+  text-align: right;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #465460;
+  font-weight: 100;
+  margin-right: 385px;
+}
+
+.functional-index .doneproject-title-wrap:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 753px 90px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.functional-index .doneproject-title-wrap:hover {
+  background-color: #FADD52;
+}
+
 /* /functional-way */
 /* specialization */
 .specialization-main {
@@ -388,12 +469,11 @@
 
 .specialization {
   background-image: url(../images/specialization-bg.jpg);
-  background-position: center top;
+  background-position: center center;
   border-bottom: 12px solid #f2dc5e;
   padding: 0px 0 49px 0;
   position: relative;
   z-index: 1;
-  background-attachment: fixed;
   padding-top: 102px;
 }
 

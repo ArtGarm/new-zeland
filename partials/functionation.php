@@ -1,4 +1,7 @@
 <div class="functional-way functional-index">
+    <div class="parallax">
+        <img src="images/functional-index-background.png" alt="" />
+    </div>
     <div class="mbox">
 
         <div class="text-title-wrap">
@@ -101,6 +104,15 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="doneproject-title-wrap">
+        <div class="mbox">
+            <a href="#" class="">
+                <div class="doneproject-title">
+                    <h2>Выполненные проекты</h2>
+                </div>
+            </a>
         </div>
     </div>
 </div>
