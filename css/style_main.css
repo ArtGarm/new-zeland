@@ -185,7 +185,7 @@
 /* /rectange */
 /* functional-way */
 .functional-way {
-  padding-top: 50px;
+  padding-top: 64px;
   overflow: hidden;
 }
 
@@ -319,6 +319,7 @@
   background-position: center;
   padding-top: 4px;
   padding-bottom: 13px;
+  margin-top: -60px;
 }
 
 .functional-index .functional-way-title {
