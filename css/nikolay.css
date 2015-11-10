@@ -246,32 +246,38 @@
 /*/company*/
 /*/about*/
 /*clients*/
-.petro-img {
-  overflow: hidden;
-  margin-bottom: -46px;
-}
-
-.petro-img .petro-align {
+.petro-img .petro-wrapp {
   position: relative;
+  height: 43px;
 }
 
-.petro-img .petro-align .petro-wrapp {
+.petro-img .petro-wrapp .petro-align {
+  -webkit-border-radius: 0px 100px 0px  0px / 0px  75px 0px 0px;
+  -moz-border-radius: 0px 100px 0px  0px / 0px  75px 0px 0px;
+  border-radius: 0px 100px 0px  0px / 0px  75px 0px 0px;
+  height: 43px;
+  width: -webkit-calc(100%/2 - 999px/2 + 708px);
+  width: -moz-calc(100%/2 - 999px/2 + 708px);
+  width: calc(100%/2 - 999px/2 + 708px);
+  background-color: #D5E0E6;
+  width: calc(100%/2 - 999px/2 + 708px);
+}
+
+.petro-img .petro-wrapp .petro-align:after {
+  content: "";
   position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-.petro-img .petro-align .petro-wrapp img {
-  max-width: none;
+  right: 0;
+  top: -47px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 90px 753px;
+  border-color: transparent transparent #ffffff transparent;
 }
 
 .clients-wrapp {
   padding-bottom: 11px;
-  margin-top: -83px;
+  margin-top: -43px;
 }
 
 .clients-wrapp .clients-align .slider .slide-item {
@@ -386,9 +392,12 @@
 
 .clients-wrapp .client-title-wrapp .clients-title {
   padding: 6px 19px 4px;
+  position: absolute;
 }
 
 .clients-wrapp .client-title-wrapp .clients-title span {
+  position: relative;
+  top: -43px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 26px;
   text-transform: uppercase;
