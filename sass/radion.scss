@@ -92,21 +92,6 @@ $yellow:#f2dc5e;
             }
         }
     }
-    .top_section_button{text-align: center;padding-top: 9px;
-        .top_section_button_wrap{height: 60px;width: 60px;border:1px solid #f2dc5e;border-radius: 50%;display: inline-block;
-            &:hover{
-                a{height: 52px;width: 52px;margin-top: 3px;padding-top: 16px;}
-            }
-        }
-        a{text-decoration: none;font-size: 13px;color: #000;background-color: #f2dc5e;height: 41px;width: 41px;display: inline-block;border-radius: 50%;padding-top: 10px;margin-top: 9px;transition:all ease .2s;
-           span{position: relative;z-index: 1;
-                &:after{position: absolute;content: '';height: 75px;left: 50%;top:50%;border:1px dotted #95abc2;transform: translate(-50%,-50%);z-index: 1;}
-                b{position: relative;z-index: 2;display: inline-block;background-color: #f2dc5e;font-weight: normal;}
-
-
-           }
-        }
-    }
 }
 /*footer*/
 .footer{overflow: initial;

@@ -69,13 +69,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="top_section_button">
-                    <div class="top_section_button_wrap">
-                        <a href="#">
-                            <span><b>далее</b></span>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
