@@ -309,6 +309,8 @@ function parallaxScroll(){
 
     var scrolled = $(window).scrollTop();
     $('.parallax img').css('top',(0-(scrolled*0.12))+'px');
+
+    $('.parallaxmin img').css('top',(0-(scrolled*0.06))+'px');
 }
 //
 /* DOCUMENT READY  */
@@ -330,7 +332,7 @@ $(window).load(function(){
     oneHeightItems();
 
     $(window).bind('scroll', function(e){
-        parallaxScroll(); // radion
+        parallaxScroll();
     });
 
 
