@@ -15,11 +15,6 @@
   .specialization {
     padding: 0px 0 58px 0;
   }
-  .specialization .text-title-wrap {
-    top: 0;
-    padding-top: 92px;
-    margin-bottom: 53px;
-  }
   .parallax img {
     -webkit-transform: translate(-50%, 11%);
     -moz-transform: translate(-50%, 11%);
@@ -117,6 +112,8 @@
   /* specialization */
   .specialization .text-title-wrap {
     margin-bottom: 55px;
+    top: 0;
+    padding-top: 88px;
   }
   .specialization .text-title-wrap .text-title span {
     margin-left: -12px;
