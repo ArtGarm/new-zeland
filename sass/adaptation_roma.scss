@@ -32,31 +32,88 @@
 
 
     .aboutus-section{position: relative; /*background-image: url(../images/paralax-last-1-img.jpg);*/ background-repeat: no-repeat;    background-position: top ; background-attachment: fixed;overflow: hidden;
-    .aboutus-title-wrap{padding: 5px 0px 5px;background-color: #D5E0E6;z-index: 1;transition:all 300ms ease; border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px; height: 43px; width: calc(100%/2 - 999px/2 + 708px); cursor: pointer;position: relative;
-        &:hover{background-color: #FADD52;}
-        a{display: block;width: 100%;height: 47px;z-index: 3; text-decoration: none; }
-        a:hover{text-decoration: none;}
-        .aboutus-title{word-spacing: -1px;letter-spacing: -2px;text-align: right; margin-right: 549px; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100;}
+        .aboutus-title-wrap{padding: 5px 0px 5px;background-color: #D5E0E6;z-index: 1;transition:all 300ms ease; border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px; height: 43px; width: calc(100%/2 - 999px/2 + 708px); cursor: pointer;position: relative;
+            &:hover{background-color: #FADD52;}
+            a{display: block;width: 100%;height: 47px;z-index: 3; text-decoration: none; }
+            a:hover{text-decoration: none;}
+            .aboutus-title{word-spacing: -1px;letter-spacing: -2px;text-align: right; margin-right: 549px; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100;}
 
-    }
-    &:after{ content: ""; position: absolute; top: 0 ; right: 0; width: 0; height: 0; border-style: solid; border-width: 0 753px 90px 0; border-color: transparent #ffffff transparent transparent;}
+        }
+        &:after{ content: ""; position: absolute; top: 0 ; right: 0; width: 0; height: 0; border-style: solid; border-width: 0 753px 90px 0; border-color: transparent #ffffff transparent transparent;}
 
-    .aboutus-body{padding-top: 37px;position: relative;z-index: 2;padding-bottom: 8px;
-        .aboutus-list{color: #fff;font-family: tahoma;font-size: 16px;font-weight: 700;word-spacing: 2px;line-height: 1.5;width: 76%;letter-spacing: 1.3px;word-spacing: 7.5px;
-            .aboutus{padding-left: 31px;
-                p{margin-bottom: 20px;    padding-top: 3px;    letter-spacing: 1.3rem;     line-height: 23rem;
-                    span{letter-spacing: 1.2rem;    word-spacing: -0.7rem;}
-                    &:nth-child(2){    letter-spacing: 1.4rem;span{word-spacing: -1rem;}}
-                    &:nth-child(3){  letter-spacing: 1.06rem; word-spacing: -0.6rem;span{ word-spacing: -1.9rem; letter-spacing: 1.4rem;}}
-                    &:nth-child(4){ letter-spacing: 1.6rem;    word-spacing: 1.44rem;span{ word-spacing: -1.9rem;     letter-spacing: 1.37rem;}}
-                    &:before{display: block;content: '';position: absolute;background-image: url(../images/arrow-about.png);background-repeat: no-repeat;width: 18px;height: 52px;left: -3px;}
-                    &:nth-child(1){&:before{top:0px;}}
+        .aboutus-body{padding-top: 37px;position: relative;z-index: 2;padding-bottom: 8px;
+            .aboutus-list{color: #fff;font-family: tahoma;font-size: 16px;font-weight: 700;word-spacing: 2px;line-height: 1.5;width: 76%;letter-spacing: 1.3px;word-spacing: 7.5px;
+                .aboutus{padding-left: 31px;
+                    p{margin-bottom: 20px;    padding-top: 3px;    letter-spacing: 1.4rem;     line-height: 23rem; word-spacing: 7rem;
+                        span{letter-spacing: 1.3rem;    word-spacing: -1rem;}
+
+                        &:nth-child(1){ i{&:nth-child(1){letter-spacing: 1.3rem;}&:nth-child(2){margin-left: -1px; word-spacing: 6px;}}   }
+                        &:nth-child(2){    letter-spacing: 1.6rem; word-spacing: 6rem; i{letter-spacing: 1.5rem;}span{word-spacing: -1.6rem;}}
+                        &:nth-child(3){  letter-spacing: 1.2rem; word-spacing: -1.6rem;i{letter-spacing: 1.3rem;    margin-left: -1rem;    word-spacing: -2rem;    margin-right: 1rem;}span{ word-spacing: -1.9rem; letter-spacing: 1.6rem;i{&:nth-child(2){letter-spacing: 1.2rem;}}}}
+                        &:nth-child(4){ letter-spacing: 1.55rem;    word-spacing: 1.44rem;
+                            i{
+                                &:nth-child(1){    margin-left: 2px;    letter-spacing: 1.2rem;    margin-right: 3px;}
+                                &:nth-child(2){    margin-left: 1px;    letter-spacing: 1.4rem;    margin-right: 1px;}
+                                &:nth-child(3){    margin-left: 2px;    letter-spacing: 1.3rem;    margin-right: 2px;}
+                                &:nth-child(4){    margin-left: 1px;}
+
+                            }
+                            span{ word-spacing: -1.9rem;     letter-spacing: 1.37rem;
+                                i{
+                                    &:nth-child(1){margin-left: 1px;    letter-spacing: 1.4rem;margin-right: 0px;}
+                                    &:nth-child(2){margin-left:0;    margin-right: 0px;}
+                                    &:nth-child(3){margin-left:-1px;    margin-right: 0px;}
+                                    &:nth-child(4){margin-left:0px;  }
+                                }
+                            }
+                        }
+                        &:before{display: block;content: '';position: absolute;background-image: url(../images/arrow-about.png);background-repeat: no-repeat;width: 18px;height: 52px;left: -3px;}
+                        &:nth-child(1){&:before{top:0px;}}
+                    }
                 }
             }
         }
     }
 
-}
+
+
+
+
+
+
+
+    .bottomsection-section{/*background-image: url(../images/bottomsection-bg.jpg);*/background-repeat: no-repeat;background-position: bottom;overflow: hidden;background-attachment: fixed;position: relative;
+        .top-arrow{position: relative;padding-bottom: 100px;padding-top: 21px;
+            h2{font-family: 'Open Sans Condensed', sans-serif;color: #000;font-size: 21px; font-weight: 700;text-align: center;padding-left: 42px;letter-spacing: 0.5px;line-height: 1.5;
+                span{color: #d92819;font-size: 25px;display: block;text-align: justify;width: 100%;padding-top: 3px;word-spacing: 11px;letter-spacing: 0;}
+            }
+            &:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 49vw solid transparent;border-top: 111px solid white;z-index: 0;top: 52px;}
+            &:before{display: block;content: '';position: absolute;left: 0; height: 52px;width: 100%;background-color: #fff;top: 0;}
+        }
+        .bottomsection-punkts{padding-bottom: 20px;
+            .bottomsection-punkt-wrap{width: calc(33.33% - 20px);float: left;background-color: rgba(200,200,200,0.5);margin-right: 30px;
+                .bottomsection-punkt{text-align: center;
+                    .punkt-number{background-color: #FADD52;width: 30px;height: 30px; border-radius: 50%;font-size: 21px;font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;color: #4B6573;position: relative;display: inline-block;top: -25px;
+                        &:before{width: 34px;height: 34px;position: absolute;display: block;content: '';border: 1px solid #FADD52;border-radius: 50%;transform: translate(-50%,-50%);left: 50%; top: 50%;}
+                    }
+                    .punkt-text{position: relative;top: -10px;padding: 0px 10px;line-height: 1.5;
+                        p{text-align: center;color: #fff;font-family: tahoma;font-size: 13px;}
+                    }
+                }
+                &:last-child{margin-right: 0;}
+            }
+        }
+        .bottomsection-info{color: #fff;font-size: 20px;font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;padding-bottom: 39px;
+            .this{width: 21%;float: left;text-align: right;text-transform: uppercase;}
+            .info{width: 78%;float: right;line-height: 1.4;
+                p{letter-spacing: 0.2px;
+                    span{color: #f1dc5e;}
+                }
+            }
+        }
+    }
+
+
 }
 @media screen and (max-width: 1024px){
  .doneproject-section .doneproject-title-wrap{width: 70.2%;}
