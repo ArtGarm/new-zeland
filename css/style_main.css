@@ -472,7 +472,12 @@
   z-index: 3;
 }
 
-.specialization-main:after {
+.specialization-main .specialization-main-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.specialization-main .specialization-main-wrap:after {
   background: url("../images/specialization_white_line.png") center center no-repeat;
   height: 292px;
   width: 100%;
@@ -481,11 +486,6 @@
   top: -193px;
   left: 0;
   z-index: 3;
-}
-
-.specialization-main .specialization-main-wrap {
-  overflow: hidden;
-  position: relative;
 }
 
 .specialization-main .top_section_button {

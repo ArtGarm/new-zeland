@@ -107,8 +107,10 @@
 /* specialization */
 
 .specialization-main{position: relative;top: -15px;z-index: 3;
-    &:after{background: url('../images/specialization_white_line.png') center center no-repeat;height: 292px;width: 100%;content: '';position: absolute;top: -193px;left: 0;z-index: 3;}
-    .specialization-main-wrap{overflow: hidden;position: relative;}
+
+    .specialization-main-wrap{overflow: hidden;position: relative;
+        &:after{background: url('../images/specialization_white_line.png') center center no-repeat;height: 292px;width: 100%;content: '';position: absolute;top: -193px;left: 0;z-index: 3;}
+    }
     .top_section_button{text-align: center;position: relative;
         .top_section_button_wrap{height: 60px;width: 60px;border:1px solid #f2dc5e;border-radius: 50%;display: inline-block;position: absolute;z-index: 10;top: -47px;left: 50%;transform: translateX(-50%);
             &:hover{
