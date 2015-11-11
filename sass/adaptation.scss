@@ -10,6 +10,7 @@
     .functional-index{padding-bottom: 17px;}
 }
 @media screen and (max-width: 1280px){
+    .specialization-main .parallax img{transform: translate(-50%, -7%);}
     .specialization{padding: 0px 0 58px 0;}
     .functional-index{margin-top: -113px;padding-bottom: 0px;}
     .specialization .text-title-wrap{top: 0;padding-top: 92px;margin-bottom: 53px;}
@@ -17,6 +18,7 @@
 
     .parallax img{    transform: translate(-50%, 11%);}
     .doneproject-section .parallax img{transform: translate(-50.1%, -2%);}
+
 }
 @media screen and (max-width: 1024px){
 

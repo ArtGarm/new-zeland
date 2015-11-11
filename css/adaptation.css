@@ -5,6 +5,13 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .specialization-main .parallax img {
+    -webkit-transform: translate(-50%, -7%);
+    -moz-transform: translate(-50%, -7%);
+    -ms-transform: translate(-50%, -7%);
+    -o-transform: translate(-50%, -7%);
+    transform: translate(-50%, -7%);
+  }
   .specialization {
     padding: 0px 0 58px 0;
   }
