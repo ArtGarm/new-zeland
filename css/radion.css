@@ -19,7 +19,7 @@
 }
 
 .header_wrap .header_logo img {
-  max-width: 52%;
+  max-width: 49.2%;
 }
 
 .header_wrap .header-nav {
@@ -211,7 +211,8 @@
 
 .header_wrap .header_right .header_tel {
   padding-left: 19.3%;
-  padding-top: 8px;
+  padding-top: 7px;
+  margin-bottom: 2px;
 }
 
 .header_wrap .header_right .header_button {
@@ -425,11 +426,12 @@
 /*footer*/
 .footer {
   overflow: initial;
+  background-color: #fff;
 }
 
 .footer .grey_blog {
   background-color: #d7dfe5;
-  padding: 4px 0px;
+  padding: 3px 0px 3px 0;
 }
 
 .footer .grey_blog .grey_blog_text_wrap {
@@ -516,7 +518,7 @@
   font-family: "Tahoma",sans-serif;
   color: #546472;
   font-size: 12px;
-  padding-top: 33px;
+  padding-top: 29px;
 }
 
 .footer .footer-blog-wrap .mbox {
@@ -527,6 +529,7 @@
   float: left;
   width: 50%;
   position: relative;
+  margin-left: -1px;
 }
 
 .footer .footer-blog-wrap .footer-blog-middle-side:last-child {
@@ -553,7 +556,7 @@
 .footer .footer-blog-wrap .footer-blog-middle-side li:after {
   content: '';
   position: absolute;
-  right: 6px;
+  right: 8px;
   top: 0;
   width: 1px;
   height: 100%;
@@ -580,6 +583,7 @@
 
 .footer .footer-blog-wrap .copywriting {
   padding-bottom: 6px;
+  margin-left: -1px;
 }
 
 .projects_wrap .gray-title-wrap {

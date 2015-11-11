@@ -4,7 +4,7 @@ $yellow:#f2dc5e;
     &>div{display: inline-block;vertical-align: top;margin-left: -3.3rem;}
     .header_logo{width: 29%;
         a{display: inline-block;max-width: 100%;}
-        img{max-width: 52%;}
+        img{max-width: 49.2%;}
     }
     .header-nav{width: 43%;vertical-align: bottom;font-family: 'Tahoma';font-size: 15px;
         ul{margin:0;padding: 0;list-style-type: none;
@@ -52,7 +52,7 @@ $yellow:#f2dc5e;
                 &:hover{text-decoration: underline;}
             }
         }
-        .header_tel{padding-left: 19.3%;padding-top: 8px}
+        .header_tel{padding-left: 19.3%;padding-top: 7px;margin-bottom: 2px;}
         .header_button{text-align: left;padding-top: 7px;padding-left: 19%;margin-right: -20px;
             a{width: 47%;display: inline-block;color: #485762;font-size: 9px;text-decoration: none;background-color: #d8dee2;padding: 3px 2px 2px 9px;text-transform: uppercase;transition:all ease .2s;
                 &.zvonok{background-color: #8e99a1;color:white;padding: 3px 2px 2px 5px;}
@@ -107,8 +107,8 @@ $yellow:#f2dc5e;
     }
 }
 /*footer*/
-.footer{overflow: initial;
-    .grey_blog{background-color: #d7dfe5;padding: 4px 0px;
+.footer{overflow: initial;background-color: #fff;
+    .grey_blog{background-color: #d7dfe5;padding: 3px 0px 3px 0;
         .grey_blog_text{}
         .grey_blog_text_wrap{font-family: 'PT Sans Narrow', sans-serif;font-size: 26px;text-align: right;color: #000000;
             span{margin-right: 20px;}
@@ -128,14 +128,14 @@ $yellow:#f2dc5e;
         }
     }
     .footer-blog{padding-bottom: 49px;}
-    .footer-blog-wrap{font-family: "Tahoma",sans-serif;color: #546472;font-size: 12px;padding-top: 33px;
+    .footer-blog-wrap{font-family: "Tahoma",sans-serif;color: #546472;font-size: 12px;padding-top: 29px;
         .mbox{padding: 0 3px;}
-        .footer-blog-middle-side{float: left;width: 50%;position: relative;
+        .footer-blog-middle-side{float: left;width: 50%;position: relative;margin-left: -1px;
             &:last-child{top: -2px;right:-5px;}
             a{font-family: "Tahoma",sans-serif;color: #546472;font-size: 12px;}
             ul{float: right;}
             li{float: left;padding-right: 21px;position: relative;
-                &:after{content: '';position: absolute;right: 6px;top: 0;width: 1px;height: 100%;background-color: #546472;}
+                &:after{content: '';position: absolute;right: 8px;top: 0;width: 1px;height: 100%;background-color: #546472;}
                 &:last-child{padding-right: 0;
                     &:after{display: none;}
                 }
@@ -144,7 +144,7 @@ $yellow:#f2dc5e;
                 }
             }
         }
-        .copywriting{padding-bottom: 6px;}
+        .copywriting{padding-bottom: 6px;margin-left: -1px;}
     }
 }
 
