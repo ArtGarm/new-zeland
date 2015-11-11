@@ -327,6 +327,7 @@
 
 .top_section_wrap .top_title .subtitle p {
   letter-spacing: 1rem;
+  text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.88);
 }
 
 .top_section_wrap .top_title .subtitle p:nth-child(2) {

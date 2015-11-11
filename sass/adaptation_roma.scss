@@ -13,9 +13,10 @@
     }
 }
 @media screen and (max-width: 1280px){
+    .aboutus-section .parallax img{transform: translate(-50.1%, 14%);}
+    .doneproject-section .doneproject-body{padding-bottom: 116px;}
+    .doneproject-section .doneproject-body .doneproject-slider{padding-top: 49px;}
     .aboutus-section:after {    border-width: 0 447px 55px 0 !important; top: -4px !important;}
-    .aboutus-section .parallax img{transform: translate(-50.1%, 11%);}
-
     .aboutus-section .aboutus-body{padding-bottom: 0;}
     // .bottomsection-section .top-arrow{padding-bottom: 124px;}
 

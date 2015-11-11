@@ -7,9 +7,9 @@
         </div>
     </div>
     <div class="specialization-main-wrap">
-        <div class="parallax">
+        <!-- <div class="parallax">
             <img src="images/specialization-bg.jpg" alt="" />
-        </div>
+        </div> -->
         <div class="specialization">
             <div class="mbox">
 
