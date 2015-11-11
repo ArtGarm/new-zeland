@@ -1,9 +1,15 @@
+@media screen and (max-width: 1366px) {
+  .functional-index {
+    padding-bottom: 17px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .specialization {
-    padding: 0px 0 67px 0;
+    padding: 0px 0 58px 0;
   }
   .functional-index {
-    margin-top: -120px;
+    margin-top: -113px;
     padding-bottom: 0px;
   }
   .specialization .text-title-wrap {
@@ -13,6 +19,20 @@
   }
   .text-title-wrap {
     margin-bottom: 50px;
+  }
+  .parallax img {
+    -webkit-transform: translate(-50%, 11%);
+    -moz-transform: translate(-50%, 11%);
+    -ms-transform: translate(-50%, 11%);
+    -o-transform: translate(-50%, 11%);
+    transform: translate(-50%, 11%);
+  }
+  .doneproject-section .parallax img {
+    -webkit-transform: translate(-50.1%, -2%);
+    -moz-transform: translate(-50.1%, -2%);
+    -ms-transform: translate(-50.1%, -2%);
+    -o-transform: translate(-50.1%, -2%);
+    transform: translate(-50.1%, -2%);
   }
 }
 

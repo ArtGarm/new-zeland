@@ -278,7 +278,7 @@
 }
 
 .doneproject-section .doneproject-body {
-  background: url(../images/project-bg-paralacks.jpg) center center no-repeat;
+  /*background: url(../images/project-bg-paralacks.jpg) center center no-repeat;*/
   background-attachment: fixed;
   z-index: 1;
   padding-bottom: 115px;
@@ -363,13 +363,13 @@
   background-color: #001C59;
   margin: 51.10px 0;
   position: absolute;
-  top: -91px;
+  top: -46px;
   -webkit-transform: rotate(30deg) scale(0.591);
   -moz-transform: rotate(30deg) scale(0.591);
   -ms-transform: rotate(30deg) scale(0.591);
   -o-transform: rotate(30deg) scale(0.591);
   transform: rotate(30deg) scale(0.591);
-  left: -77px;
+  left: -24px;
   opacity: 0;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
