@@ -36,11 +36,8 @@
     -o-transform: translate(-50.1%, 11%);
     transform: translate(-50.1%, 11%);
   }
-  .doneproject-section .doneproject-title-wrap {
-    width: 67.1%;
-  }
   .doneproject-section .doneproject-body {
-    padding-bottom: 113px;
+    padding-bottom: 116px;
   }
   .doneproject-section .doneproject-body .doneproject-slider {
     padding-top: 49px;
@@ -93,24 +90,12 @@
   }
   .aboutus-section .aboutus-title-wrap {
     padding: 5px 0px 5px;
-    background-color: #D5E0E6;
-    z-index: 1;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
-    -webkit-border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
-    -moz-border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
-    border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
-    height: 43px;
-    width: -webkit-calc(100%/2 - 999px/2 + 708px);
-    width: -moz-calc(100%/2 - 999px/2 + 708px);
-    width: calc(100%/2 - 999px/2 + 708px);
     cursor: pointer;
     position: relative;
-  }
-  .aboutus-section .aboutus-title-wrap:hover {
-    background-color: #FADD52;
   }
   .aboutus-section .aboutus-title-wrap a {
     display: block;
@@ -124,9 +109,9 @@
   }
   .aboutus-section .aboutus-title-wrap .aboutus-title {
     word-spacing: -1px;
-    letter-spacing: -2px;
+    letter-spacing: 0px;
     text-align: right;
-    margin-right: 549px;
+    margin-right: 594px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 26px;
     text-transform: uppercase;
@@ -167,34 +152,89 @@
   .aboutus-section .aboutus-body .aboutus-list .aboutus p {
     margin-bottom: 20px;
     padding-top: 3px;
-    letter-spacing: 1.3rem;
+    letter-spacing: 1.4rem;
     line-height: 23rem;
+    word-spacing: 7rem;
   }
   .aboutus-section .aboutus-body .aboutus-list .aboutus p span {
-    letter-spacing: 1.2rem;
-    word-spacing: -0.7rem;
-  }
-  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(2) {
-    letter-spacing: 1.4rem;
-  }
-  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(2) span {
+    letter-spacing: 1.3rem;
     word-spacing: -1rem;
   }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(1) i:nth-child(1) {
+    letter-spacing: 1.3rem;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(1) i:nth-child(2) {
+    margin-left: -1px;
+    word-spacing: 6px;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(2) {
+    letter-spacing: 1.6rem;
+    word-spacing: 6rem;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(2) i {
+    letter-spacing: 1.5rem;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(2) span {
+    word-spacing: -1.6rem;
+  }
   .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(3) {
-    letter-spacing: 1.06rem;
-    word-spacing: -0.6rem;
+    letter-spacing: 1.2rem;
+    word-spacing: -1.6rem;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(3) i {
+    letter-spacing: 1.3rem;
+    margin-left: -1rem;
+    word-spacing: -2rem;
+    margin-right: 1rem;
   }
   .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(3) span {
     word-spacing: -1.9rem;
-    letter-spacing: 1.4rem;
+    letter-spacing: 1.6rem;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(3) span i:nth-child(2) {
+    letter-spacing: 1.2rem;
   }
   .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) {
-    letter-spacing: 1.6rem;
+    letter-spacing: 1.55rem;
     word-spacing: 1.44rem;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) i:nth-child(1) {
+    margin-left: 2px;
+    letter-spacing: 1.2rem;
+    margin-right: 3px;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) i:nth-child(2) {
+    margin-left: 1px;
+    letter-spacing: 1.4rem;
+    margin-right: 1px;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) i:nth-child(3) {
+    margin-left: 2px;
+    letter-spacing: 1.3rem;
+    margin-right: 2px;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) i:nth-child(4) {
+    margin-left: 1px;
   }
   .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) span {
     word-spacing: -1.9rem;
     letter-spacing: 1.37rem;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) span i:nth-child(1) {
+    margin-left: 1px;
+    letter-spacing: 1.4rem;
+    margin-right: 0px;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) span i:nth-child(2) {
+    margin-left: 0;
+    margin-right: 0px;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) span i:nth-child(3) {
+    margin-left: -1px;
+    margin-right: 0px;
+  }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(4) span i:nth-child(4) {
+    margin-left: 0px;
   }
   .aboutus-section .aboutus-body .aboutus-list .aboutus p:before {
     display: block;

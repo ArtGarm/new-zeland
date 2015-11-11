@@ -257,11 +257,11 @@
   -moz-border-radius: 0px 100px 0px  0px / 0px  75px 0px 0px;
   border-radius: 0px 100px 0px  0px / 0px  75px 0px 0px;
   height: 43px;
-  width: -webkit-calc(100%/2 - 999px/2 + 708px);
-  width: -moz-calc(100%/2 - 999px/2 + 708px);
-  width: calc(100%/2 - 999px/2 + 708px);
-  background-color: #D5E0E6;
-  width: calc(100%/2 - 999px/2 + 708px);
+  width: 100%;
+  background-image: url(../images/plashka-klient.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0px;
 }
 
 .petro-img .petro-wrapp .petro-align:after {

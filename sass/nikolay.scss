@@ -103,7 +103,7 @@
 
     .petro-img{
         .petro-wrapp{ position: relative;height: 43px;
-            .petro-align{ border-radius: 0px 100px 0px  0px / 0px  75px 0px 0px; height: 43px; width: calc(100%/2 - 999px/2 + 708px);  background-color: #D5E0E6; width: calc(100%/2 - 999px/2 + 708px);
+            .petro-align{ border-radius: 0px 100px 0px  0px / 0px  75px 0px 0px; height: 43px; width:100%; background-image: url(../images/plashka-klient.png); position: absolute; background-repeat: no-repeat; top: 0px;
                 &:after{ content: ""; position: absolute; right: 0;top: -47px; width: 0;height: 0; border-style: solid; border-width: 0 0 90px 753px;border-color: transparent transparent #ffffff transparent;}
             }
         }
