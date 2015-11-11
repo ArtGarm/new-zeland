@@ -109,9 +109,9 @@
   }
   .aboutus-section .aboutus-title-wrap .aboutus-title {
     word-spacing: -1px;
-    letter-spacing: -2px;
+    letter-spacing: 0px;
     text-align: right;
-    margin-right: 549px;
+    margin-right: 594px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 26px;
     text-transform: uppercase;
