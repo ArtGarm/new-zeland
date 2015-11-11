@@ -1,4 +1,7 @@
 <div class="specialization-main">
+    <div class="parallax">
+        <img src="images/specialization-bg.jpg" alt="" />
+    </div>
     <div class="specialization">
         <div class="mbox">
 

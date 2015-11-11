@@ -51,7 +51,7 @@
 
 /* /titles */
 /* paralax */
-.parallax {
+.parallax, .parallaxmin {
   position: absolute;
   width: 100%;
   left: 0;
@@ -60,7 +60,7 @@
   bottom: 0;
 }
 
-.parallax img {
+.parallax img, .parallaxmin img {
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50.1%, -1%);
@@ -346,7 +346,7 @@
   background-position: center top;
   padding-top: 53px;
   padding-bottom: 91px;
-  margin-top: -99px;
+  margin-top: -29px;
   position: relative;
 }
 
@@ -464,11 +464,24 @@
 /* specialization */
 .specialization-main {
   position: relative;
-  top: -99px;
+  top: -15px;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.specialization-main:after {
+  background: url("../images/specialization_white_line.png") center center no-repeat;
+  height: 292px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: -193px;
+  left: 0;
+  z-index: 3;
 }
 
 .specialization {
-  background-image: url(../images/specialization-bg.jpg);
+  /*background-image:url(../images/specialization-bg.jpg);*/
   background-position: center center;
   border-bottom: 12px solid #f2dc5e;
   padding: 0px 0 49px 0;
