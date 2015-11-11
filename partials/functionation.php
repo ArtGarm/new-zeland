@@ -115,4 +115,7 @@
             </a>
         </div>
     </div>
+    <div class="convert-img-plashka">
+        <img src="images/try2make.png" alt="">
+    </div>
 </div>
