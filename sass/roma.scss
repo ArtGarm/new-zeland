@@ -36,8 +36,8 @@
 /* aboutus */
 
 .aboutus-section{position: relative; /*background-image: url(../images/paralax-last-1-img.jpg);*/ background-repeat: no-repeat;    background-position: top ; background-attachment: fixed;overflow: hidden;
-	.aboutus-title-wrap{padding: 5px 0px 5px; z-index: 1;transition:all 300ms ease; border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px; height: 43px;  cursor: pointer;position: absolute; background-image: url(../images/aboutus-plashka.png); background-repeat: no-repeat;     left: -314px;  top: 0px;
-		&:hover{background-image: url(../images/plashka-aboutus.png); }
+	.aboutus-title-wrap{padding: 5px 0px 5px; z-index: 1;transition:all 300ms ease; border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px; height: 43px;  cursor: pointer;position: absolute; background-image: url(../images/plashka-aboutus.png); background-repeat: no-repeat;     left: 0px;  top: 0px;    z-index: 0;
+		&:hover{background-image: url(../images/plashka-klient123.png); }
 		a{display: block;width: 100%;height: 47px;z-index: 3; text-decoration: none; }
 		a:hover{text-decoration: none;}
 		.aboutus-title{word-spacing: -1px;letter-spacing: -2px;text-align: right; margin-right: 549px; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100;}
@@ -59,39 +59,4 @@
 
 /* /aboutus */
 
-/* doneproject */
-.doneproject-section{position: relative;/*margin-bottom: -66px;*/overflow: hidden;
-	.doneproject-body{/*background: url(../images/project-bg-paralacks.jpg) center center no-repeat;*/background-attachment: fixed;z-index: 1;padding-bottom: 115px;
-		.mbox{overflow: hidden;}
-		.slick-prev.slick-arrow,.slick-next.slick-arrow {outline:none;cursor:pointer;position: absolute;background-image: url(../images/arrow.png);background-repeat: no-repeat;width: 33px;height: 89px;background-color: transparent;border: 0;transform: rotate(180deg) translateY(-20%);text-indent: -9999px;left: -50px;
-			&:hover{background-image: url(../images/arrow-hover.png);}
-		}
-		.slick-next.slick-arrow {transform: rotate(0deg) translateY(20%);right: -50px;left: inherit;top: 34%;}
-		.doneproject-slider{width: 90%;margin: 0 auto;padding-top: 72px;overflow: visible;
-			.doneproject{display: inline-block;outline: none;vertical-align: middle;
-				.rectange{
-					&:hover{
-						.hover-project{opacity: 1}
-					}
-				}
-				.text-wrap{display: inline-block;width: 53%;padding-left: 9px;
-					p{display: inline-block;vertical-align: middle;color: #fff;font-family: tahoma;font-weight: 700;font-size: 12px;}
-				}
-			}
-		}
-	}
-}
 
-/* /doneproject */
-
-/* romb */
-
-
-.hover-project{z-index:12;width: 177px;height: 102.19px;background-color: #001C59;margin: 51.10px 0;position: absolute;top: -46px;transform: rotate(30deg)  scale(0.591);left: -24px;opacity: 0;transition:all 300ms ease;
-	&:before,&:after{content: "";position: absolute;width: 0;border-left: 88.5px solid transparent;border-right: 88.5px solid transparent;}
-	&:before{bottom: 99%;border-bottom: 51.10px solid #001C59;}
-	&:after{top: 99%;width: 0;border-top: 51.10px solid #001C59;}
-		p{transform:rotate(-30deg); font-family: tahoma;color: #f1dc5e;font-size: 24px;text-align: center;padding: 20px 29px 0px 24px;position: relative;z-index: 0;}
-}
-
-/* .romb */

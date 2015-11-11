@@ -29,10 +29,10 @@
 				        </div>
 				    </div>
 					<div class="text-wrap">
-						<p>Развитие транспортного комплекса Республики Татарстан на 2011-2015 гг.</p>
+						<p>Развитие<br> транспортного комплекса<br> Республики Татарстан<br> на 2011-2015 гг.</p>
 					</div>
 				</div>
-				<div class="doneproject">
+				<div class="doneproject second-slide">
 					<div class="rectange">
 						<a href="#">
 							<div class="hover-project"><p>Подробнее о проекте</p></div>
@@ -56,10 +56,10 @@
 				        </div>
 				    </div>
 					<div class="text-wrap">
-						<p>Подготовка и защита заявок моногородов во Внешэкономбанке РФ</p>
+						<p>Подготовка и защита<br> заявок моногородов<br> во Внешэкономбанке РФ</p>
 					</div>
 				</div>
-				<div class="doneproject">
+				<div class="doneproject third-slide">
 					<div class="rectange">
 						<a href="#">
 							<div class="hover-project"><p>Подробнее о проекте</p></div>
@@ -83,7 +83,7 @@
 				        </div>
 				    </div>
 					<div class="text-wrap">
-						<p>Развитие рынка газомоторного топлива в Республике Татарстан на 2013-2023 годы</p>
+						<p>Развитие рынка газомоторного топлива<br> в Республике Татарстан<br> на 2013-2023 годы</p>
 					</div>
 				</div>
 				<div class="doneproject">
