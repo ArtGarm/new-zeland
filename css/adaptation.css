@@ -275,7 +275,8 @@
   }
   .bottomsection-section .bottomsection-info .info p .fix {
     color: #fff;
-    letter-spacing: 0.1rem;
+    letter-spacing: -0.1rem;
+    word-spacing: 0;
   }
   .bottomsection-section .bottomsection-info .info p:last-child {
     margin-bottom: 0;
