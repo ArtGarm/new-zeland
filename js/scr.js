@@ -331,6 +331,8 @@ $(window).load(function(){
 
     oneHeightItems();
 
+    parallaxScroll();
+
     $(window).bind('scroll', function(e){
         parallaxScroll();
     });

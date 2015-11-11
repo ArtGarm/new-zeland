@@ -75,7 +75,7 @@ $yellow:#f2dc5e;
             .top_polovina{position: relative;left: 3px;}
         }
         .subtitle{padding-top: 25px;font-family: "Tahoma";font-weight: bold;
-            p{letter-spacing: 1rem;
+            p{letter-spacing: 1rem;text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.88);
                 &:nth-child(2){letter-spacing: 1.29rem;
                     span:first-child{position: relative;left: 2rem;letter-spacing: 1.39rem;}
                     span:last-child{position: relative;left: -1px;}

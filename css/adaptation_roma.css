@@ -30,11 +30,11 @@
 
 @media screen and (max-width: 1280px) {
   .aboutus-section .parallax img {
-    -webkit-transform: translate(-50.1%, 11%);
-    -moz-transform: translate(-50.1%, 11%);
-    -ms-transform: translate(-50.1%, 11%);
-    -o-transform: translate(-50.1%, 11%);
-    transform: translate(-50.1%, 11%);
+    -webkit-transform: translate(-50.1%, 14%);
+    -moz-transform: translate(-50.1%, 14%);
+    -ms-transform: translate(-50.1%, 14%);
+    -o-transform: translate(-50.1%, 14%);
+    transform: translate(-50.1%, 14%);
   }
   .doneproject-section .doneproject-body {
     padding-bottom: 116px;
