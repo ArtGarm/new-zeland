@@ -38,8 +38,9 @@
 
 @media screen and (max-width: 1280px) {
   .functional-index .doneproject-title-wrap {
-    top: 460px;
-    right: -8px;
+    top: 461px;
+    left: 431px;
+    width: 832px;
   }
 }
 
