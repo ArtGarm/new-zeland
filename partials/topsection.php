@@ -2,6 +2,7 @@
     <div class="top_section_wrap">
         <div class="parallaxmin">
             <img src="images/top_section_v2.jpg" alt="" />
+            <img src="images/top_section_1280.jpg" alt="" class="top_section_1280" />
         </div>
         <div class="mbox">
             <div class="top_title">
