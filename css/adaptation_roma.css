@@ -41,11 +41,15 @@
     transform: translate(-50.1%, 11%);
   }
   .aboutus-section .aboutus-body {
+    padding-top: 21px !important;
+    padding-bottom: 8px;
+  }
+  .aboutus-section .aboutus-body {
     padding-bottom: 0;
   }
   .bottomsection-section .top-arrow {
     padding-top: 22px;
-    padding-bottom: 102px;
+    padding-bottom: 134px;
   }
   .bottomsection-section {
     padding-bottom: 10px;
@@ -94,6 +98,7 @@
     transition: all 300ms ease;
     cursor: pointer;
     position: relative;
+    left: -7px;
   }
   .aboutus-section .aboutus-title-wrap a {
     display: block;
@@ -115,7 +120,7 @@
     color: #465460;
     font-weight: 100;
     padding-top: 3px;
-    padding-left: 32px;
+    padding-left: 31px;
   }
   .aboutus-section:after {
     content: "";

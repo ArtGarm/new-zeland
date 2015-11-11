@@ -1,7 +1,13 @@
 @media screen and (max-width: 1366px) {
   .client-title-wrapp .clients-title span {
-    top: -38px !important;
-    left: 2px !important;
+    top: -46px !important;
+    left: -6px !important;
+  }
+  .petro-img .petro-wrapp .petro-align {
+    height: 45px;
+    background-image: url(../images/plashka-klient.png);
+    top: -1px;
+    left: -5px;
   }
   .aboutus-section:after {
     border-width: 0 430px 52px 0;
@@ -12,7 +18,7 @@
     top: -8px;
   }
   .functional-index .doneproject-title-wrap .doneproject-title {
-    margin-right: 155px;
+    margin-right: 162px;
   }
   .clients-wrapp {
     padding-bottom: 19px;
@@ -28,8 +34,8 @@
     top: 447px;
   }
   .functional-index .convert-img-plashka img {
-    top: -205px;
-    left: -319px;
+    top: -207px;
+    left: -326px;
   }
   .doneproject-section .doneproject-body {
     padding-top: 10px;
@@ -42,9 +48,9 @@
 
 @media screen and (max-width: 1280px) {
   .functional-index .doneproject-title-wrap {
-    top: 461px;
-    left: 431px;
-    width: 832px;
+    top: 457px;
+    left: 426px;
+    width: 837px;
   }
 }
 

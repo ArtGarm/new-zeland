@@ -221,8 +221,9 @@
     top: 63px;
   }
   .doneproject-section .doneproject-body .doneproject-slider {
-    padding-top: 69px;
+    padding-top: 67px;
     width: 92%;
+    padding-bottom: 4px;
   }
   .doneproject-section .doneproject-body .doneproject-slider .doneproject {
     position: relative;

@@ -15,11 +15,11 @@
 @media screen and (max-width: 1280px){
     .aboutus-section:after {    border-width: 0 447px 55px 0 !important; top: -4px !important;}
     .aboutus-section .parallax img{transform: translate(-50.1%, 11%);}
-
+    .aboutus-section .aboutus-body { padding-top: 21px !important; padding-bottom: 8px; }
     .aboutus-section .aboutus-body{padding-bottom: 0;}
     // .bottomsection-section .top-arrow{padding-bottom: 124px;}
 
-    .bottomsection-section .top-arrow{padding-top: 22px;padding-bottom: 102px;}
+    .bottomsection-section .top-arrow{padding-top: 22px;padding-bottom: 134px;}
     .bottomsection-section{padding-bottom: 10px;}
     // .bottomsection-section .top-arrow{    padding-top: 26px;}
     .bottomsection-section{
@@ -33,11 +33,11 @@
 
     .aboutus-section{position: relative; /*background-image: url(../images/paralax-last-1-img.jpg);*/ background-repeat: no-repeat;    background-position: top ; background-attachment: fixed;overflow: hidden;
 
-    .aboutus-title-wrap{padding: 5px 0px 5px;transition:all 300ms ease; cursor: pointer;position: relative;
+    .aboutus-title-wrap{padding: 5px 0px 5px;transition:all 300ms ease; cursor: pointer; position: relative;  left: -7px;
 
         a{display: block;width: 100%;height: 47px;z-index: 3; text-decoration: none; }
         a:hover{text-decoration: none;}
-        .aboutus-title{word-spacing: -1px;letter-spacing: 0px;text-align: left; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100; padding-top: 3px;     padding-left: 32px;}
+        .aboutus-title{word-spacing: -1px;letter-spacing: 0px;text-align: left; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100; padding-top: 3px;     padding-left: 31px;}
 
 
         }
