@@ -11,7 +11,10 @@ $yellow:#f2dc5e;
 @media screen and (max-width: 1280px){
 
     /* */
-
+    .parallaxmin {
+        img{display: none;}
+        img.top_section_1280{display: block;}
+    }
 
     /* */
 

@@ -75,6 +75,10 @@
   transition: top ease-out .4s;
 }
 
+.parallax .top_section_1280, .parallaxmin .top_section_1280 {
+  display: none;
+}
+
 /* /paralax */
 /* rectange */
 .specialization-main {
