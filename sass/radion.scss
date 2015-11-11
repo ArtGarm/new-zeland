@@ -75,7 +75,7 @@ $yellow:#f2dc5e;
             .top_polovina{position: relative;left: 3px;}
         }
         .subtitle{padding-top: 25px;font-family: "Tahoma";font-weight: bold;
-            p{letter-spacing: 1rem;
+            p{letter-spacing: 1rem;text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.88);
                 &:nth-child(2){letter-spacing: 1.29rem;
                     span:first-child{position: relative;left: 2rem;letter-spacing: 1.39rem;}
                     span:last-child{position: relative;left: -1px;}
@@ -144,7 +144,7 @@ $yellow:#f2dc5e;
             span{margin-right: 20px;}
             &>div{display: inline-block;}
             a{text-decoration: none;color: inherit;color: #000000;}
-            .grey_blog_button{position: relative;z-index: 2;margin-right: 36px;
+            .grey_blog_button{position: relative;z-index: 2;margin-right: 28px;
                 a{position: relative;
                     span{position: relative;z-index: 6;color: #000000;}
                     &:after{position: absolute;height: 80px;width: 80px;content: '';background-color: $yellow;top: -22px;left: -2px;z-index: 1;border-radius: 50%;transition:all ease .3s;}

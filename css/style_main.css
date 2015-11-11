@@ -351,7 +351,7 @@
   background-image: url(../images/functional-index-background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center top;
+  background-position: center center;
   padding-top: 53px;
   padding-bottom: 91px;
   margin-top: -29px;
@@ -488,6 +488,8 @@
 .specialization-main .specialization-main-wrap {
   overflow: hidden;
   position: relative;
+  background: url("../images/specialization-bg.jpg") center center no-repeat;
+  /*background-attachment: fixed;*/
 }
 
 .specialization-main .specialization-main-wrap:after {
@@ -803,6 +805,37 @@
 }
 
 /* .romb */
+/* bottomsection */
+.bottomsection-section .bottomsection-info {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  padding-bottom: 39px;
+}
+
+.bottomsection-section .bottomsection-info .this {
+  width: 21%;
+  float: left;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.bottomsection-section .bottomsection-info .info {
+  width: 78%;
+  float: right;
+  line-height: 1.4;
+}
+
+.bottomsection-section .bottomsection-info .info p {
+  letter-spacing: 0.2px;
+}
+
+.bottomsection-section .bottomsection-info .info p span {
+  color: #f1dc5e;
+}
+
+/* /bottomsection */
 @media screen and (max-width: 992px) {
   /* functional-way */
   .functional-way-col {
