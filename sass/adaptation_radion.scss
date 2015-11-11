@@ -18,6 +18,16 @@ $yellow:#f2dc5e;
 
     /* */
 
+    /* footer */
+
+    .footer .grey_blog{padding:2px 0 4px 0;
+        .grey_blog_text_wrap .footer-fix{word-spacing: -0.5rem;
+            span{letter-spacing: -0.5rem;margin-right: 0;}
+        }
+    }
+
+    /* /footer */
+
 }
 @media screen and (max-width: 1024px){
     // old header whith buter

@@ -7,6 +7,18 @@
     display: block;
   }
   /* */
+  /* footer */
+  .footer .grey_blog {
+    padding: 2px 0 4px 0;
+  }
+  .footer .grey_blog .grey_blog_text_wrap .footer-fix {
+    word-spacing: -0.5rem;
+  }
+  .footer .grey_blog .grey_blog_text_wrap .footer-fix span {
+    letter-spacing: -0.5rem;
+    margin-right: 0;
+  }
+  /* /footer */
 }
 
 @media screen and (max-width: 1024px) {
