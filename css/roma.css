@@ -64,12 +64,68 @@
 }
 
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap {
-  width: -webkit-calc(33.33% - 20px);
-  width: -moz-calc(33.33% - 20px);
-  width: calc(33.33% - 20px);
+  width: -webkit-calc(33.93% - 20px);
+  width: -moz-calc(33.93% - 20px);
+  width: calc(33.93% - 20px);
   float: left;
   background-color: rgba(200, 200, 200, 0.5);
-  margin-right: 30px;
+  margin-right: 20px;
+  height: 105px;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(1) .punkt-number {
+  margin-left: -3px;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(1) .punkt-text p:first-child {
+  text-align: left;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(1) .punkt-text p:nth-child(2) {
+  text-align: left;
+  letter-spacing: 1.2rem;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(1) .punkt-text p:nth-child(3) {
+  text-align: left;
+  letter-spacing: 1.7rem;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(2) .punkt-number {
+  margin-left: -2px;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(2) .punkt-text p:first-child {
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(2) .punkt-text p:nth-child(2) {
+  text-align: left;
+  letter-spacing: 0.2rem;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(2) .punkt-text p:nth-child(3) {
+  text-align: left;
+  letter-spacing: -0.2rem;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(3) .punkt-number {
+  margin-left: 6px;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(3) .punkt-text p:first-child {
+  text-align: left;
+  letter-spacing: 0.3rem;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(3) .punkt-text p:nth-child(2) {
+  text-align: left;
+  letter-spacing: 0.2rem;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(3) .punkt-text p:nth-child(3) {
+  letter-spacing: 0rem;
 }
 
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap .bottomsection-punkt {
@@ -78,23 +134,24 @@
 
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap .bottomsection-punkt .punkt-number {
   background-color: #FADD52;
-  width: 30px;
-  height: 30px;
+  width: 33px;
+  height: 33px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  font-size: 21px;
+  font-size: 24px;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
   color: #4B6573;
   position: relative;
   display: inline-block;
-  top: -25px;
+  top: -32px;
+  line-height: 31px;
 }
 
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap .bottomsection-punkt .punkt-number:before {
-  width: 34px;
-  height: 34px;
+  width: 38px;
+  height: 38px;
   position: absolute;
   display: block;
   content: '';
@@ -113,8 +170,8 @@
 
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap .bottomsection-punkt .punkt-text {
   position: relative;
-  top: -10px;
-  padding: 0px 10px;
+  top: -19px;
+  padding: 0px 14px;
   line-height: 1.5;
 }
 
@@ -123,6 +180,8 @@
   color: #fff;
   font-family: tahoma;
   font-size: 13px;
+  letter-spacing: 0.6rem;
+  margin-bottom: 2px;
 }
 
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:last-child {
