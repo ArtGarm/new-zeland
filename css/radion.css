@@ -259,7 +259,7 @@
 }
 
 .top_section_wrap {
-  min-height: 586px;
+  min-height: 583px;
   /*background: url('../images/top_section_bg.png') center center no-repeat;*/
   position: relative;
   z-index: 2;
@@ -309,13 +309,127 @@
   font-weight: 700;
 }
 
+.top_section_wrap .top_title h2 span {
+  position: relative;
+  left: -3px;
+}
+
+.top_section_wrap .top_title h2 .top_polovina {
+  position: relative;
+  left: 3px;
+}
+
+.top_section_wrap .top_title .subtitle {
+  padding-top: 25px;
+  font-family: "Tahoma";
+  font-weight: bold;
+}
+
+.top_section_wrap .top_title .subtitle p {
+  letter-spacing: 1rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(2) {
+  letter-spacing: 1.29rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(2) span:first-child {
+  position: relative;
+  left: 2rem;
+  letter-spacing: 1.39rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(2) span:last-child {
+  position: relative;
+  left: -1px;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(3) {
+  letter-spacing: 2.22rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(3) span:first-child {
+  position: relative;
+  left: -8.4rem;
+  letter-spacing: 2rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(3) span:nth-child(2) {
+  position: relative;
+  left: -8.9rem;
+  letter-spacing: 1.6rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(3) span:nth-child(3) {
+  position: relative;
+  left: -0.1rem;
+  letter-spacing: 1.6rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(3) span:nth-child(4) {
+  position: relative;
+  left: 2.3rem;
+  letter-spacing: 2.4rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(4) {
+  letter-spacing: 2.32rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(4) span:first-child {
+  position: relative;
+  letter-spacing: 1.4rem;
+  left: -43px;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(4) span:nth-child(2) {
+  position: relative;
+  right: 16px;
+  letter-spacing: 0.9rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(4) span:nth-child(3) {
+  position: relative;
+  right: 4px;
+  letter-spacing: 1.2rem;
+}
+
+.top_section_wrap .top_title .subtitle p:nth-child(4) span:nth-child(4) {
+  position: relative;
+  right: -5px;
+  letter-spacing: 1.5rem;
+}
+
 .top_section_wrap .top_section_bottom {
-  padding-top: 112px;
+  padding-top: 90px;
 }
 
 .top_section_wrap .top_section_bottom .top_section_item {
   float: left;
   width: 25%;
+  text-align: center;
+}
+
+.top_section_wrap .top_section_bottom .top_section_item:nth-child(1) .top_section_item_wrap {
+  margin-left: -20px;
+}
+
+.top_section_wrap .top_section_bottom .top_section_item:nth-child(2) .top_section_item_wrap {
+  margin-left: -12px;
+}
+
+.top_section_wrap .top_section_bottom .top_section_item:nth-child(2) .top_section_item_bottom p span {
+  position: relative;
+  left: 3px;
+}
+
+.top_section_wrap .top_section_bottom .top_section_item:nth-child(3) .top_section_item_top span:first-child {
+  position: relative;
+  left: -3px;
+}
+
+.top_section_wrap .top_section_bottom .top_section_item:nth-child(4) .top_section_item_wrap {
+  margin-left: 12px;
 }
 
 .top_section_wrap .top_section_bottom .top_section_item_wrap {
@@ -331,6 +445,7 @@
   -moz-transition: all ease-out .2s;
   -o-transition: all ease-out .2s;
   transition: all ease-out .2s;
+  display: inline-block;
 }
 
 .top_section_wrap .top_section_bottom .top_section_item_top b, .top_section_wrap .top_section_bottom .top_section_item_top span {
@@ -352,6 +467,7 @@
   font-family: 'Tahoma';
   font-size: 14px;
   font-weight: 500;
+  line-height: 19rem;
 }
 
 .top_section_wrap .top_section_bottom .top_section_item_wrap {

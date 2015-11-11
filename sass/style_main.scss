@@ -23,7 +23,9 @@
     img{position: absolute;left: 50%;transform:translate(-50.1%, -1%);top: 0;transition:top ease-out .4s;}
     .top_section_1280{display: none;}
 }
-
+.parallaxmin{
+    /*img{transform: translate(-50.4%, 0.3%);}*/
+}
 /* /paralax */
 
 /* rectange */
@@ -115,12 +117,12 @@
         &:after{background: url('../images/specialization_white_line.png') center center no-repeat;height: 292px;width: 100%;content: '';position: absolute;top: -193px;left: 0;z-index: 3;}
     }
     .top_section_button{text-align: center;position: relative;
-        .top_section_button_wrap{height: 60px;width: 60px;border:1px solid #f2dc5e;border-radius: 50%;display: inline-block;position: absolute;z-index: 10;top: -47px;left: 50%;transform: translateX(-50%);
+        .top_section_button_wrap{height: 58px;width: 58px;border:1px solid #f2dc5e;border-radius: 50%;display: inline-block;position: absolute;z-index: 10;top: -45px;left: 50%;transform: translateX(-53%);
             &:hover{
-                a{height: 52px;width: 52px;margin-top: 3px;padding-top: 16px;}
+                a{height: 46px;width: 48px;margin-top: 5px;padding-top: 16px;}
             }
         }
-        a{text-decoration: none;font-size: 13px;color: #000;background-color: #f2dc5e;height: 41px;width: 41px;display: inline-block;border-radius: 50%;padding-top: 10px;margin-top: 9px;transition:all ease .2s;
+        a{text-decoration: none;font-size: 13px;color: #000;background-color: #f2dc5e;height: 39px;width: 40px;display: inline-block;border-radius: 50%;padding-top: 12px;margin-top: 9px;transition:all ease .2s;
            span{position: relative;z-index: 1;
                 &:after{position: absolute;content: '';height: 75px;left: 50%;top:50%;border:1px dotted #95abc2;transform: translate(-50%,-50%);z-index: 1;}
                 b{position: relative;z-index: 2;display: inline-block;background-color: #f2dc5e;font-weight: normal;}
@@ -143,6 +145,43 @@
 }
 
 /* /specialization */
+
+/* doneproject */
+.doneproject-section{position: relative;/*margin-bottom: -66px;*/overflow: hidden;
+    .doneproject-body{/*background: url(../images/project-bg-paralacks.jpg) center center no-repeat;*/background-attachment: fixed;z-index: 1;padding-bottom: 115px;
+        .mbox{overflow: hidden;}
+        .slick-prev.slick-arrow,.slick-next.slick-arrow {outline:none;cursor:pointer;position: absolute;background-image: url(../images/arrow.png);background-repeat: no-repeat;width: 33px;height: 89px;background-color: transparent;border: 0;transform: rotate(180deg) translateY(-20%);text-indent: -9999px;left: -50px;
+            &:hover{background-image: url(../images/arrow-hover.png);}
+        }
+        .slick-next.slick-arrow {transform: rotate(0deg) translateY(20%);right: -50px;left: inherit;top: 34%;}
+        .doneproject-slider{width: 90%;margin: 0 auto;padding-top: 72px;overflow: visible;
+            .doneproject{display: inline-block;outline: none;vertical-align: middle;
+                .rectange{
+                    &:hover{
+                        .hover-project{opacity: 1}
+                    }
+                }
+                .text-wrap{display: inline-block;width: 53%;padding-left: 9px;
+                    p{display: inline-block;vertical-align: middle;color: #fff;font-family: tahoma;font-weight: 700;font-size: 12px;}
+                }
+            }
+        }
+    }
+}
+
+/* /doneproject */
+
+/* romb */
+
+
+.hover-project{z-index:12;width: 177px;height: 102.19px;background-color: #001C59;margin: 51.10px 0;position: absolute;top: -46px;transform: rotate(30deg)  scale(0.591);left: -24px;opacity: 0;transition:all 300ms ease;
+    &:before,&:after{content: "";position: absolute;width: 0;border-left: 88.5px solid transparent;border-right: 88.5px solid transparent;}
+    &:before{bottom: 99%;border-bottom: 51.10px solid #001C59;}
+    &:after{top: 99%;width: 0;border-top: 51.10px solid #001C59;}
+        p{transform:rotate(-30deg); font-family: tahoma;color: #f1dc5e;font-size: 24px;text-align: center;padding: 20px 29px 0px 24px;position: relative;z-index: 0;}
+}
+
+/* .romb */
 
 
 @media screen and (max-width: 992px){
