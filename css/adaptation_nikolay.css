@@ -18,11 +18,12 @@
     font-size: 21px;
     font-weight: 700;
     text-align: center;
-    padding-left: 33px;
+    margin-left: -9px;
     letter-spacing: 0.5px;
     line-height: 1.5;
+    position: relative;
   }
-  .bottomsection-section .top-arrow h2 span {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) {
     color: #d92819;
     font-size: 25px;
     display: block;
@@ -33,78 +34,112 @@
     letter-spacing: 0;
     margin-bottom: -2px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(1) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(1) {
     letter-spacing: 1.1rem;
     margin-right: -4px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(2) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(2) {
     letter-spacing: 0.6rem;
     margin-right: -4px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(3) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(3) {
     letter-spacing: 0.8rem;
     margin-right: -11px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(4) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(4) {
     letter-spacing: 0.8rem;
     margin-right: -5px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(5) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(5) {
     letter-spacing: 0.8rem;
     margin-right: -3px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(6) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(6) {
     letter-spacing: 0.7rem;
     margin-right: -4px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(7) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(7) {
     letter-spacing: 0.7rem;
     margin-right: -11px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(8) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(8) {
     letter-spacing: 0.7rem;
     margin-right: -4px;
   }
-  .bottomsection-section .top-arrow h2 span i:nth-child(9) {
+  .bottomsection-section .top-arrow h2 span:nth-child(1) i:nth-child(9) {
     letter-spacing: 0.8rem;
     margin-right: -14px;
   }
-  .bottomsection-section .top-arrow h2 > i:nth-child(1) {
-    letter-spacing: 0.3rem;
-    margin-right: -4px;
-    margin-left: -66px;
+  .bottomsection-section .top-arrow h2 > i {
+    position: absolute;
   }
   .bottomsection-section .top-arrow h2 > i:nth-child(2) {
-    letter-spacing: 0.6rem;
-    margin-right: -4px;
+    letter-spacing: 0.3rem;
+    left: 40px;
   }
   .bottomsection-section .top-arrow h2 > i:nth-child(3) {
-    letter-spacing: 0.8rem;
-    margin-right: -11px;
+    letter-spacing: 0.6rem;
+    left: 137px;
   }
   .bottomsection-section .top-arrow h2 > i:nth-child(4) {
-    letter-spacing: 0.8rem;
-    margin-right: -5px;
+    letter-spacing: 0.5rem;
+    left: 179px;
   }
   .bottomsection-section .top-arrow h2 > i:nth-child(5) {
-    letter-spacing: 0.8rem;
-    margin-right: -3px;
+    letter-spacing: 0.5rem;
+    left: 320px;
   }
   .bottomsection-section .top-arrow h2 > i:nth-child(6) {
-    letter-spacing: 0.7rem;
-    margin-right: -4px;
+    letter-spacing: 0.5rem;
+    left: 415px;
   }
   .bottomsection-section .top-arrow h2 > i:nth-child(7) {
-    letter-spacing: 0.7rem;
-    margin-right: -11px;
+    letter-spacing: 0.4rem;
+    left: 454px;
   }
   .bottomsection-section .top-arrow h2 > i:nth-child(8) {
-    letter-spacing: 0.7rem;
-    margin-right: -4px;
+    letter-spacing: 0.5rem;
+    left: 530px;
   }
   .bottomsection-section .top-arrow h2 > i:nth-child(9) {
-    letter-spacing: 0.8rem;
-    margin-right: -14px;
+    letter-spacing: 0.5rem;
+    left: 557px;
+  }
+  .bottomsection-section .top-arrow h2 > i:nth-child(10) {
+    letter-spacing: 0.6rem;
+    left: 590px;
+  }
+  .bottomsection-section .top-arrow h2 > i:nth-child(11) {
+    letter-spacing: 0.4rem;
+    left: 644px;
+  }
+  .bottomsection-section .top-arrow h2 > i:nth-child(12) {
+    letter-spacing: 0.4rem;
+    left: 750px;
+  }
+  .bottomsection-section .top-arrow h2 > i:nth-child(13) {
+    letter-spacing: 0.4rem;
+    left: 845px;
+  }
+  .bottomsection-section .top-arrow h2 > i:nth-child(15) {
+    letter-spacing: 0.6rem;
+    left: 399px;
+    padding-top: 1px;
+  }
+  .bottomsection-section .top-arrow h2 > i:nth-child(16) {
+    letter-spacing: 0.6rem;
+    left: 428px;
+    padding-top: 1px;
+  }
+  .bottomsection-section .top-arrow h2 > i:nth-child(17) {
+    letter-spacing: 0.3rem;
+    left: 493px;
+    padding-top: 1px;
+  }
+  .bottomsection-section .top-arrow h2 > i:nth-child(18) {
+    letter-spacing: 0.6rem;
+    left: 581px;
+    padding-top: 1px;
   }
   .bottomsection-section .top-arrow:after {
     display: block;
