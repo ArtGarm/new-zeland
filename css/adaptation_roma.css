@@ -29,6 +29,10 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .aboutus-section:after {
+    border-width: 0 447px 55px 0 !important;
+    top: -4px !important;
+  }
   .aboutus-section .parallax img {
     -webkit-transform: translate(-50.1%, 11%);
     -moz-transform: translate(-50.1%, 11%);
@@ -110,13 +114,14 @@
   .aboutus-section .aboutus-title-wrap .aboutus-title {
     word-spacing: -1px;
     letter-spacing: 0px;
-    text-align: right;
-    margin-right: 594px;
+    text-align: left;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 26px;
     text-transform: uppercase;
     color: #465460;
     font-weight: 100;
+    padding-top: 3px;
+    padding-left: 32px;
   }
   .aboutus-section:after {
     content: "";
