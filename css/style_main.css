@@ -51,7 +51,7 @@
 
 /* /titles */
 /* paralax */
-.parallax {
+.parallax, .parallaxmin {
   position: absolute;
   width: 100%;
   left: 0;
@@ -60,7 +60,7 @@
   bottom: 0;
 }
 
-.parallax img {
+.parallax img, .parallaxmin img {
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50.1%, -1%);
@@ -73,6 +73,10 @@
   -moz-transition: top ease-out .4s;
   -o-transition: top ease-out .4s;
   transition: top ease-out .4s;
+}
+
+.parallax .top_section_1280, .parallaxmin .top_section_1280 {
+  display: none;
 }
 
 /* /paralax */
@@ -346,7 +350,7 @@
   background-position: center top;
   padding-top: 53px;
   padding-bottom: 91px;
-  margin-top: -99px;
+  margin-top: -29px;
   position: relative;
 }
 
@@ -464,11 +468,106 @@
 /* specialization */
 .specialization-main {
   position: relative;
-  top: -99px;
+  top: -15px;
+  z-index: 3;
+}
+
+.specialization-main:after {
+  background: url("../images/specialization_white_line.png") center center no-repeat;
+  height: 292px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: -193px;
+  left: 0;
+  z-index: 3;
+}
+
+.specialization-main .specialization-main-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.specialization-main .top_section_button {
+  text-align: center;
+  position: relative;
+}
+
+.specialization-main .top_section_button .top_section_button_wrap {
+  height: 60px;
+  width: 60px;
+  border: 1px solid #f2dc5e;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+  top: -47px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.specialization-main .top_section_button .top_section_button_wrap:hover a {
+  height: 52px;
+  width: 52px;
+  margin-top: 3px;
+  padding-top: 16px;
+}
+
+.specialization-main .top_section_button a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+  background-color: #f2dc5e;
+  height: 41px;
+  width: 41px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  padding-top: 10px;
+  margin-top: 9px;
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.specialization-main .top_section_button a span {
+  position: relative;
+  z-index: 1;
+}
+
+.specialization-main .top_section_button a span:after {
+  position: absolute;
+  content: '';
+  height: 75px;
+  left: 50%;
+  top: 50%;
+  border: 1px dotted #95abc2;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.specialization-main .top_section_button a span b {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  background-color: #f2dc5e;
+  font-weight: normal;
 }
 
 .specialization {
-  background-image: url(../images/specialization-bg.jpg);
+  /*background-image:url(../images/specialization-bg.jpg);*/
   background-position: center center;
   border-bottom: 12px solid #f2dc5e;
   padding: 0px 0 49px 0;
