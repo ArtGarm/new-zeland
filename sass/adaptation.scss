@@ -13,7 +13,7 @@
     .specialization-main .parallax img{transform: translate(-50%, -7%);}
     .specialization{padding: 0px 0 58px 0;}
 
-    .specialization .text-title-wrap{top: 0;padding-top: 92px;margin-bottom: 53px;}
+
 
 
     .parallax img{    transform: translate(-50%, 11%);}
@@ -76,7 +76,7 @@
     /* specialization */
 
     .specialization{
-        .text-title-wrap{margin-bottom: 55px;
+        .text-title-wrap{margin-bottom: 55px;top: 0;padding-top: 88px;
             .text-title span{margin-left: -12px;}
         }
     }
@@ -147,7 +147,7 @@
     .doneproject-section .doneproject-body{padding-bottom: 2px;}
     .doneproject-section .doneproject-body .slick-prev.slick-arrow{top:64px;left:-40px;}
     .doneproject-section .doneproject-body .slick-next.slick-arrow{right: -41px;top:63px;}
-    .doneproject-section .doneproject-body .doneproject-slider{padding-top: 69px;width: 92%;}
+    .doneproject-section .doneproject-body .doneproject-slider{padding-top: 67px;width: 92%; padding-bottom: 4px;}
     .doneproject-section .doneproject-body .doneproject-slider .doneproject{position: relative;
         .text-wrap{padding-left: 4px;width: 165px;position:absolute;right: 0;top: 50%;transform:translate(0, -50%);
             p{letter-spacing: 0.802rem;line-height: 15px;margin-top: 1px;}
