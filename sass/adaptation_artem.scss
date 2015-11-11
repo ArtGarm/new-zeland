@@ -5,10 +5,11 @@
 
 }
 @media screen and (max-width: 1366px){
+    .client-title-wrapp .clients-title span { top: -38px !important;left: 2px !important;}
 
     .aboutus-section:after { border-width: 0 430px 52px 0; top: -1px ;}
     .petro-img .petro-wrapp .petro-align:after { border-width: 0 0 52px 430px ; top: -8px;}
-    .functional-index .doneproject-title-wrap .doneproject-title  { margin-right: 165px;}
+    .functional-index .doneproject-title-wrap .doneproject-title  { margin-right: 155px;}
     .clients-wrapp {padding-bottom: 19px;}
     .aboutus-section .aboutus-title-wrap .aboutus-title { margin-right: 636px;}
     .functional-way-wrap { padding-bottom: 82px;}
