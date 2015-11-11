@@ -48,7 +48,7 @@
 	.aboutus-body{padding-top: 37px;position: relative;z-index: 2;padding-bottom: 8px;
 		.aboutus-list{color: #fff;font-family: tahoma;font-size: 16px;font-weight: 700;word-spacing: 2px;line-height: 1.5;width: 76%;letter-spacing: 1.3px;word-spacing: 7.5px;
 			.aboutus{padding-left: 31px;
-				p{margin-bottom: 20px;
+				p{margin-bottom: 20px;    padding-top: 3px;    letter-spacing: 1.3rem;     line-height: 23rem;
 					&:before{display: block;content: '';position: absolute;background-image: url(../images/arrow-about.png);background-repeat: no-repeat;width: 18px;height: 52px;left: 0;}
 				}
 			}
