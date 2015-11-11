@@ -14,7 +14,7 @@ $yellow:#f2dc5e;
             a{text-decoration: none;color: #546472;font-size: 15px;}
             li{position: relative;}
         }
-        .next{position: absolute;left: 0;top: 18px;padding: 4px 0;width: 100%;min-width:230px;background-color: $yellow;display: none;
+        .next{position: absolute;left: 0;top: 28px;padding: 4px 0;width: 100%;min-width:230px;background-color: $yellow;display: none;
             li.arrow-next{
                 &:after{position: absolute;width: 8px;height: 16px;right: 3px;top: 8px;background: url('../images/head_arrow.png') center center no-repeat;content: '';}
             }
@@ -24,8 +24,13 @@ $yellow:#f2dc5e;
             }
         }
     }
-    .header_leng{width: 7%;vertical-align: top;position: relative;
-        &:after{position: absolute;height: 37%;right: 48.4%;top: 0;border-right:2px dotted #546472;content: '';z-index: 2;}
+    .header-nav-wrap>nav>ul{display: table;
+        &>li{display: table-cell;padding: 5px 8px 5px 8px;float: none;width: auto;
+            &:hover{background-color: #f2dc5e;}
+        }
+    }
+    .header_leng{width: 7%;vertical-align: top;position: relative;margin-left: -15.6rem;
+        &:after{position: absolute;height: 95%;right: 48.4%;top: 0;border-right:2px dotted #546472;content: '';z-index: 2;}
         ul{list-style-type: none;margin: 0;width: 100%;padding: 0;}
         li{float: left;width: 50%;text-align: center;position: relative;z-index: 1;transition:all ease .2s;
             &.active{
@@ -34,10 +39,10 @@ $yellow:#f2dc5e;
             &:hover{background-color: $yellow;
                 a{color: #000;}}
         }
-        a{color: #546472;text-decoration: none;font-size: 10px;padding-bottom: 7px;padding-top: 20px;display: inline-block;transition:all ease .2s;}
+        a{color: #546472;text-decoration: none;font-size: 10px;padding-bottom: 7px;padding-top: 11px;display: inline-block;transition:all ease .2s;}
     }
     .header_right{width: 21%;margin-bottom: 7px;
-        .header_tel_row{font-size: 12rem;color: #000;
+        .header_tel_row{font-size: 12rem;color: #000;white-space: nowrap;
             .icon{width: 18px;height: 12px;display: inline-block;background:url(../images/moscow.png) center center no-repeat;margin-right: 2px;
                 &.kazan{background-image: url(../images/kazan.png);}
                 &.london{background-image: url(../images/london.png);}
@@ -47,10 +52,10 @@ $yellow:#f2dc5e;
                 &:hover{text-decoration: underline;}
             }
         }
-        .header_tel{padding-left: 12%;padding-top: 10px}
-        .header_button{text-align: center;padding-top: 6px;padding-left: 12%;
-            a{width: 48%;display: inline-block;color: #485762;font-size: 9px;text-decoration: none;background-color: #d8dee2;padding: 3px 2px;text-transform: uppercase;transition:all ease .2s;
-                &.zvonok{background-color: #8e99a1;color:white;}
+        .header_tel{padding-left: 19.3%;padding-top: 8px}
+        .header_button{text-align: left;padding-top: 7px;padding-left: 19%;margin-right: -20px;
+            a{width: 47%;display: inline-block;color: #485762;font-size: 9px;text-decoration: none;background-color: #d8dee2;padding: 3px 2px 2px 9px;text-transform: uppercase;transition:all ease .2s;
+                &.zvonok{background-color: #8e99a1;color:white;padding: 3px 2px 2px 5px;}
                 &:hover{background-color: $yellow;color: #000;}
             }
         }

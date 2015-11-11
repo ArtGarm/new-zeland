@@ -253,6 +253,9 @@
 
 .aboutus-section .aboutus-body .aboutus-list .aboutus p {
   margin-bottom: 20px;
+  padding-top: 3px;
+  letter-spacing: 1.3rem;
+  line-height: 23rem;
 }
 
 .aboutus-section .aboutus-body .aboutus-list .aboutus p:before {
