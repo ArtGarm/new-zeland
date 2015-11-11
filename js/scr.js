@@ -79,57 +79,57 @@ function oneHeightItems(){
 
 
     if($(window).width()>1024){
-            oneHeight($('.oneHeight'));
-            oneHeight($('.functional-way-col'));
-            oneHeight($('.specialization-wrap a'));
+        oneHeight($('.oneHeight'));
+        oneHeight($('.functional-way-col'));
+        //oneHeight($('.specialization-wrap a'));
     }
     else if($(window).width()<1025 && $(window).width()>991){
         oneHeight($('.oneHeight'));
         oneHeight($('.functional-way-col'));
-        oneHeight($('.specialization-wrap a'));
+        //oneHeight($('.specialization-wrap a'));
     }
     else if($(window).width()<992 && $(window).width()>767){
         oneHeight($('.oneHeight'));
         oneHeight($('.functional-way-col'));
-        oneHeight($('.specialization-wrap a'));
+        //oneHeight($('.specialization-wrap a'));
     }
     else if($(window).width()<768 && $(window).width()>666){
         oneHeight($('.oneHeight'));
         oneHeight($('.functional-way-col'));
-        oneHeight($('.specialization-wrap a'));
+        //oneHeight($('.specialization-wrap a'));
     }
     else if($(window).width()<667 && $(window).width()>479){
         oneHeight($('.oneHeight'));
         oneHeight($('.functional-way-col'));
-        oneHeight($('.specialization-wrap a'));
+        //oneHeight($('.specialization-wrap a'));
     }
     else if($(window).width()<480){
         oneHeight($('.oneHeight'));
         $('.functional-way-col').removeAttr('style');
-        oneHeight($('.specialization-wrap a'));
+        //oneHeight($('.specialization-wrap a'));
     }
 
     $(window).resize(function(){
 
         if($(window).width() < 1025 && $(window).width() > 991){
             oneHeight($('.functional-way-col'));
-            oneHeight($('.specialization-wrap a'));
+            //oneHeight($('.specialization-wrap a'));
         }
         else if($(window).width() < 992 && $(window).width() > 767){
             oneHeight($('.functional-way-col'));
-            oneHeight($('.specialization-wrap a'));
+            //oneHeight($('.specialization-wrap a'));
         }
         else if($(window).width() < 768 && $(window).width() > 666){
             oneHeight($('.functional-way-col'));
-            oneHeight($('.specialization-wrap a'));
+            //oneHeight($('.specialization-wrap a'));
         }
         else if($(window).width() < 667 && $(window).width() > 479){
             oneHeight($('.functional-way-col'));
-            oneHeight($('.specialization-wrap a'));
+            //oneHeight($('.specialization-wrap a'));
         }
         else if($(window).width() < 480){
             $('.functional-way-col').removeAttr('style');
-            oneHeight($('.specialization-wrap a'));
+            //oneHeight($('.specialization-wrap a'));
         }
     });
 }
