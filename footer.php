@@ -5,7 +5,7 @@
                 <div class="mbox">
                     <div class="grey_blog_text">
                         <div class="grey_blog_text_wrap">
-                            <span>ОСТАЛОСЬ ТОЛЬКО ЗАПОЛНИТЬ</span>
+                            <span class="footer-fix">ОС<span>ТА</span>ЛОСЬ ТОЛЬКО ЗАПОЛНИТЬ</span>
                             <div class="grey_blog_button">
                                 <a href="#">
                                     <span>ЗАПРОС</span>

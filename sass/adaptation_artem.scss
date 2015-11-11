@@ -6,19 +6,22 @@
 }
 @media screen and (max-width: 1366px){
 
-.aboutus-section:after { border-width: 0 430px 52px 0; top: -1px;}
-.petro-img .petro-wrapp .petro-align:after { border-width: 0 0 52px 430px ; top: -8px;}
-.functional-index .doneproject-title-wrap .doneproject-title  { margin-right: 174px;}
-.clients-wrapp {padding-bottom: 19px;}
-.aboutus-section .aboutus-title-wrap .aboutus-title { margin-right: 636px;}
-.functional-way-wrap { padding-bottom: 97px;}
-.functional-index .doneproject-title-wrap { top: 467px;}
-.functional-index:after { border-width: 52px 0 0 430px; top: 455px;}
+    .aboutus-section:after { border-width: 0 430px 52px 0; top: -1px;}
+    .petro-img .petro-wrapp .petro-align:after { border-width: 0 0 52px 430px ; top: -8px;}
+    .functional-index .doneproject-title-wrap .doneproject-title  { margin-right: 165px;}
+    .clients-wrapp {padding-bottom: 19px;}
+    .aboutus-section .aboutus-title-wrap .aboutus-title { margin-right: 636px;}
+    .functional-way-wrap { padding-bottom: 82px;}
 
+    .functional-index:after { border-width: 52px 0 0 430px; top:  447px;}
+    .functional-index .convert-img-plashka img { top: -205px;  left: -319px;}
+    .doneproject-section .doneproject-body {padding-top: 10px; }
+    .client-title-wrapp .clients-title {padding: 4px 26px 4px; position: absolute; }
 }
 @media screen and (max-width: 1280px){
-
+.functional-index .doneproject-title-wrap {top: 460px; right: -8px;}
 }
+
 @media screen and (max-width: 1024px){
     .wrap-content .wrap-top-city .nav-box-wrap {    right: 20px; }
 }

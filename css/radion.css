@@ -271,12 +271,12 @@
 }
 
 .top_section_wrap:after {
-  background: url("../images/specialization_white_line.png") center center no-repeat;
+  background: url("../images/top_white_line_v2.png") center center no-repeat;
   height: 292px;
   width: 100%;
   content: '';
   position: absolute;
-  bottom: -83px;
+  bottom: -16px;
   left: 0;
   z-index: 3;
 }

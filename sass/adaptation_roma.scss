@@ -14,8 +14,7 @@
 }
 @media screen and (max-width: 1280px){
     .aboutus-section .parallax img{transform: translate(-50.1%, 11%);}
-    .doneproject-section .doneproject-title-wrap{width: 67.1%;}
-    .doneproject-section .doneproject-body{padding-bottom: 113px;}
+    .doneproject-section .doneproject-body{padding-bottom: 116px;}
     .doneproject-section .doneproject-body .doneproject-slider{padding-top: 49px;}
     .aboutus-section .aboutus-body{padding-bottom: 0;}
     // .bottomsection-section .top-arrow{padding-bottom: 124px;}
@@ -32,11 +31,13 @@
 
 
     .aboutus-section{position: relative; /*background-image: url(../images/paralax-last-1-img.jpg);*/ background-repeat: no-repeat;    background-position: top ; background-attachment: fixed;overflow: hidden;
-        .aboutus-title-wrap{padding: 5px 0px 5px;background-color: #D5E0E6;z-index: 1;transition:all 300ms ease; border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px; height: 43px; width: calc(100%/2 - 999px/2 + 708px); cursor: pointer;position: relative;
-            &:hover{background-color: #FADD52;}
-            a{display: block;width: 100%;height: 47px;z-index: 3; text-decoration: none; }
-            a:hover{text-decoration: none;}
-            .aboutus-title{word-spacing: -1px;letter-spacing: -2px;text-align: right; margin-right: 549px; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100;}
+
+    .aboutus-title-wrap{padding: 5px 0px 5px;transition:all 300ms ease; cursor: pointer;position: relative;
+
+        a{display: block;width: 100%;height: 47px;z-index: 3; text-decoration: none; }
+        a:hover{text-decoration: none;}
+        .aboutus-title{word-spacing: -1px;letter-spacing: 0px;text-align: right; margin-right: 594px; font-family: 'PT Sans Narrow', sans-serif; font-size: 26px; text-transform: uppercase; color: #465460; font-weight: 100;}
+
 
         }
         &:after{ content: ""; position: absolute; top: 0 ; right: 0; width: 0; height: 0; border-style: solid; border-width: 0 753px 90px 0; border-color: transparent #ffffff transparent transparent;}
@@ -75,43 +76,6 @@
         }
     }
 
-
-
-
-
-
-
-
-    .bottomsection-section{/*background-image: url(../images/bottomsection-bg.jpg);*/background-repeat: no-repeat;background-position: bottom;overflow: hidden;background-attachment: fixed;position: relative;
-        .top-arrow{position: relative;padding-bottom: 100px;padding-top: 21px;
-            h2{font-family: 'Open Sans Condensed', sans-serif;color: #000;font-size: 21px; font-weight: 700;text-align: center;padding-left: 42px;letter-spacing: 0.5px;line-height: 1.5;
-                span{color: #d92819;font-size: 25px;display: block;text-align: justify;width: 100%;padding-top: 3px;word-spacing: 11px;letter-spacing: 0;}
-            }
-            &:after{display: block;content: '';position: absolute;left: 0;border-left: 50vw solid transparent;border-right: 49vw solid transparent;border-top: 111px solid white;z-index: 0;top: 52px;}
-            &:before{display: block;content: '';position: absolute;left: 0; height: 52px;width: 100%;background-color: #fff;top: 0;}
-        }
-        .bottomsection-punkts{padding-bottom: 20px;
-            .bottomsection-punkt-wrap{width: calc(33.33% - 20px);float: left;background-color: rgba(200,200,200,0.5);margin-right: 30px;
-                .bottomsection-punkt{text-align: center;
-                    .punkt-number{background-color: #FADD52;width: 30px;height: 30px; border-radius: 50%;font-size: 21px;font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;color: #4B6573;position: relative;display: inline-block;top: -25px;
-                        &:before{width: 34px;height: 34px;position: absolute;display: block;content: '';border: 1px solid #FADD52;border-radius: 50%;transform: translate(-50%,-50%);left: 50%; top: 50%;}
-                    }
-                    .punkt-text{position: relative;top: -10px;padding: 0px 10px;line-height: 1.5;
-                        p{text-align: center;color: #fff;font-family: tahoma;font-size: 13px;}
-                    }
-                }
-                &:last-child{margin-right: 0;}
-            }
-        }
-        .bottomsection-info{color: #fff;font-size: 20px;font-family: 'Open Sans Condensed', sans-serif;font-weight: 700;padding-bottom: 39px;
-            .this{width: 21%;float: left;text-align: right;text-transform: uppercase;}
-            .info{width: 78%;float: right;line-height: 1.4;
-                p{letter-spacing: 0.2px;
-                    span{color: #f1dc5e;}
-                }
-            }
-        }
-    }
 
 
 }
