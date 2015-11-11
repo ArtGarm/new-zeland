@@ -1,5 +1,9 @@
 <div class="top_section">
     <div class="top_section_wrap">
+        <div class="parallaxmin">
+            <img src="images/top_section_v2.jpg" alt="" />
+            <img src="images/top_section_1280.jpg" alt="" class="top_section_1280" />
+        </div>
         <div class="mbox">
             <div class="top_title">
                 <h2>УПРАВЛЕНЧЕСКОЕ  КОНСУЛЬТИРОВАНИЕ</h2>
@@ -64,13 +68,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="top_section_button">
-                    <div class="top_section_button_wrap">
-                        <a href="#">
-                            <span><b>далее</b></span>
-                        </a>
                     </div>
                 </div>
             </div>

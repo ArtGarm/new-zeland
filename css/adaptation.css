@@ -1,19 +1,61 @@
-@media screen and (max-width: 1280px) {
-  .specialization {
-    padding: 0px 0 67px 0;
-  }
+@media screen and (max-width: 1366px) {
   .functional-index {
-    margin-top: -120px;
-    padding-bottom: 0px;
+    padding-bottom: 17px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .specialization-main .parallax img {
+    -webkit-transform: translate(-50%, -7%);
+    -moz-transform: translate(-50%, -7%);
+    -ms-transform: translate(-50%, -7%);
+    -o-transform: translate(-50%, -7%);
+    transform: translate(-50%, -7%);
+  }
+  .specialization {
+    padding: 0px 0 58px 0;
   }
   .specialization .text-title-wrap {
     top: 0;
     padding-top: 92px;
     margin-bottom: 53px;
   }
-  .text-title-wrap {
-    margin-bottom: 50px;
+  .parallax img {
+    -webkit-transform: translate(-50%, 11%);
+    -moz-transform: translate(-50%, 11%);
+    -ms-transform: translate(-50%, 11%);
+    -o-transform: translate(-50%, 11%);
+    transform: translate(-50%, 11%);
   }
+  .doneproject-section .parallax img {
+    -webkit-transform: translate(-50.1%, -2%);
+    -moz-transform: translate(-50.1%, -2%);
+    -ms-transform: translate(-50.1%, -2%);
+    -o-transform: translate(-50.1%, -2%);
+    transform: translate(-50.1%, -2%);
+  }
+  /* functional-way index */
+  .functional-index {
+    padding-bottom: 0px;
+    padding-top: 55px;
+  }
+  .text-title-wrap {
+    margin-bottom: 58px;
+  }
+  .functional-way-col {
+    margin: 0 4px;
+    width: -webkit-calc(25% - 11.3rem);
+    width: -moz-calc(25% - 11.3rem);
+    width: calc(25% - 11.3rem);
+  }
+  .functional-index .functional-way-title > a, .functional-index .functional-way-title > span {
+    line-height: 1.1;
+    padding: 10px 9px 0 9px;
+  }
+  .functional-index .functional-way-title {
+    height: 70px;
+  }
+  /* /functional-way index */
 }
 
 @media screen and (max-width: 768px) {
