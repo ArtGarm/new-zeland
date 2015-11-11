@@ -185,7 +185,7 @@
   background-image: url(../images/plashka-aboutus.png);
   background-repeat: no-repeat;
   left: 0px;
-  top: 0px;
+  top: -1px;
   z-index: 0;
 }
 
