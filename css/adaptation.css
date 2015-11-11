@@ -114,6 +114,100 @@
     line-height: 16px;
   }
   /* /functional-way index */
+  /* specialization */
+  .specialization .text-title-wrap {
+    margin-bottom: 55px;
+  }
+  .specialization .text-title-wrap .text-title span {
+    margin-left: -12px;
+  }
+  .specialization-wrap {
+    margin: 0 76px;
+    text-align: left;
+  }
+  .specialization-wrap li {
+    width: 196px;
+    padding: 0;
+    margin-right: 16px;
+  }
+  .specialization-wrap li a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    display: block;
+    height: 72px;
+  }
+  .specialization-wrap li a:hover:before {
+    left: -15px;
+    top: -5px;
+    bottom: -5px;
+    right: -9px;
+  }
+  .specialization-wrap li a span {
+    display: block;
+  }
+  .specialization-wrap li:nth-child(4n), .specialization-wrap li:last-child {
+    margin-right: 0;
+  }
+  .specialization-wrap li:nth-child(1) a span {
+    letter-spacing: 1.6rem;
+    padding: 12px 0 13px 0;
+  }
+  .specialization-wrap li:nth-child(2) a span {
+    letter-spacing: 1.6rem;
+  }
+  .specialization-wrap li:nth-child(3) a span {
+    letter-spacing: 1.5rem;
+    margin-left: -10px;
+  }
+  .specialization-wrap li:nth-child(4) a span {
+    letter-spacing: 1.5rem;
+    margin-left: -10px;
+  }
+  .specialization-wrap li:nth-child(5) a span {
+    letter-spacing: 1.36rem;
+    margin-top: -2px;
+  }
+  .specialization-wrap li:nth-child(6) {
+    margin-right: 13px;
+  }
+  .specialization-wrap li:nth-child(6) a span {
+    letter-spacing: 1.5rem;
+    margin-left: -3px;
+    padding-top: 20px;
+  }
+  .specialization-wrap li:nth-child(7) a span {
+    letter-spacing: 1.15rem;
+    white-space: nowrap;
+    margin-left: -5px;
+    padding-top: 20px;
+  }
+  .specialization-wrap li:nth-child(8) {
+    margin-top: -2px;
+  }
+  .specialization-wrap li:nth-child(8) a span {
+    letter-spacing: 1.5rem;
+    margin-left: -9px;
+    padding-top: 23px;
+  }
+  .specialization-wrap li:nth-child(9) {
+    margin-left: 213px;
+    margin-top: -4px;
+  }
+  .specialization-wrap li:nth-child(9) a span {
+    padding-top: 23px;
+    letter-spacing: 1.3rem;
+    margin-left: 5px;
+  }
+  .specialization-wrap li:nth-child(10) {
+    margin-top: -4px;
+  }
+  .specialization-wrap li:nth-child(10) a span {
+    padding-top: 23px;
+    letter-spacing: 1.5rem;
+    margin-left: -10px;
+  }
+  /* /specialization */
 }
 
 @media screen and (max-width: 768px) {

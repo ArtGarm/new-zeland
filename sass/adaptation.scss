@@ -73,6 +73,75 @@
 
     /* /functional-way index */
 
+    /* specialization */
+
+    .specialization{
+        .text-title-wrap{margin-bottom: 55px;
+            .text-title span{margin-left: -12px;}
+        }
+    }
+    .specialization-wrap{margin:0 76px;text-align: left;
+        li{width: 196px;padding: 0;margin-right: 16px;
+            a{border-radius: 0;display: block;height: 72px;
+                &:hover:before{left: -15px;top:-5px;bottom: -5px;right:-9px;}
+                span{display: block;}
+            }
+            &:nth-child(4n), &:last-child{margin-right: 0;}
+            &:nth-child(1){
+                    a{
+                        span{letter-spacing:1.6rem;padding:12px 0 13px 0;}
+                    }
+            }
+            &:nth-child(2){
+                a{
+                    span{letter-spacing:1.6rem;}
+                }
+            }
+            &:nth-child(3){
+                a{
+                    span{letter-spacing: 1.5rem;margin-left: -10px;}
+                }
+            }
+            &:nth-child(4){
+                a{
+                    span{letter-spacing:1.5rem;margin-left: -10px;}
+                }
+            }
+            &:nth-child(5){
+                a{
+                    span{letter-spacing: 1.36rem;margin-top: -2px;}
+                }
+            }
+            &:nth-child(6){margin-right: 13px;
+                a{
+                    span{letter-spacing: 1.5rem;margin-left: -3px;padding-top: 20px;}
+                }
+            }
+            &:nth-child(7){
+                a{
+                    span{letter-spacing: 1.15rem;white-space: nowrap;margin-left: -5px;padding-top: 20px}
+                }
+            }
+            &:nth-child(8){margin-top: -2px;
+                a{
+                    span{letter-spacing: 1.5rem;margin-left: -9px;padding-top: 23px;}
+                }
+            }
+            &:nth-child(9){margin-left: 213px;margin-top: -4px;
+                a{
+                    span{padding-top: 23px;letter-spacing: 1.3rem;margin-left: 5px;}
+                }
+            }
+            &:nth-child(10){margin-top: -4px;
+                a{
+                    span{padding-top: 23px;letter-spacing:1.5rem;margin-left: -10px;}
+                }
+            }
+        }
+    }
+
+    /* /specialization */
+
 }
 @media screen and (max-width: 1024px){
 
