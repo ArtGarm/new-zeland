@@ -206,6 +206,9 @@
     height: 52px;
     left: -3px;
   }
+  .aboutus-section .aboutus-body .aboutus-list .aboutus p:nth-child(1):before {
+    top: 0px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
