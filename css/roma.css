@@ -88,7 +88,16 @@
 
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(1) .punkt-text p:nth-child(3) {
   text-align: left;
-  letter-spacing: 1.7rem;
+  letter-spacing: 1rem;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(1) .punkt-text p:nth-child(3) span {
+  letter-spacing: -0.3rem;
+  margin-right: 18px;
+}
+
+.bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(1) .punkt-text p:nth-child(3) span:nth-child(2) {
+  margin-right: 20px;
 }
 
 .bottomsection-section .bottomsection-punkts .bottomsection-punkt-wrap:nth-child(2) .punkt-number {

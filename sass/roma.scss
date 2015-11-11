@@ -15,7 +15,10 @@
 				.punkt-text{
 					p:first-child{text-align: left;}
 					p:nth-child(2){text-align: left;letter-spacing: 1.2rem;}
-					p:nth-child(3){text-align: left;letter-spacing: 1.7rem;}
+					p:nth-child(3){text-align: left;letter-spacing: 1rem;
+						span{letter-spacing: -0.3rem;margin-right: 18px;}
+						span:nth-child(2){margin-right: 20px;}
+					}
 					p:nth-child(4){}
 				}
 			}
