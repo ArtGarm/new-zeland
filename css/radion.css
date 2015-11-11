@@ -327,6 +327,7 @@
 
 .top_section_wrap .top_title .subtitle p {
   letter-spacing: 1rem;
+  text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.88);
 }
 
 .top_section_wrap .top_title .subtitle p:nth-child(2) {
@@ -530,7 +531,7 @@
 .footer .grey_blog .grey_blog_text_wrap .grey_blog_button {
   position: relative;
   z-index: 2;
-  margin-right: 36px;
+  margin-right: 28px;
 }
 
 .footer .grey_blog .grey_blog_text_wrap .grey_blog_button a {

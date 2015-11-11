@@ -162,6 +162,22 @@
 
     /* /doneproject */
 
+    /* bottomsection-section */
+
+    .bottomsection-section{
+        .bottomsection-info{padding-bottom: 42px;
+            .this{margin-top: 2px;}
+            .info{margin-top: 2px;
+                p{letter-spacing: 0;word-spacing: 1.6rem;line-height: 26rem;margin-bottom: 8px;
+                    .fix{color:#fff;letter-spacing:-0.1rem;word-spacing: 0;}
+                    &:last-child{margin-bottom: 0;word-spacing: 0.5rem;line-height: 25px;}
+                }
+            }
+        }
+    }
+
+    /* /bottomsection-section */
+
 }
 @media screen and (max-width: 1024px){
 
