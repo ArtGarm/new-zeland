@@ -22,13 +22,125 @@
 
     /* functional-way index */
 
-    .functional-index{padding-bottom: 0px;padding-top: 55px;}
-    .text-title-wrap {margin-bottom: 58px;}
-    .functional-way-col{margin:0 4px;width: calc(25% - 11.3rem);}
-    .functional-index .functional-way-title > a, .functional-index .functional-way-title > span{line-height: 1.1;padding:10px 9px 0 9px;}
-    .functional-index .functional-way-title{height: 70px;}
+    .functional-index{padding-bottom: 0px;padding-top: 55px;
+        .text-title-wrap {margin-bottom: 58px;}
+        .functional-way-col{margin: 0;
+            .functional-way-title{height: 70px;
+                > span, > a{padding: 7px 0 0 9px;line-height: 1.12;letter-spacing: -0.4rem;transition:padding 300ms ease, letter-spacing 300ms ease;}
+            }
+            &:nth-child(1){width: 236px;margin-right: 18px;}
+            &:nth-child(2){width: 237px;margin-right: 15px;
+                .functional-way-list{
+                    li{
+                        a{line-height: 17px;}
+                        &:nth-child(2){margin-top: -2px;
+                            a{line-height: 1.7;}
+                        }
+                        &:nth-child(3){
+                            a{padding-top: 0px;}
+                        }
+                    }
+                }
+            }
+            &:nth-child(3){width: 223px;margin-right:23px;
+                .functional-way-title{
+                    span{letter-spacing: -1.5rem;padding-top: 8px;}
+                }
+            }
+            &:nth-child(4){width: 236px;
+                .functional-way-title{
+                    span{letter-spacing: -1.45rem;padding-top: 8px;}
+                }
+            }
+            &:hover{
+                &:before{background-color:rgba(227, 233, 237, .65);}
+                .functional-way-title{
+                    span{padding:9px 9px 0 9px;letter-spacing: -1.47rem;}
+                }
+                .functional-way-list{
+                    li{
+                        a{padding: 4rem 7rem 3.3rem 5rem;}
+                    }
+                }
+            }
+        }
+        .functional-way-list{padding-top: 9px;
+            li{
+                a{padding: 4rem 0rem 3.3rem 9rem;transition:padding 300ms ease;line-height: 16px;}
+            }
+        }
+    }
 
     /* /functional-way index */
+
+    /* specialization */
+
+    .specialization{
+        .text-title-wrap{margin-bottom: 55px;
+            .text-title span{margin-left: -12px;}
+        }
+    }
+    .specialization-wrap{margin:0 76px;text-align: left;
+        li{width: 196px;padding: 0;margin-right: 16px;
+            a{border-radius: 0;display: block;height: 72px;
+                &:hover:before{left: -15px;top:-5px;bottom: -5px;right:-9px;}
+                span{display: block;}
+            }
+            &:nth-child(4n), &:last-child{margin-right: 0;}
+            &:nth-child(1){
+                    a{
+                        span{letter-spacing:1.6rem;padding:12px 0 13px 0;}
+                    }
+            }
+            &:nth-child(2){
+                a{
+                    span{letter-spacing:1.6rem;}
+                }
+            }
+            &:nth-child(3){
+                a{
+                    span{letter-spacing: 1.5rem;margin-left: -10px;}
+                }
+            }
+            &:nth-child(4){
+                a{
+                    span{letter-spacing:1.5rem;margin-left: -10px;}
+                }
+            }
+            &:nth-child(5){
+                a{
+                    span{letter-spacing: 1.36rem;margin-top: -2px;}
+                }
+            }
+            &:nth-child(6){margin-right: 13px;
+                a{
+                    span{letter-spacing: 1.5rem;margin-left: -3px;padding-top: 20px;}
+                }
+            }
+            &:nth-child(7){
+                a{
+                    span{letter-spacing: 1.15rem;white-space: nowrap;margin-left: -5px;padding-top: 20px}
+                }
+            }
+            &:nth-child(8){margin-top: -2px;
+                a{
+                    span{letter-spacing: 1.5rem;margin-left: -9px;padding-top: 23px;}
+                }
+            }
+            &:nth-child(9){margin-left: 213px;margin-top: -4px;
+                a{
+                    span{padding-top: 23px;letter-spacing: 1.3rem;margin-left: 5px;}
+                }
+            }
+            &:nth-child(10){margin-top: -4px;
+                a{
+                    span{padding-top: 23px;letter-spacing:1.5rem;margin-left: -10px;}
+                }
+            }
+        }
+    }
+
+    /* /specialization */
 
 }
 @media screen and (max-width: 1024px){

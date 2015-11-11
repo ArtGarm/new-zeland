@@ -8,7 +8,7 @@
     top: -8px;
   }
   .functional-index .doneproject-title-wrap .doneproject-title {
-    margin-right: 174px;
+    margin-right: 165px;
   }
   .clients-wrapp {
     padding-bottom: 19px;
@@ -17,14 +17,30 @@
     margin-right: 636px;
   }
   .functional-way-wrap {
-    padding-bottom: 97px;
-  }
-  .functional-index .doneproject-title-wrap {
-    top: 467px;
+    padding-bottom: 82px;
   }
   .functional-index:after {
     border-width: 52px 0 0 430px;
-    top: 455px;
+    top: 447px;
+  }
+  .functional-index .convert-img-plashka img {
+    top: -205px;
+    left: -319px;
+  }
+  .doneproject-section .doneproject-body {
+    padding-top: 10px;
+  }
+  .client-title-wrapp .clients-title {
+    padding: 4px 26px 4px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .functional-index .doneproject-title-wrap {
+    top: 461px;
+    left: 431px;
+    width: 832px;
   }
 }
 
