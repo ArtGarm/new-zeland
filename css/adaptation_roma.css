@@ -36,11 +36,8 @@
     -o-transform: translate(-50.1%, 11%);
     transform: translate(-50.1%, 11%);
   }
-  .doneproject-section .doneproject-title-wrap {
-    width: 67.1%;
-  }
   .doneproject-section .doneproject-body {
-    padding-bottom: 113px;
+    padding-bottom: 116px;
   }
   .doneproject-section .doneproject-body .doneproject-slider {
     padding-top: 49px;
@@ -93,24 +90,12 @@
   }
   .aboutus-section .aboutus-title-wrap {
     padding: 5px 0px 5px;
-    background-color: #D5E0E6;
-    z-index: 1;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
-    -webkit-border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
-    -moz-border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
-    border-radius: 0px 0px 100px 0px / 0px 0px 75px 0px;
-    height: 43px;
-    width: -webkit-calc(100%/2 - 999px/2 + 708px);
-    width: -moz-calc(100%/2 - 999px/2 + 708px);
-    width: calc(100%/2 - 999px/2 + 708px);
     cursor: pointer;
     position: relative;
-  }
-  .aboutus-section .aboutus-title-wrap:hover {
-    background-color: #FADD52;
   }
   .aboutus-section .aboutus-title-wrap a {
     display: block;
@@ -135,14 +120,6 @@
   }
   .aboutus-section:after {
     content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 753px 90px 0;
-    border-color: transparent #ffffff transparent transparent;
   }
   .aboutus-section .aboutus-body {
     padding-top: 37px;

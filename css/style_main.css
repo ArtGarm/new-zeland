@@ -420,7 +420,6 @@
   -moz-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
-  right: 0;
   z-index: 11;
   -webkit-border-radius: 100px 0px 0px 0px / 75px 0px 0px 0px;
   -moz-border-radius: 100px 0px 0px 0px / 75px 0px 0px 0px;
@@ -432,7 +431,6 @@
   cursor: pointer;
   background-image: url(../images/project-title-bg.png);
   top: 467px;
-  right: -2px;
 }
 
 .functional-index .doneproject-title-wrap a {
@@ -446,7 +444,7 @@
   text-transform: uppercase;
   color: #465460;
   font-weight: 100;
-  margin-right: 385px;
+  margin-right: 412px;
 }
 
 .functional-index:after {
@@ -471,7 +469,7 @@
 
 .functional-index .convert-img-plashka img {
   position: absolute;
-  top: -79px;
+  top: -112px;
   z-index: 10;
 }
 
