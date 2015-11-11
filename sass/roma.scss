@@ -61,7 +61,7 @@
 
 /* doneproject */
 .doneproject-section{position: relative;/*margin-bottom: -66px;*/overflow: hidden;
-	.doneproject-body{background: url(../images/project-bg-paralacks.jpg) center center no-repeat;background-attachment: fixed;z-index: 1;padding-bottom: 115px;
+	.doneproject-body{/*background: url(../images/project-bg-paralacks.jpg) center center no-repeat;*/background-attachment: fixed;z-index: 1;padding-bottom: 115px;
 		.mbox{overflow: hidden;}
 		.slick-prev.slick-arrow,.slick-next.slick-arrow {outline:none;cursor:pointer;position: absolute;background-image: url(../images/arrow.png);background-repeat: no-repeat;width: 33px;height: 89px;background-color: transparent;border: 0;transform: rotate(180deg) translateY(-20%);text-indent: -9999px;left: -50px;
 			&:hover{background-image: url(../images/arrow-hover.png);}
@@ -87,7 +87,7 @@
 /* romb */
 
 
-.hover-project{z-index:12;width: 177px;height: 102.19px;background-color: #001C59;margin: 51.10px 0;position: absolute;top: -91px;transform: rotate(30deg)  scale(0.591);left: -77px;opacity: 0;transition:all 300ms ease;
+.hover-project{z-index:12;width: 177px;height: 102.19px;background-color: #001C59;margin: 51.10px 0;position: absolute;top: -46px;transform: rotate(30deg)  scale(0.591);left: -24px;opacity: 0;transition:all 300ms ease;
 	&:before,&:after{content: "";position: absolute;width: 0;border-left: 88.5px solid transparent;border-right: 88.5px solid transparent;}
 	&:before{bottom: 99%;border-bottom: 51.10px solid #001C59;}
 	&:after{top: 99%;width: 0;border-top: 51.10px solid #001C59;}

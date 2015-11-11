@@ -310,7 +310,7 @@ function parallaxScroll(){
     var scrolled = $(window).scrollTop();
     $('.parallax img').css('top',(0-(scrolled*0.12))+'px');
 }
-
+//
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();

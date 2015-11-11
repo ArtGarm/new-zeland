@@ -7,13 +7,16 @@
 
 }
 @media screen and (max-width: 1366px){
-
+    .functional-index{padding-bottom: 17px;}
 }
 @media screen and (max-width: 1280px){
-    .specialization{padding: 0px 0 67px 0;}
-    .functional-index{margin-top: -120px;padding-bottom: 0px;}
+    .specialization{padding: 0px 0 58px 0;}
+    .functional-index{margin-top: -113px;padding-bottom: 0px;}
     .specialization .text-title-wrap{top: 0;padding-top: 92px;margin-bottom: 53px;}
     .text-title-wrap {margin-bottom: 50px;}
+
+    .parallax img{    transform: translate(-50%, 11%);}
+    .doneproject-section .parallax img{transform: translate(-50.1%, -2%);}
 }
 @media screen and (max-width: 1024px){
 

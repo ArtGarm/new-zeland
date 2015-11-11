@@ -12,14 +12,38 @@
   .doneproject-section .doneproject-title-wrap {
     width: 65.2%;
   }
+  .aboutus-section .parallax img {
+    -webkit-transform: translate(-50.1%, 30%);
+    -moz-transform: translate(-50.1%, 30%);
+    -ms-transform: translate(-50.1%, 30%);
+    -o-transform: translate(-50.1%, 30%);
+    transform: translate(-50.1%, 30%);
+  }
+  .bottomsection-section .parallax img {
+    -webkit-transform: translate(-50%, 43%);
+    -moz-transform: translate(-50%, 43%);
+    -ms-transform: translate(-50%, 43%);
+    -o-transform: translate(-50%, 43%);
+    transform: translate(-50%, 43%);
+  }
 }
 
 @media screen and (max-width: 1280px) {
+  .aboutus-section .parallax img {
+    -webkit-transform: translate(-50.1%, 11%);
+    -moz-transform: translate(-50.1%, 11%);
+    -ms-transform: translate(-50.1%, 11%);
+    -o-transform: translate(-50.1%, 11%);
+    transform: translate(-50.1%, 11%);
+  }
   .doneproject-section .doneproject-title-wrap {
     width: 67.1%;
   }
   .doneproject-section .doneproject-body {
-    padding-bottom: 83px;
+    padding-bottom: 113px;
+  }
+  .doneproject-section .doneproject-body .doneproject-slider {
+    padding-top: 49px;
   }
   .aboutus-section .aboutus-body {
     padding-bottom: 0;
@@ -30,6 +54,13 @@
   }
   .bottomsection-section {
     padding-bottom: 10px;
+  }
+  .bottomsection-section .parallax img {
+    -webkit-transform: translate(-50.1%, 50%);
+    -moz-transform: translate(-50.1%, 50%);
+    -ms-transform: translate(-50.1%, 50%);
+    -o-transform: translate(-50.1%, 50%);
+    transform: translate(-50.1%, 50%);
   }
   .bottomsection-section .top-arrow:after {
     display: block;
