@@ -815,16 +815,18 @@
 }
 
 .bottomsection-section .bottomsection-info .this {
-  width: 21%;
+  width: 20%;
   float: left;
   text-align: right;
   text-transform: uppercase;
+  margin-top: 5px;
 }
 
 .bottomsection-section .bottomsection-info .info {
-  width: 78%;
+  width: 79%;
   float: right;
   line-height: 1.4;
+  margin-top: 6px;
 }
 
 .bottomsection-section .bottomsection-info .info p {
