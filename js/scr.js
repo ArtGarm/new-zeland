@@ -49,7 +49,7 @@ function u_tabs(link, block) {
 function scrollUp(block,targetBlock) {
 
 	$(block).click(function(e){
-		var target = $(targetBlock).offset().top;
+		var target = $(targetBlock).offset().top+35;
 
 		$(scroller).animate({scrollTop:target},800);
 		return false;
@@ -317,7 +317,7 @@ function parallaxScroll(){
 $(document).ready(function() {
 	modernize();
 	$('.footer_placeholder').height($('.footer').height());
-
+    scrollUp($('.specialization-main .top_section_button a'),$('.specialization-main'));
 
 });
 
